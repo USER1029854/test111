@@ -1,2 +1,0 @@
-=== DS search sweep: 931 terms ===
-  term 0/931 -> 13 bsc pairs (1 calls)

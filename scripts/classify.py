@@ -1,9 +1,17 @@
-"""Phase 3: safety-check + junk filter, then emit the table and CSV.
+"""Phase 3: safety screen + junk filter, then emit the table and CSV.
 
-Filter posture is deliberately loose, per the brief: a token is only dropped on
-an unambiguous signal (confirmed honeypot, unsellable tax, or meme-name with zero
-web presence). Anything uncertain is KEPT and flagged. Failed checks are recorded
-as failures -- never silently treated as a pass, never fabricated.
+Safety screening uses two providers because neither alone covers the population:
+
+  * honeypot.is  -- requested screen, but its indexer returns 404 "pair not found"
+                    for most tokens younger than ~60 days (GetPairs returns []
+                    even for $11M-liquidity PancakeSwap v2 pairs).
+  * GoPlus       -- fallback, queried one address at a time because batch mode
+                    only returns pre-cached entries. Recovers the tokens
+                    honeypot.is cannot see, and adds holder/owner/LP signals.
+
+Filter posture is deliberately loose per the brief: a token is dropped only on an
+unambiguous signal. Anything uncertain is KEPT and flagged. A check that FAILED is
+recorded as a failure -- never silently promoted to a pass.
 """
 import requests, json, time, csv, re, os
 
@@ -24,24 +32,32 @@ MEME_KW = re.compile(r"(doge|shib|inu|pepe|wojak|elon|moon|floki|bonk|chad|giga|
                      r"pump|rocket|lambo|ape\b|banana|monkey|clown|poo|shit|"
                      r"trump|biden|milady|mog|brett|andy|turbo|wif\b|hat\b)", re.I)
 
-def get(url, params=None, tries=3, pause=0.25):
+def get(url, params=None, tries=3, pause=0.3):
     for t in range(tries):
         try:
-            r = requests.get(url, params=params, timeout=30, headers=H)
+            r = requests.get(url, params=params, timeout=35, headers=H)
             if r.status_code == 200:
                 time.sleep(pause); return r.json()
             if r.status_code == 429:
-                time.sleep(5 * (t + 1)); continue
-            time.sleep(1.2 * (t + 1))
+                time.sleep(6 * (t + 1)); continue
+            if r.status_code == 404:
+                return {"__http": 404}
+            time.sleep(1.5 * (t + 1))
         except Exception:
-            time.sleep(1.2 * (t + 1))
+            time.sleep(1.5 * (t + 1))
     return None
+
+def fnum(v):
+    """GoPlus returns taxes as fractional strings ('0.03' == 3%); '' means unknown."""
+    try:
+        return None if v in (None, "", "-") else float(v)
+    except Exception:
+        return None
 
 d = json.load(open(f"{DATA}/ds_qualifying.json"))
 qual, profiles = d["qualifying"], d.get("profiles", {})
 print(f"qualifying pairs from DEXScreener: {len(qual)}")
 
-# one row per TOKEN -> its highest-liquidity qualifying pair
 by_token = {}
 for p in qual:
     a = p["baseToken"]["address"].lower()
@@ -56,6 +72,7 @@ print(f"distinct candidate projects (majors excluded): {len(by_token)}")
 rows = []
 for i, (addr, e) in enumerate(sorted(by_token.items(), key=lambda kv: -kv[1]["best"]["_liq_usd"])):
     p = e["best"]
+    tok = p["baseToken"]["address"]
     info = p.get("info") or {}
     sites = [w.get("url") for w in (info.get("websites") or []) if w.get("url")]
     socials = [s.get("url") for s in (info.get("socials") or []) if s.get("url")]
@@ -66,28 +83,31 @@ for i, (addr, e) in enumerate(sorted(by_token.items(), key=lambda kv: -kv[1]["be
         (sites if (l.get("label") or "").lower() == "website" else socials).append(u)
     sites, socials = list(dict.fromkeys(sites)), list(dict.fromkeys(socials))
 
-    # --- honeypot.is ---
-    hp = get("https://api.honeypot.is/v2/IsHoneypot",
-             {"address": p["baseToken"]["address"], "chainID": 56}, pause=0.3)
-    if hp is None:
-        hpd = {"ok": False}
-    else:
+    # --- provider 1: honeypot.is (as requested) ---
+    hp = get("https://api.honeypot.is/v2/IsHoneypot", {"address": tok, "chainID": 56}, pause=0.3)
+    hp_state, hp_honey, hp_risk, hp_buy, hp_sell = "failed", None, None, None, None
+    if isinstance(hp, dict) and hp.get("__http") == 404:
+        hp_state = "not_indexed"
+    elif isinstance(hp, dict) and hp:
         hr, sr, sm = hp.get("honeypotResult") or {}, hp.get("simulationResult") or {}, hp.get("summary") or {}
-        cc = hp.get("contractCode") or {}
-        hpd = {"ok": True, "isHoneypot": hr.get("isHoneypot"),
-               "risk": sm.get("risk"), "riskLevel": sm.get("riskLevel"),
-               "flags": [f.get("flag") if isinstance(f, dict) else f for f in (sm.get("flags") or [])],
-               "buyTax": sr.get("buyTax"), "sellTax": sr.get("sellTax"),
-               "transferTax": sr.get("transferTax"),
-               "openSource": cc.get("openSource"),
-               "simOk": hp.get("simulationSuccess")}
+        hp_state, hp_honey, hp_risk = "ok", hr.get("isHoneypot"), sm.get("risk")
+        hp_buy, hp_sell = sr.get("buyTax"), sr.get("sellTax")   # percent units
 
-    # --- BscScan source verification (only module the supplied key allows) ---
+    # --- provider 2: GoPlus (single address = on-demand scan) ---
+    gp = get("https://api.gopluslabs.io/api/v1/token_security/56",
+             {"contract_addresses": tok}, pause=1.9)
+    g = ((gp or {}).get("result") or {}).get(tok.lower()) if isinstance(gp, dict) else None
+    gp_state = "ok" if g else "failed"
+    g = g or {}
+    gp_honey = g.get("is_honeypot")
+    gp_buy, gp_sell = fnum(g.get("buy_tax")), fnum(g.get("sell_tax"))   # fractional units
+
+    # --- provider 3: BscScan source verification (only module this key allows) ---
     sc = get("https://api.etherscan.io/v2/api",
              dict(chainid=56, module="contract", action="getsourcecode",
-                  address=p["baseToken"]["address"], apikey=KEY), pause=0.22)
+                  address=tok, apikey=KEY), pause=0.22)
     verified, cname = None, None
-    if sc and str(sc.get("status")) == "1":
+    if isinstance(sc, dict) and str(sc.get("status")) == "1":
         r0 = (sc.get("result") or [{}])[0]
         verified, cname = bool(r0.get("SourceCode")), r0.get("ContractName") or None
 
@@ -96,18 +116,34 @@ for i, (addr, e) in enumerate(sorted(by_token.items(), key=lambda kv: -kv[1]["be
     has_web, has_soc = bool(sites), bool(socials)
     memeish = bool(MEME_KW.search(f"{name} {sym}"))
 
+    # unify tax units to percent
+    sell_pct = hp_sell if isinstance(hp_sell, (int, float)) else (gp_sell * 100 if gp_sell is not None else None)
+    buy_pct  = hp_buy  if isinstance(hp_buy, (int, float))  else (gp_buy  * 100 if gp_buy  is not None else None)
+    screened = (hp_state == "ok") or (gp_state == "ok")
+
     drop, why = False, []
-    if hpd.get("ok") and hpd.get("isHoneypot") is True:
-        drop = True; why.append("honeypot.is: confirmed honeypot")
-    st = hpd.get("sellTax")
-    if isinstance(st, (int, float)) and st >= 50:
-        drop = True; why.append(f"sell tax {st:.0f}%")
+    if hp_honey is True or str(gp_honey) == "1":
+        drop = True; why.append("confirmed honeypot")
+    if sell_pct is not None and sell_pct >= 50:
+        drop = True; why.append(f"sell tax {sell_pct:.0f}%")
+    if str(g.get("cannot_sell_all")) == "1":
+        drop = True; why.append("cannot sell all")
     if memeish and not has_web and not has_soc:
         drop = True; why.append("meme-style name, no website/socials")
 
+    flags = []
+    if verified is False: flags.append("unverified_source")
+    if str(g.get("is_mintable")) == "1": flags.append("mintable")
+    if str(g.get("transfer_pausable")) == "1": flags.append("pausable")
+    if str(g.get("hidden_owner")) == "1": flags.append("hidden_owner")
+    if str(g.get("is_blacklisted")) == "1": flags.append("blacklist_fn")
+    if str(g.get("can_take_back_ownership")) == "1": flags.append("reclaimable_ownership")
+    op = fnum(g.get("owner_percent"))
+    if op is not None and op >= 0.5: flags.append(f"owner_holds_{op*100:.0f}pct")
+    if not screened: flags.append("SAFETY_CHECK_UNAVAILABLE")
+
     rows.append({
-        "name": name, "symbol": sym,
-        "token_address": p["baseToken"]["address"], "pair_address": p["pairAddress"],
+        "name": name, "symbol": sym, "token_address": tok, "pair_address": p["pairAddress"],
         "liquidity_usd": round(p["_liq_usd"], 2), "age_days": round(p["_age_days"], 1),
         "dex": p.get("dexId"), "labels": "|".join(p.get("labels") or []),
         "quote": (p.get("quoteToken") or {}).get("symbol"),
@@ -116,26 +152,34 @@ for i, (addr, e) in enumerate(sorted(by_token.items(), key=lambda kv: -kv[1]["be
         "fdv_usd": p.get("fdv"), "market_cap_usd": p.get("marketCap"),
         "websites": " ; ".join(sites), "socials": " ; ".join(socials),
         "qualifying_pairs": e["n"], "dexscreener_url": p.get("url"),
-        "hp_checked": hpd.get("ok"), "hp_is_honeypot": hpd.get("isHoneypot"),
-        "hp_risk": hpd.get("risk"), "hp_buy_tax": hpd.get("buyTax"),
-        "hp_sell_tax": hpd.get("sellTax"), "hp_flags": "|".join(map(str, hpd.get("flags") or [])),
-        "hp_open_source": hpd.get("openSource"),
+        "screened": screened, "honeypot_is_state": hp_state, "honeypot_is_result": hp_honey,
+        "honeypot_is_risk": hp_risk, "goplus_state": gp_state, "goplus_is_honeypot": gp_honey,
+        "buy_tax_pct": buy_pct, "sell_tax_pct": sell_pct,
+        "holder_count": g.get("holder_count"), "lp_holder_count": g.get("lp_holder_count"),
+        "owner_percent": g.get("owner_percent"), "creator_percent": g.get("creator_percent"),
         "src_verified": verified, "contract_name": cname,
-        "memeish_name": memeish, "dropped": drop, "drop_reason": "; ".join(why),
+        "risk_flags": "|".join(flags), "memeish_name": memeish,
+        "dropped": drop, "drop_reason": "; ".join(why),
     })
-    if i % 25 == 0:
-        print(f"  checked {i}/{len(by_token)}", flush=True)
+    if i % 20 == 0:
+        print(f"  screened {i}/{len(by_token)}", flush=True)
 
 json.dump(rows, open(f"{DATA}/classified.json", "w"), indent=1)
 kept = [r for r in rows if not r["dropped"]]
 drp = [r for r in rows if r["dropped"]]
-print(f"\nchecked {len(rows)} | KEPT {len(kept)} | dropped {len(drp)}")
-print(f"honeypot check failed (kept, unverified): {sum(1 for r in kept if not r['hp_checked'])}")
+print(f"\nscreened {len(rows)} | KEPT {len(kept)} | dropped {len(drp)}")
+print(f"  honeypot.is usable: {sum(1 for r in rows if r['honeypot_is_state']=='ok')}"
+      f" | not indexed: {sum(1 for r in rows if r['honeypot_is_state']=='not_indexed')}"
+      f" | failed: {sum(1 for r in rows if r['honeypot_is_state']=='failed')}")
+print(f"  GoPlus usable: {sum(1 for r in rows if r['goplus_state']=='ok')}")
+print(f"  NO safety data at all (kept, flagged): {sum(1 for r in kept if not r['screened'])}")
 
 cols = ["name","symbol","token_address","pair_address","liquidity_usd","age_days","dex","quote",
         "labels","vol24h_usd","txns24h","fdv_usd","market_cap_usd","websites","socials",
-        "qualifying_pairs","dexscreener_url","hp_checked","hp_is_honeypot","hp_risk",
-        "hp_buy_tax","hp_sell_tax","hp_flags","hp_open_source","src_verified","contract_name","memeish_name"]
+        "qualifying_pairs","dexscreener_url","screened","honeypot_is_state","honeypot_is_result",
+        "honeypot_is_risk","goplus_state","goplus_is_honeypot","buy_tax_pct","sell_tax_pct",
+        "holder_count","lp_holder_count","owner_percent","creator_percent","src_verified",
+        "contract_name","risk_flags","memeish_name"]
 with open(f"{DATA}/bsc_new_projects.csv","w",newline="") as f:
     w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore"); w.writeheader()
     for r in kept: w.writerow(r)

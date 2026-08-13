@@ -93,3 +93,68 @@ data from either provider and is kept with a `SAFETY_CHECK_UNAVAILABLE` flag.
 
 - `data/bsc_new_projects.csv` — the 109 kept projects
 - `data/bsc_excluded.csv` — everything dropped, with `drop_reason`, so the filter is auditable
+
+
+## Contract-logic pass (second stage)
+
+Parses the verified ABI of every token in `bsc_new_projects.csv` and keeps only those with
+fund-handling or privileged surface beyond a plain ERC-20, then cross-checks each against the
+SlowMist Hacked database.
+
+| Stage | Count |
+|---|---|
+| Tokens carried in | 109 |
+| Verified source, ABI parsed | 101 |
+| Unverified / no ABI (not analyzable) | 8 |
+| **Kept — fund-handling or privileged** | **96** |
+| Dropped — plain ERC-20 | 5 |
+
+### Method notes
+
+- **View/pure functions are excluded** from fund classification. Constants such as
+  `ALLOC_STAKING_REWARD` were otherwise scoring as staking logic.
+- **ABIs do not encode access control**, so admin-only status is confirmed by locating the
+  function declaration in the verified source and reading its modifiers.
+- **Keyword lists alone were insufficient.** LayerZero OFTs (`send`/`lzReceive`/`setPeer`),
+  migration functions, and `setImplementation` were all missed by the literal keyword list and
+  are classified explicitly.
+- **Proxies**: EIP-1967 (admin + impl slots), beacon slot, custom `setImplementation`, and
+  EIP-1167 minimal-proxy clones are each detected separately. Upgrade authority resolves via
+  admin slot → `owner()` → `DEFAULT_ADMIN_ROLE` holder, since the tokenised-stock cluster uses
+  AccessControl rather than Ownable.
+
+### Concentration finding
+
+31 of the 96 kept tokens run on just two implementations:
+
+- `0x024f18294970b5c76c0691b87f138a0317156422` — 20 EIP-1167 clones (all vanity `...7777`)
+- `0xcfed6c4679297ea4889f8183bc057b4a86c64e46` — 11 beacon proxies (the tokenised-stock cluster),
+  all sharing one admin `0x45e35fe982f3869221b222abea372fa97aa7679d`
+
+### Exploit cross-check
+
+- **STY / Swan Treasury — EXPLOITED** (2026-07-30, ~$625K). Leaked off-chain signer key
+  hardcoded as `_signer` in the ZhaiquanBuy contract; forged signatures bought ~687k STY at a
+  100x discount, exited through the STY/USDT pool. The vulnerable code is in ZhaiquanBuy, not
+  in the STY token contract.
+- **CDAO / Crypto DAO — EXPLOITED (paired contract)** (2026-07-28, ~$52K). The `Pro` token
+  contract was exploited via missing access control on publicly callable vault functions. CDAO's
+  only qualifying pool is CDAO/Pro.
+- **PIZZA** — ticker collision with a 2021 eCurve incident, ruled out (this deployment is a 2026
+  launchpad clone).
+- **GPU** — ticker collision with a 2024 BNB Chain incident, **unresolved**: `getcontractcreation`
+  is blocked on this API key and public RPCs are pruned, so deployment date is unverifiable.
+
+### TenArmor
+
+No queryable public feed exists: every path on tenarmor.com returns the same 1,302-byte SPA
+shell and the 2.4MB bundle contains no API endpoints. Their alerts publish to X/Twitter, which
+needs credentials this session lacks. Coverage came via news aggregators reporting TenArmor
+alerts (LULA, MOKE, BY Token, AIDC, 42DAO, BUBU2, RWT, AROS) — none of which are in this set.
+This is weaker than a direct feed and is stated as such rather than presented as full coverage.
+
+### Output
+
+- `data/bsc_contract_logic.csv` — the 96 kept, with keep-categories, reserve refs, proxy data, exploit flags
+- `data/bsc_contract_logic_dropped.csv` — the 5 plain ERC-20s
+- `data/bsc_contract_logic_unanalyzable.csv` — the 8 without verified source

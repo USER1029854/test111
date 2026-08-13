@@ -1,0 +1,9 @@
+name,symbol,token_address,pair_address,liquidity_usd,age_days,dex,reason
+Kiichain,KII,0x0081A735b8854FaC525dd3C07e38bd4530Df3007,0xb9addF06CB2F1784982a4c3B9585bC81628f771B,2418330.74,0.4,pancakeswap,source not verified - ABI unavailable
+MBA,MBA,0xBA9e54676cD0B5820D467E941B8f687EBD26eC23,0x235305cA6594bb5fA2ac9B8cB827128Bf8cdB229,1127864.57,43.4,pancakeswap,verified flag set but ABI unparseable/empty
+MarsCoin,MarsCoin,0x9343437EfDc7E147f808A1cE35d527ea4B5371b5,0x97d3AD54Bdff4a0892eE18A616C285D486B0E587,755718.62,2.7,pancakeswap,source not verified - ABI unavailable
+宇树科技,宇树科技,0x65F65266Fe4347E24eA7566D47A6704b4E5e6557,0xE4e3f4a028373933c99A5802f70646d14a1bAF6B,733552.72,3.7,pancakeswap,source not verified - ABI unavailable
+Grok Bot,GrokBot,0x5577622192D42740f27218dfbe16e84d70E6aBD3,0xddc808cCe3CFBc0c70Ab9D3F2dDf8E87CA0778a0,333240.33,1.2,pancakeswap,source not verified - ABI unavailable
+Multipli,MULT,0x0881623565F98311c26D2D3cBd91C88e415cc4E1,0xd496Ea8C50494462aD035c7a9176504ea1354D85,277413.69,3.3,pancakeswap,source not verified - ABI unavailable
+币安游戏,币安游戏,0x82FdfDBb44Cf8e1E256746dACb2A34D9B70acf8C,0x1570651F5507720B0A8473ca1E5851049cac7a89,155541.21,1.2,pancakeswap,source not verified - ABI unavailable
+币安中国,币安中国,0x2413a79D1c4A110857fFe72328195303088Eb77f,0x954BE0C876355CC34e7729345c61DE00e9832d89,155170.08,1.2,pancakeswap,source not verified - ABI unavailable

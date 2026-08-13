@@ -1,0 +1,8122 @@
+{
+ "qualifying": [
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x6d7d33ab0d492acc7122e0918df54e2dcf35fb28",
+   "pairAddress": "0x6d7d33aB0D492aCC7122e0918dF54e2DCF35fb28",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x8AC96df1D3Dbd7c99A54CB4e50599cE129015E50",
+    "name": "StarLink",
+    "symbol": "SLC"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "8.9831",
+   "priceUsd": "8.98",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 16,
+     "sells": 40
+    },
+    "h6": {
+     "buys": 222,
+     "sells": 281
+    },
+    "h24": {
+     "buys": 897,
+     "sells": 1022
+    }
+   },
+   "volume": {
+    "h24": 2546396.65,
+    "h6": 674169.32,
+    "h1": 58194.54,
+    "m5": 378.21
+   },
+   "priceChange": {
+    "m5": 0.01,
+    "h1": 0.09,
+    "h6": 1.76,
+    "h24": 0.28
+   },
+   "liquidity": {
+    "usd": 11168114.36,
+    "base": 621616,
+    "quote": 5584057
+   },
+   "fdv": 85934752,
+   "marketCap": 85934752,
+   "pairCreatedAt": 1783852471000,
+   "_src": "pairbatch",
+   "_age_days": 32.333951773853215,
+   "_liq_usd": 11168114.36
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x86ac451a0c0bcac5b74116ae90832e89e9c630df",
+   "pairAddress": "0x86aC451a0c0bcAc5b74116Ae90832e89E9c630df",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xa9d33E9203E7d4B9EA8f37Eca73CFe810C5d7cD0",
+    "name": "CDAO Token",
+    "symbol": "CDAO"
+   },
+   "quoteToken": {
+    "address": "0x8D65744527f55d0b2338350912d5C99A81ddF0e2",
+    "name": "Pro Token",
+    "symbol": "Pro"
+   },
+   "priceNative": "0.05455",
+   "priceUsd": "3.27",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 16,
+     "sells": 2
+    },
+    "h6": {
+     "buys": 460,
+     "sells": 20
+    },
+    "h24": {
+     "buys": 1718,
+     "sells": 94
+    }
+   },
+   "volume": {
+    "h24": 68126.3,
+    "h6": 22538.5,
+    "h1": 778.5,
+    "m5": 21.03
+   },
+   "priceChange": {
+    "h1": -0.04,
+    "h6": 0.72,
+    "h24": 2.42
+   },
+   "liquidity": {
+    "usd": 10832478.2,
+    "base": 1651830,
+    "quote": 90113
+   },
+   "fdv": 461448292,
+   "marketCap": 461448292,
+   "pairCreatedAt": 1781788399000,
+   "_src": "tokenpairs",
+   "_age_days": 56.22367399607543,
+   "_liq_usd": 10832478.2
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x54fcd38ec2f421bbd8d508d3c335b5c39952060f",
+   "pairAddress": "0x54fCD38Ec2f421bBD8d508d3c335b5c39952060f",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x59523E38727C2F4E6DABe89dB938779058F2aDAf",
+    "name": "AUV",
+    "symbol": "AUV"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "924.1385",
+   "priceUsd": "924.13",
+   "txns": {
+    "m5": {
+     "buys": 4,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 38,
+     "sells": 22
+    },
+    "h6": {
+     "buys": 252,
+     "sells": 214
+    },
+    "h24": {
+     "buys": 973,
+     "sells": 946
+    }
+   },
+   "volume": {
+    "h24": 869390.39,
+    "h6": 232305.51,
+    "h1": 25828.6,
+    "m5": 1705.03
+   },
+   "priceChange": {
+    "m5": 0.07,
+    "h1": 0.34,
+    "h6": -0.57,
+    "h24": -3.89
+   },
+   "liquidity": {
+    "usd": 10083602.89,
+    "base": 5455.6769,
+    "quote": 5041801
+   },
+   "fdv": 689583658,
+   "marketCap": 689583658,
+   "pairCreatedAt": 1784272881000,
+   "_src": "tokenpairs",
+   "_age_days": 27.468095292371732,
+   "_liq_usd": 10083602.89
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x7cb4a44748b30c4a7d3576f4e771729f8b62b1f2",
+   "pairAddress": "0x7cB4a44748b30C4a7D3576F4e771729F8B62B1F2",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x3Da5E2EF39cB7530306cf14BaF3c86c201a69B48",
+    "name": "NEX",
+    "symbol": "NEX"
+   },
+   "quoteToken": {
+    "address": "0xa2427F58C0e2cf5F605cbcc272B136187BA75Ce1",
+    "name": "AIC",
+    "symbol": "AIC"
+   },
+   "priceNative": "0.04196",
+   "priceUsd": "0.006284",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 2
+    },
+    "h24": {
+     "buys": 5,
+     "sells": 21
+    }
+   },
+   "volume": {
+    "h24": 3731.19,
+    "h6": 116.74,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.35,
+    "h24": 0.48
+   },
+   "liquidity": {
+    "usd": 6313037.89,
+    "base": 502264816,
+    "quote": 21077970
+   },
+   "fdv": 62845711,
+   "marketCap": 62845711,
+   "pairCreatedAt": 1786070062000,
+   "_src": "tokenpairs",
+   "_age_days": 6.667389273853214,
+   "_liq_usd": 6313037.89
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xaadf6272ba63e89926b691030143437996467e04",
+   "pairAddress": "0xAaDf6272ba63E89926B691030143437996467E04",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xe7ED99DDc65Ce315F187ac9CCdf59576E89DD82E",
+    "name": "LC Token",
+    "symbol": "LC"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "10.01294",
+   "priceUsd": "10.012",
+   "txns": {
+    "m5": {
+     "buys": 6,
+     "sells": 6
+    },
+    "h1": {
+     "buys": 69,
+     "sells": 73
+    },
+    "h6": {
+     "buys": 442,
+     "sells": 552
+    },
+    "h24": {
+     "buys": 1755,
+     "sells": 2213
+    }
+   },
+   "volume": {
+    "h24": 808505.18,
+    "h6": 190743.99,
+    "h1": 30333.32,
+    "m5": 4235.81
+   },
+   "priceChange": {
+    "m5": 0.15,
+    "h1": 0.09,
+    "h6": 0.14,
+    "h24": 0.1
+   },
+   "liquidity": {
+    "usd": 4006377,
+    "base": 200065,
+    "quote": 2003134
+   },
+   "fdv": 7923565,
+   "marketCap": 7923565,
+   "pairCreatedAt": 1784537274000,
+   "_src": "pairbatch",
+   "_age_days": 24.407991125705067,
+   "_liq_usd": 4006377.0
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xbc01d46f8283a7b40c99e342c77af733233511ce",
+   "pairAddress": "0xbc01D46f8283A7b40c99E342C77AF733233511cE",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xe44D996fF1C6D9720C13C45431E665Afa9F88888",
+    "name": "Golden Dragon",
+    "symbol": "GD"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.0001473",
+   "priceUsd": "0.08964",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 71,
+     "sells": 123
+    },
+    "h24": {
+     "buys": 281,
+     "sells": 392
+    }
+   },
+   "volume": {
+    "h24": 116177.85,
+    "h6": 32989.34,
+    "h1": 1883.29,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.26,
+    "h6": 1.46,
+    "h24": 7.01
+   },
+   "liquidity": {
+    "usd": 3957200.95,
+    "base": 22071941,
+    "quote": 3252.886
+   },
+   "fdv": 6710631,
+   "marketCap": 6710631,
+   "pairCreatedAt": 1781750089000,
+   "_src": "pairbatch",
+   "_age_days": 56.66707677385321,
+   "_liq_usd": 3957200.95
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xcc27a355f473993b496d45a4c0260f350f366592",
+   "pairAddress": "0xcc27A355f473993b496D45A4c0260f350f366592",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x7a128ff06283307C8492D92fa7961Ad6253E765d",
+    "name": "RICH",
+    "symbol": "RICH"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.8625",
+   "priceUsd": "0.8625",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 19,
+     "sells": 16
+    },
+    "h24": {
+     "buys": 313,
+     "sells": 366
+    }
+   },
+   "volume": {
+    "h24": 832366.59,
+    "h6": 28819.43,
+    "h1": 143.02,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.06,
+    "h6": -0.06,
+    "h24": -6.1
+   },
+   "liquidity": {
+    "usd": 3699974.12,
+    "base": 2144911,
+    "quote": 1849987
+   },
+   "fdv": 17924567,
+   "marketCap": 17924567,
+   "pairCreatedAt": 1783845431000,
+   "_src": "pairbatch",
+   "_age_days": 32.4154332553347,
+   "_liq_usd": 3699974.12
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xea862b187e7870cb88653d780aae7f51523916e3",
+   "pairAddress": "0xEa862b187E7870cB88653D780AAE7f51523916e3",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x25F0ff2338174872e9C294d5D2fe736454321378",
+    "name": "SFIG",
+    "symbol": "SFIG"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "1.3363",
+   "priceUsd": "1.33",
+   "txns": {
+    "m5": {
+     "buys": 9,
+     "sells": 6
+    },
+    "h1": {
+     "buys": 168,
+     "sells": 114
+    },
+    "h6": {
+     "buys": 1193,
+     "sells": 612
+    },
+    "h24": {
+     "buys": 3678,
+     "sells": 2139
+    }
+   },
+   "volume": {
+    "h24": 477574.69,
+    "h6": 140819.24,
+    "h1": 28106.28,
+    "m5": 1431.7
+   },
+   "priceChange": {
+    "m5": 0.01,
+    "h1": -0.15,
+    "h6": 0.1,
+    "h24": -0.94
+   },
+   "liquidity": {
+    "usd": 3669709.99,
+    "base": 1373257,
+    "quote": 1834546
+   },
+   "fdv": 13363201136,
+   "marketCap": 13363201136,
+   "pairCreatedAt": 1785069101000,
+   "_src": "tokenpairs",
+   "_age_days": 18.252586033112472,
+   "_liq_usd": 3669709.99
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x2be23d76f423bf464f310ad98749d82691ecc830",
+   "pairAddress": "0x2BE23D76F423bf464F310aD98749d82691Ecc830",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xD6A4F5AADD88ebA9A170AcF67f737BD488142857",
+    "name": "SWAN TREASURY",
+    "symbol": "STY"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "2.6041",
+   "priceUsd": "2.60",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 6,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 48,
+     "sells": 88
+    },
+    "h24": {
+     "buys": 220,
+     "sells": 464
+    }
+   },
+   "volume": {
+    "h24": 45888.44,
+    "h6": 9440.09,
+    "h1": 578.66,
+    "m5": 96.23
+   },
+   "priceChange": {
+    "m5": 0.01,
+    "h1": 0.07,
+    "h6": 0.13,
+    "h24": 3.18
+   },
+   "liquidity": {
+    "usd": 3111296.91,
+    "base": 597366,
+    "quote": 1555648
+   },
+   "fdv": 25823460,
+   "marketCap": 25823460,
+   "pairCreatedAt": 1782396832000,
+   "_src": "tokenpairs",
+   "_age_days": 49.18162538496433,
+   "_liq_usd": 3111296.91
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x55062dff43cdbea250c00368fc9b5d279d3673cb",
+   "pairAddress": "0x55062dFf43cDBEa250c00368Fc9b5d279d3673CB",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xa6344A67780e2da01928FEFd9E558D792d7986dc",
+    "name": "AIGO",
+    "symbol": "AIGO"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "1.03364",
+   "priceUsd": "1.033",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 4,
+     "sells": 4
+    },
+    "h6": {
+     "buys": 250,
+     "sells": 250
+    },
+    "h24": {
+     "buys": 865,
+     "sells": 865
+    }
+   },
+   "volume": {
+    "h24": 121005.23,
+    "h6": 54883.8,
+    "h1": 200.06,
+    "m5": 71.62
+   },
+   "priceChange": {
+    "h6": -0.01,
+    "h24": 0.21
+   },
+   "liquidity": {
+    "usd": 2920685.72,
+    "base": 1412802,
+    "quote": 1460342
+   },
+   "fdv": 3044080,
+   "marketCap": 3044080,
+   "pairCreatedAt": 1784905934000,
+   "_src": "pairbatch",
+   "_age_days": 20.141092977556916,
+   "_liq_usd": 2920685.72
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xb9addf06cb2f1784982a4c3b9585bc81628f771b",
+   "pairAddress": "0xb9addF06CB2F1784982a4c3B9585bC81628f771B",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x0081A735b8854FaC525dd3C07e38bd4530Df3007",
+    "name": "Kiichain",
+    "symbol": "KII"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.09969",
+   "priceUsd": "0.09969",
+   "txns": {
+    "m5": {
+     "buys": 21,
+     "sells": 22
+    },
+    "h1": {
+     "buys": 338,
+     "sells": 333
+    },
+    "h6": {
+     "buys": 1970,
+     "sells": 2006
+    },
+    "h24": {
+     "buys": 4158,
+     "sells": 4210
+    }
+   },
+   "volume": {
+    "h24": 711298824.77,
+    "h6": 59470555.23,
+    "h1": 10041270.9,
+    "m5": 650808.47
+   },
+   "priceChange": {
+    "m5": 0.27,
+    "h1": -5.42,
+    "h6": 85.94,
+    "h24": 398581
+   },
+   "liquidity": {
+    "usd": 2418330.74,
+    "base": 11946649,
+    "quote": 1227368
+   },
+   "fdv": 99640244,
+   "marketCap": 99640244,
+   "pairCreatedAt": 1786607385000,
+   "_src": "pairbatch",
+   "_age_days": 0.44837307014951,
+   "_liq_usd": 2418330.74
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x850dd77984103ccd6a732126ce3a1319993e9355",
+   "pairAddress": "0x850Dd77984103Ccd6a732126Ce3A1319993E9355",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x8dB27FB78c89975202f550697cE8Acb2E74B2469",
+    "name": "Smart Solve Token",
+    "symbol": "SST"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "1222.7602",
+   "priceUsd": "1222.76",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 38,
+     "sells": 4
+    },
+    "h6": {
+     "buys": 295,
+     "sells": 22
+    },
+    "h24": {
+     "buys": 842,
+     "sells": 109
+    }
+   },
+   "volume": {
+    "h24": 50896.35,
+    "h6": 19772.72,
+    "h1": 2000.83,
+    "m5": 84.7
+   },
+   "priceChange": {
+    "m5": 0.02,
+    "h1": 0.32,
+    "h6": 2.74,
+    "h24": 6.53
+   },
+   "liquidity": {
+    "usd": 2231620.96,
+    "base": 912.5341,
+    "quote": 1115810
+   },
+   "fdv": 1222760221,
+   "marketCap": 1222760221,
+   "pairCreatedAt": 1782497959000,
+   "_src": "tokenpairs",
+   "_age_days": 48.011173996075435,
+   "_liq_usd": 2231620.96
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x1a9b68ca1dcacb106c4b853e2d9c915f0cfe2e56",
+   "pairAddress": "0x1A9B68ca1dCaCB106c4b853e2d9c915f0cFe2e56",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x500A02a20B0B0A3F3efCCFc0559543F5743bd1C4",
+    "name": "o1.exchange",
+    "symbol": "O"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.4459",
+   "priceUsd": "0.4459",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 10,
+     "sells": 16
+    },
+    "h6": {
+     "buys": 291,
+     "sells": 289
+    },
+    "h24": {
+     "buys": 3252,
+     "sells": 3193
+    }
+   },
+   "volume": {
+    "h24": 218509.02,
+    "h6": 14244.3,
+    "h1": 601.45,
+    "m5": 31.48
+   },
+   "priceChange": {
+    "m5": 0.09,
+    "h1": -0.37,
+    "h6": -0.4,
+    "h24": -0.3
+   },
+   "liquidity": {
+    "usd": 2208057.07,
+    "base": 4333333,
+    "quote": 275691
+   },
+   "fdv": 9211634,
+   "marketCap": 71348899,
+   "pairCreatedAt": 1781509005000,
+   "_src": "tokenpairs",
+   "_age_days": 59.45740084792729,
+   "_liq_usd": 2208057.07
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x79cb334149a030643c26980de323b842ac981567",
+   "pairAddress": "0x79cB334149a030643c26980De323b842ac981567",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xceFbf00b3732FE91e46989037E4b2564a4fc7777",
+    "name": "NIXI",
+    "symbol": "\u9006\u88ad\u4eba\u751f"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.0002136",
+   "priceUsd": "0.1298",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 11,
+     "sells": 16
+    },
+    "h6": {
+     "buys": 301,
+     "sells": 160
+    },
+    "h24": {
+     "buys": 1284,
+     "sells": 652
+    }
+   },
+   "volume": {
+    "h24": 201645.11,
+    "h6": 31021.42,
+    "h1": 3941.87,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.37,
+    "h6": 0.6,
+    "h24": -2.2
+   },
+   "liquidity": {
+    "usd": 1857113.01,
+    "base": 7149269,
+    "quote": 1527.3064
+   },
+   "fdv": 120458983,
+   "marketCap": 120458983,
+   "pairCreatedAt": 1784256919000,
+   "_src": "pairbatch",
+   "_age_days": 27.652840662742104,
+   "_liq_usd": 1857113.01
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x66faad27cf481f82d0089ec8156b3aa3636010c7",
+   "pairAddress": "0x66faaD27cf481f82d0089ec8156B3AA3636010C7",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1",
+    "name": "SpaceX",
+    "symbol": "SPCXB"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.2342",
+   "priceUsd": "142.55",
+   "txns": {
+    "m5": {
+     "buys": 170,
+     "sells": 108
+    },
+    "h1": {
+     "buys": 2246,
+     "sells": 2407
+    },
+    "h6": {
+     "buys": 13921,
+     "sells": 14195
+    },
+    "h24": {
+     "buys": 27320,
+     "sells": 25671
+    }
+   },
+   "volume": {
+    "h24": 8217706.58,
+    "h6": 4742270.27,
+    "h1": 626880.08,
+    "m5": 36491.44
+   },
+   "priceChange": {
+    "m5": 0.04,
+    "h1": 0.14,
+    "h6": -2.34,
+    "h24": -3.81
+   },
+   "liquidity": {
+    "usd": 1815293.69,
+    "base": 4802.4043,
+    "quote": 1858.2619
+   },
+   "fdv": 69768579,
+   "marketCap": 69768579,
+   "pairCreatedAt": 1785595204000,
+   "_src": "tokenpairs",
+   "_age_days": 12.16343094051988,
+   "_liq_usd": 1815293.69
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x6f6a6eabbf07af11ea58ba523cf74618f45fd190",
+   "pairAddress": "0x6f6A6eAbBf07af11EA58Ba523cF74618F45FD190",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xd9D3dAd2EfeD7eE99F1363FAC549f5E476F19A5a",
+    "name": "\u55b5\u55b5\u5e01",
+    "symbol": "\u55b5\u55b5\u5e01"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.00004073",
+   "priceUsd": "0.00004073",
+   "txns": {
+    "m5": {
+     "buys": 12,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 225,
+     "sells": 10
+    },
+    "h6": {
+     "buys": 8520,
+     "sells": 273
+    },
+    "h24": {
+     "buys": 22838,
+     "sells": 960
+    }
+   },
+   "volume": {
+    "h24": 708582.62,
+    "h6": 110667.27,
+    "h1": 853.77,
+    "m5": 51.18
+   },
+   "priceChange": {
+    "m5": 0.01,
+    "h1": 0.17,
+    "h6": 3.66,
+    "h24": -32.78
+   },
+   "liquidity": {
+    "usd": 1759282.66,
+    "base": 21593986960,
+    "quote": 879641
+   },
+   "fdv": 28196679,
+   "marketCap": 28196679,
+   "pairCreatedAt": 1785294884000,
+   "_src": "tokenpairs",
+   "_age_days": 15.639356866445807,
+   "_liq_usd": 1759282.66
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x1d26b5168f33d9bdf8d43887612c1b68bc27b121",
+   "pairAddress": "0x1d26B5168f33d9bdF8d43887612C1b68bC27B121",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x0a4D87F0b646F29aEAED09A2573AD1FF74bBba62",
+    "name": "MC Token",
+    "symbol": "MC"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.1337",
+   "priceUsd": "0.1337",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 15,
+     "sells": 5
+    },
+    "h6": {
+     "buys": 92,
+     "sells": 71
+    },
+    "h24": {
+     "buys": 349,
+     "sells": 283
+    }
+   },
+   "volume": {
+    "h24": 22891.74,
+    "h6": 4660.03,
+    "h1": 1462.07,
+    "m5": 2.31
+   },
+   "priceChange": {
+    "h1": 0.11,
+    "h6": -0.11,
+    "h24": 0.57
+   },
+   "liquidity": {
+    "usd": 1639497.35,
+    "base": 6128937,
+    "quote": 819748
+   },
+   "fdv": 16050065,
+   "marketCap": 16050065,
+   "pairCreatedAt": 1782211515000,
+   "_src": "tokenpairs",
+   "_age_days": 51.32649807014951,
+   "_liq_usd": 1639497.35
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x3cc292bb0011951f3151eb998816c31680a2ce87",
+   "pairAddress": "0x3cC292bB0011951F3151eB998816c31680a2Ce87",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xb1939843fB9220719d13076dCeEfb0aeaeF06666",
+    "name": "BTC\u039e",
+    "symbol": "BTC\u039e"
+   },
+   "quoteToken": {
+    "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+    "name": "BTCB Token",
+    "symbol": "BTCB"
+   },
+   "priceNative": "0.000002610",
+   "priceUsd": "0.1656",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 135
+    },
+    "h24": {
+     "buys": 192,
+     "sells": 838
+    }
+   },
+   "volume": {
+    "h24": 25064.32,
+    "h6": 202.38,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.19,
+    "h24": 7.57
+   },
+   "liquidity": {
+    "usd": 1524352.94,
+    "base": 4600963,
+    "quote": 12.01247
+   },
+   "fdv": 916899,
+   "marketCap": 916899,
+   "pairCreatedAt": 1783617087000,
+   "_src": "pairbatch",
+   "_age_days": 35.058303625705065,
+   "_liq_usd": 1524352.94
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xa25b52492b7177d115feec6dc09084b1c3952f93",
+   "pairAddress": "0xA25B52492B7177D115feEc6DC09084B1C3952F93",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x3cBd513239d9E5538A4CAEd8ed53eF77009Df473",
+    "name": "ALD",
+    "symbol": "ALD"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.00007205",
+   "priceUsd": "0.04383",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 4
+    },
+    "h1": {
+     "buys": 102,
+     "sells": 66
+    },
+    "h6": {
+     "buys": 477,
+     "sells": 642
+    },
+    "h24": {
+     "buys": 1281,
+     "sells": 2022
+    }
+   },
+   "volume": {
+    "h24": 290051.82,
+    "h6": 83994.13,
+    "h1": 10769.74,
+    "m5": 655.94
+   },
+   "priceChange": {
+    "m5": 0.07,
+    "h1": 0.23,
+    "h6": -0.14,
+    "h24": -0.85
+   },
+   "liquidity": {
+    "usd": 1231060.25,
+    "base": 14042592,
+    "quote": 1011.8525
+   },
+   "fdv": 43833084,
+   "marketCap": 43833084,
+   "pairCreatedAt": 1781971792000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/toXa9_cDW79nh9z4?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/l9mx1L-IawKBYJ3S?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x3cbd513239d9e5538a4caed8ed53ef77009df473?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "https://www.aldrwa.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/aladdin_rwa",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/ALDOfficialAladdin",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 54.10106982940877,
+   "_liq_usd": 1231060.25
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x235305ca6594bb5fa2ac9b8cb827128bf8cdb229",
+   "pairAddress": "0x235305cA6594bb5fA2ac9B8cB827128Bf8cdB229",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xBA9e54676cD0B5820D467E941B8f687EBD26eC23",
+    "name": "MBA",
+    "symbol": "MBA"
+   },
+   "quoteToken": {
+    "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.0001375",
+   "priceUsd": "0.0001375",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 3,
+     "sells": 36
+    }
+   },
+   "volume": {
+    "h24": 1266.2,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": 0.83
+   },
+   "liquidity": {
+    "usd": 1127864.57,
+    "base": 4100856419,
+    "quote": 563932
+   },
+   "fdv": 1243212,
+   "marketCap": 1243212,
+   "pairCreatedAt": 1782896813000,
+   "_src": "pairbatch",
+   "_age_days": 43.394808255334695,
+   "_liq_usd": 1127864.57
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xe531fcb1f5a195de7608b9f4f9518544c2cdb693",
+   "pairAddress": "0xe531fcb1F5a195de7608B9F4f9518544C2cdB693",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x205812CdBed920aFf76C6580abD681a46D11efc7",
+    "name": "Invesqo QQQ",
+    "symbol": "QQQB"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "732.7872",
+   "priceUsd": "732.78",
+   "txns": {
+    "m5": {
+     "buys": 13,
+     "sells": 8
+    },
+    "h1": {
+     "buys": 178,
+     "sells": 132
+    },
+    "h6": {
+     "buys": 2407,
+     "sells": 2325
+    },
+    "h24": {
+     "buys": 7730,
+     "sells": 7683
+    }
+   },
+   "volume": {
+    "h24": 4371587.53,
+    "h6": 1599115.97,
+    "h1": 69644.07,
+    "m5": 4016.07
+   },
+   "priceChange": {
+    "m5": 0.02,
+    "h6": 1.22,
+    "h24": 1.01
+   },
+   "liquidity": {
+    "usd": 1084445,
+    "base": 409.5921,
+    "quote": 784301
+   },
+   "fdv": 21295316,
+   "marketCap": 21295316,
+   "pairCreatedAt": 1783667279000,
+   "_src": "tokenpairs",
+   "_age_days": 34.47737769977914,
+   "_liq_usd": 1084445.0
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x94f3ed36706c746ad59fadcaf271b7431ab1d8f1",
+   "pairAddress": "0x94F3ed36706c746ad59fAdCAF271b7431AB1D8F1",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xFe189E97832DA1573e4e4Ff034F4fFC3a15c7777",
+    "name": "MarsCoin",
+    "symbol": "MarsCoin"
+   },
+   "quoteToken": {
+    "address": "0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1",
+    "name": "SpaceX",
+    "symbol": "SPCXB"
+   },
+   "priceNative": "0.0004010",
+   "priceUsd": "0.05712",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 11
+    },
+    "h1": {
+     "buys": 101,
+     "sells": 212
+    },
+    "h6": {
+     "buys": 888,
+     "sells": 722
+    },
+    "h24": {
+     "buys": 2215,
+     "sells": 1862
+    }
+   },
+   "volume": {
+    "h24": 1988259.73,
+    "h6": 886966.52,
+    "h1": 148508.07,
+    "m5": 1169.75
+   },
+   "priceChange": {
+    "m5": -0.4,
+    "h1": 0.41,
+    "h6": 4.32,
+    "h24": -3.16
+   },
+   "liquidity": {
+    "usd": 1037209.02,
+    "base": 9095343,
+    "quote": 3634.4901
+   },
+   "fdv": 57120350,
+   "marketCap": 57120350,
+   "pairCreatedAt": 1785158591000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/u4Cazq0Q1QaUwZ1Z?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/_wujGUmzqKEKF1dT?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xfe189e97832da1573e4e4ff034f4ffc3a15c7777?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "https://www.marscoinbnb.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/MarsCoin7777",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 17.216822144223585,
+   "_liq_usd": 1037209.02
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x6bb3e44d04d7444ae2ccd98568dafb8b915acb03",
+   "pairAddress": "0x6bB3e44D04D7444ae2ccD98568DaFB8b915aCB03",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xCF9F47937AF27a19b656DbCc462e1f99Ec999999",
+    "name": "YH",
+    "symbol": "YH"
+   },
+   "quoteToken": {
+    "address": "0xF680a123A18b076b305Bd420DE5f7b7EbEB56666",
+    "name": "HGDAO",
+    "symbol": "HGDAO"
+   },
+   "priceNative": "0.0001106",
+   "priceUsd": "0.3663",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 27,
+     "sells": 7
+    }
+   },
+   "volume": {
+    "h24": 9985.67,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": 5.68
+   },
+   "liquidity": {
+    "usd": 973483.55,
+    "base": 1328742,
+    "quote": 147.08802
+   },
+   "fdv": 7251804,
+   "marketCap": 7251804,
+   "pairCreatedAt": 1784259516000,
+   "_src": "pairbatch",
+   "_age_days": 27.622782792371734,
+   "_liq_usd": 973483.55
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x60f9c05eece9a2594955d64efe96e69a73bdab44",
+   "pairAddress": "0x60F9c05EECe9a2594955d64eFe96e69a73BdAB44",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x37E94fc028903E74275478b65160D6d2c0e8880b",
+    "name": "AIW3",
+    "symbol": "AIW3"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.03464",
+   "priceUsd": "0.03464",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 5
+    },
+    "h6": {
+     "buys": 168,
+     "sells": 231
+    },
+    "h24": {
+     "buys": 622,
+     "sells": 988
+    }
+   },
+   "volume": {
+    "h24": 219147.32,
+    "h6": 77138.05,
+    "h1": 47.54,
+    "m5": 29.94
+   },
+   "priceChange": {
+    "h6": -0.06
+   },
+   "liquidity": {
+    "usd": 930835.68,
+    "base": 23217059,
+    "quote": 126506
+   },
+   "fdv": 34643895,
+   "marketCap": 34643895,
+   "pairCreatedAt": 1785749111000,
+   "_src": "pairbatch",
+   "_age_days": 10.382099922001363,
+   "_liq_usd": 930835.68
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xcbeaad783ffd2cea125e9d9b2ec21e639d20fa59",
+   "pairAddress": "0xCbeAad783FFD2CeA125E9D9B2Ec21E639d20Fa59",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xB0f09ea9ae0515C3551080D4a745C8115aA30e37",
+    "name": "DAPPOS",
+    "symbol": "DOS"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.2779",
+   "priceUsd": "0.2779",
+   "txns": {
+    "m5": {
+     "buys": 73,
+     "sells": 88
+    },
+    "h1": {
+     "buys": 1513,
+     "sells": 1688
+    },
+    "h6": {
+     "buys": 10945,
+     "sells": 11422
+    },
+    "h24": {
+     "buys": 55221,
+     "sells": 59558
+    }
+   },
+   "volume": {
+    "h24": 19962444.97,
+    "h6": 3779656.07,
+    "h1": 549475.05,
+    "m5": 28501.66
+   },
+   "priceChange": {
+    "m5": -0.42,
+    "h1": -2.03,
+    "h6": -1.87,
+    "h24": -16.29
+   },
+   "liquidity": {
+    "usd": 913389.31,
+    "base": 1532740,
+    "quote": 487334
+   },
+   "fdv": 11008774,
+   "marketCap": 11008774,
+   "pairCreatedAt": 1786364785000,
+   "_src": "pairbatch",
+   "_age_days": 3.2562434405198806,
+   "_liq_usd": 913389.31
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xd7d30f434b12f7ed9b0ae11ff1c754745a10ad52",
+   "pairAddress": "0xD7d30F434b12F7Ed9b0Ae11fF1C754745a10aD52",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xCA750eF65f295BBECd685Abf54e82CAf297BDB61",
+    "name": "SK Hynix",
+    "symbol": "SKHYB"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "166.9588",
+   "priceUsd": "166.95",
+   "txns": {
+    "m5": {
+     "buys": 6,
+     "sells": 4
+    },
+    "h1": {
+     "buys": 23,
+     "sells": 53
+    },
+    "h6": {
+     "buys": 658,
+     "sells": 492
+    },
+    "h24": {
+     "buys": 4302,
+     "sells": 4109
+    }
+   },
+   "volume": {
+    "h24": 1353329.81,
+    "h6": 347216.52,
+    "h1": 10073,
+    "m5": 889
+   },
+   "priceChange": {
+    "m5": 0.06,
+    "h1": -0.44,
+    "h6": 9.38,
+    "h24": 8.7
+   },
+   "liquidity": {
+    "usd": 835043.16,
+    "base": 621.7756,
+    "quote": 731232
+   },
+   "fdv": 24522836,
+   "marketCap": 24521755,
+   "pairCreatedAt": 1784007004000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/Dv6-VNcUq4Lxx9yf?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/PSJXoylkxRmbwSDY?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xca750ef65f295bbecd685abf54e82caf297bdb61?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "https://gmgn.ai/bsc/token/0xd3b3a75506a8d36a9b38bc6e05c255910af87777",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "_src": "pairbatch",
+   "_age_days": 30.545375384964323,
+   "_liq_usd": 835043.16
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xf55c23a434426b985d512e2e5519114a5d0249b6",
+   "pairAddress": "0xf55C23A434426B985D512E2e5519114A5d0249B6",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x02962e4188902E05C4B1856E065551BCce10FFFf",
+    "name": "Cubus Store Coin",
+    "symbol": "CSC"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.00002848",
+   "priceUsd": "0.01732",
+   "txns": {
+    "m5": {
+     "buys": 5,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 66,
+     "sells": 3
+    },
+    "h6": {
+     "buys": 316,
+     "sells": 104
+    },
+    "h24": {
+     "buys": 1126,
+     "sells": 328
+    }
+   },
+   "volume": {
+    "h24": 95190.66,
+    "h6": 33187.82,
+    "h1": 1330.78,
+    "m5": 20.27
+   },
+   "priceChange": {
+    "m5": 0.07,
+    "h1": -0.27,
+    "h6": -1.77,
+    "h24": -1.08
+   },
+   "liquidity": {
+    "usd": 834555.66,
+    "base": 24080311,
+    "quote": 685.9511
+   },
+   "fdv": 17294996,
+   "marketCap": 17295508,
+   "pairCreatedAt": 1784386292000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/P8cjds5kJOOe97SF?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/UXRJhGxe8eAXVLZ9?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x02962e4188902e05c4b1856e065551bcce10ffff?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "https://cubusdao.com",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/cubus_global",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 26.155467977556917,
+   "_liq_usd": 834555.66
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x2925340dd64472a71d32aa9bec6176f541595d97",
+   "pairAddress": "0x2925340Dd64472A71D32aa9Bec6176f541595d97",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xcD1829e826249f41a5Cb434Bf2d25C3D5eA78eC0",
+    "name": "FCO Token",
+    "symbol": "FCO"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "164.7007",
+   "priceUsd": "164.70",
+   "txns": {
+    "m5": {
+     "buys": 4,
+     "sells": 4
+    },
+    "h1": {
+     "buys": 53,
+     "sells": 58
+    },
+    "h6": {
+     "buys": 378,
+     "sells": 388
+    },
+    "h24": {
+     "buys": 1452,
+     "sells": 1559
+    }
+   },
+   "volume": {
+    "h24": 211738.17,
+    "h6": 51191.15,
+    "h1": 7470.85,
+    "m5": 545.13
+   },
+   "priceChange": {
+    "m5": 0.01,
+    "h1": -0.03,
+    "h6": -0.02,
+    "h24": 0.06
+   },
+   "liquidity": {
+    "usd": 820439.32,
+    "base": 2491.2022,
+    "quote": 410136
+   },
+   "fdv": 81272304,
+   "marketCap": 81272304,
+   "pairCreatedAt": 1784538133000,
+   "_src": "tokenpairs",
+   "_age_days": 24.398048996075435,
+   "_liq_usd": 820439.32
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x8fb4243b553ac29ba088acf00b9b7da24bd6690c",
+   "pairAddress": "0x8FB4243b553aC29BA088aCf00B9B7dA24bD6690C",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436",
+    "name": "NVIDIA Corp",
+    "symbol": "NVDAB"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "225.4580",
+   "priceUsd": "225.45",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 123,
+     "sells": 130
+    },
+    "h6": {
+     "buys": 2273,
+     "sells": 1957
+    },
+    "h24": {
+     "buys": 4615,
+     "sells": 4511
+    }
+   },
+   "volume": {
+    "h24": 1452338.37,
+    "h6": 860392.57,
+    "h1": 30653.17,
+    "m5": 137.34
+   },
+   "priceChange": {
+    "h1": 0.06,
+    "h6": 0.73,
+    "h24": 0.64
+   },
+   "liquidity": {
+    "usd": 805749.62,
+    "base": 512.6954,
+    "quote": 690158
+   },
+   "fdv": 9851433,
+   "marketCap": 9851433,
+   "pairCreatedAt": 1785310965000,
+   "_src": "tokenpairs",
+   "_age_days": 15.45323418126062,
+   "_liq_usd": 805749.62
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x924f1a4422a89900faafa3f886721fdccd6e086a",
+   "pairAddress": "0x924F1a4422a89900FAaFa3F886721FDCcD6e086a",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xe92F7Fe3EAf61DF28b7B75f3FaAB199333c42302",
+    "name": "Mame Inu",
+    "symbol": "MAME"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000009593",
+   "priceUsd": "0.005843",
+   "txns": {
+    "m5": {
+     "buys": 18,
+     "sells": 19
+    },
+    "h1": {
+     "buys": 224,
+     "sells": 191
+    },
+    "h6": {
+     "buys": 1289,
+     "sells": 1155
+    },
+    "h24": {
+     "buys": 5295,
+     "sells": 4695
+    }
+   },
+   "volume": {
+    "h24": 251040.42,
+    "h6": 60481,
+    "h1": 11199.04,
+    "m5": 810.95
+   },
+   "priceChange": {
+    "m5": -0.06,
+    "h1": -1.2,
+    "h6": -0.82,
+    "h24": 2.86
+   },
+   "liquidity": {
+    "usd": 805510.12,
+    "base": 68924097,
+    "quote": 661.2406
+   },
+   "fdv": 5129810,
+   "marketCap": 5129810,
+   "pairCreatedAt": 1782059675000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/wT6yA-HDjB2hbYv-?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/wZkKHqHAd6MTFZbD?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xe92f7fe3eaf61df28b7b75f3faab199333c42302?timestamp=1786646700000",
+    "websites": [
+     {
+      "url": "https://mamebnb.com",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/mamebnb",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/mame",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 53.08390547755692,
+   "_liq_usd": 805510.12
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x3e86832b28854b5c7a86e8666ac4ab92cda1843e",
+   "pairAddress": "0x3E86832b28854B5C7A86E8666Ac4aB92cdA1843e",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x4f0c550bFe484F957D5C7Dd26f9a630a92A17777",
+    "name": "\u91d1\u8776\u5723\u7532",
+    "symbol": "\u91d1\u8776\u5723\u7532"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.0001147",
+   "priceUsd": "0.06981",
+   "txns": {
+    "m5": {
+     "buys": 3,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 31,
+     "sells": 5
+    },
+    "h6": {
+     "buys": 242,
+     "sells": 89
+    },
+    "h24": {
+     "buys": 1161,
+     "sells": 383
+    }
+   },
+   "volume": {
+    "h24": 157582.28,
+    "h6": 33546.29,
+    "h1": 1176.08,
+    "m5": 14.89
+   },
+   "priceChange": {
+    "m5": 0.08,
+    "h1": 0.08,
+    "h6": -3.37,
+    "h24": -4.87
+   },
+   "liquidity": {
+    "usd": 773775.94,
+    "base": 5541712,
+    "quote": 635.712
+   },
+   "fdv": 13962679,
+   "marketCap": 13962679,
+   "pairCreatedAt": 1784378297000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/ZwXxVkr12eyoszFu?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/MMB6QQMvkyc9-xpa?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x4f0c550bfe484f957d5c7dd26f9a630a92a17777?timestamp=1786646700000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/skl_flap",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/SKL_Flap",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 26.24800269977914,
+   "_liq_usd": 773775.94
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x97d3ad54bdff4a0892ee18a616c285d486b0e587",
+   "pairAddress": "0x97d3AD54Bdff4a0892eE18A616C285D486B0E587",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x9343437EfDc7E147f808A1cE35d527ea4B5371b5",
+    "name": "MarsCoin",
+    "symbol": "MarsCoin"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.00001462",
+   "priceUsd": "0.008895",
+   "txns": {
+    "m5": {
+     "buys": 3,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 37,
+     "sells": 24
+    },
+    "h6": {
+     "buys": 220,
+     "sells": 148
+    },
+    "h24": {
+     "buys": 885,
+     "sells": 587
+    }
+   },
+   "volume": {
+    "h24": 1506132.39,
+    "h6": 379493.2,
+    "h1": 64981.26,
+    "m5": 2879.52
+   },
+   "priceChange": {
+    "m5": 0.67,
+    "h1": 1.19,
+    "h6": 12.43,
+    "h24": 64.46
+   },
+   "liquidity": {
+    "usd": 755718.62,
+    "base": 42475342,
+    "quote": 621.09094
+   },
+   "fdv": 8895968,
+   "marketCap": 8895968,
+   "pairCreatedAt": 1786414858000,
+   "_src": "tokenpairs",
+   "_age_days": 2.676694829408769,
+   "_liq_usd": 755718.62
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xc6ea899c6d3b5869786983a9a29e3c380202cc40",
+   "pairAddress": "0xC6EA899c6D3B5869786983A9A29e3c380202CC40",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x398033B5c6c362ed1fDC9d0A66aAb359769A0C4b",
+    "name": "AFW",
+    "symbol": "AFW"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000003111",
+   "priceUsd": "0.001891",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 50,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 302,
+     "sells": 6
+    },
+    "h24": {
+     "buys": 1215,
+     "sells": 27
+    }
+   },
+   "volume": {
+    "h24": 1315.54,
+    "h6": 1004.27,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.25,
+    "h6": 1.2,
+    "h24": 3.38
+   },
+   "liquidity": {
+    "usd": 749012.36,
+    "base": 197942963,
+    "quote": 615.8526
+   },
+   "fdv": 1094605,
+   "marketCap": 1094605,
+   "pairCreatedAt": 1782043946000,
+   "_src": "pairbatch",
+   "_age_days": 53.26595408866803,
+   "_liq_usd": 749012.36
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xe4e3f4a028373933c99a5802f70646d14a1baf6b",
+   "pairAddress": "0xE4e3f4a028373933c99A5802f70646d14a1bAF6B",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x65F65266Fe4347E24eA7566D47A6704b4E5e6557",
+    "name": "\u5b87\u6811\u79d1\u6280",
+    "symbol": "\u5b87\u6811\u79d1\u6280"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.00000001727",
+   "priceUsd": "0.00001050",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 24,
+     "sells": 15
+    },
+    "h6": {
+     "buys": 161,
+     "sells": 131
+    },
+    "h24": {
+     "buys": 848,
+     "sells": 611
+    }
+   },
+   "volume": {
+    "h24": 939573.28,
+    "h6": 202013.84,
+    "h1": 23531.1,
+    "m5": 726.6
+   },
+   "priceChange": {
+    "m5": 0.15,
+    "h1": -0.19,
+    "h6": -9.86,
+    "h24": 17.15
+   },
+   "liquidity": {
+    "usd": 733552.72,
+    "base": 34903330392,
+    "quote": 602.9332
+   },
+   "fdv": 10491376,
+   "marketCap": 10491376,
+   "pairCreatedAt": 1786322194000,
+   "_src": "pairbatch",
+   "_age_days": 3.7491948294087694,
+   "_liq_usd": 733552.72
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x908d49048eb3a7bedfd238972403842805eaf2be",
+   "pairAddress": "0x908d49048EB3a7bEdfd238972403842805EAF2bE",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x46cEeFDa28Dd7207059ed19B0acdc026955bb15C",
+    "name": "GameStop",
+    "symbol": "GMEB"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "18.6148",
+   "priceUsd": "18.61",
+   "txns": {
+    "m5": {
+     "buys": 14,
+     "sells": 20
+    },
+    "h1": {
+     "buys": 356,
+     "sells": 483
+    },
+    "h6": {
+     "buys": 14723,
+     "sells": 13304
+    },
+    "h24": {
+     "buys": 26083,
+     "sells": 24741
+    }
+   },
+   "volume": {
+    "h24": 7886869.88,
+    "h6": 4074851.06,
+    "h1": 238602.58,
+    "m5": 12074.88
+   },
+   "priceChange": {
+    "m5": 0.01,
+    "h1": 0.11,
+    "h6": 0.11,
+    "h24": -0.3
+   },
+   "liquidity": {
+    "usd": 712350.67,
+    "base": 19433,
+    "quote": 350598
+   },
+   "fdv": 3613056,
+   "marketCap": 3613056,
+   "pairCreatedAt": 1786467839000,
+   "_src": "tokenpairs",
+   "_age_days": 2.063488810890251,
+   "_liq_usd": 712350.67
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x89001d846f7ca36ee089f73eefc25657e1798144",
+   "pairAddress": "0x89001D846f7CA36EE089F73eEFC25657E1798144",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x3F53De71c126BdaBAe20f9cD64848d317f6C3238",
+    "name": "Alphabet",
+    "symbol": "GOOGLB"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "346.2439",
+   "priceUsd": "346.24",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 2,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 45,
+     "sells": 44
+    },
+    "h24": {
+     "buys": 1089,
+     "sells": 873
+    }
+   },
+   "volume": {
+    "h24": 128224.99,
+    "h6": 32341.05,
+    "h1": 0.76,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.15,
+    "h24": 0.94
+   },
+   "liquidity": {
+    "usd": 546050.48,
+    "base": 397.7284,
+    "quote": 408339
+   },
+   "fdv": 17488929,
+   "marketCap": 17488929,
+   "pairCreatedAt": 1785482943000,
+   "_src": "pairbatch",
+   "_age_days": 13.46274807014951,
+   "_liq_usd": 546050.48
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xc0a20487d3b6b398dea0ffb77821544b4e7f7ce9",
+   "pairAddress": "0xC0A20487d3b6b398dEa0FfB77821544B4e7f7ce9",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x48B04234eAA6175b92C7242E93E42A7A3bf1206e",
+    "name": "\u91d1\u9f99",
+    "symbol": "\u91d1\u9f99"
+   },
+   "quoteToken": {
+    "address": "0x7138b48df7D98D7e3cc221BfE7192D0a178182D8",
+    "name": "SPY",
+    "symbol": "SPYB"
+   },
+   "priceNative": "0.0000006914",
+   "priceUsd": "0.0005378",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 5
+    }
+   },
+   "volume": {
+    "h24": 629.23,
+    "h6": 2.97,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.42,
+    "h24": 0.37
+   },
+   "liquidity": {
+    "usd": 536070.2,
+    "base": 966262573,
+    "quote": 21.0001189
+   },
+   "fdv": 537880,
+   "marketCap": 537880,
+   "pairCreatedAt": 1785876908000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/cIAQdiLwT7k2ue5G?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x48b04234eaa6175b92c7242e93e42a7a3bf1206e?timestamp=1786646700000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/GoldenDragonBSC",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/GoldenDragonbnb",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 8.902967977556917,
+   "_liq_usd": 536070.2
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x24eca0867dc02baca23bc5fea9f0b746c6776eec",
+   "pairAddress": "0x24Eca0867dC02BAcA23bC5FEa9f0B746C6776EEc",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x1b50119Bad9eFA60686ec1a418409BD391148f4C",
+    "name": "BigBull Decentralized",
+    "symbol": "BBD"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "2.1630",
+   "priceUsd": "2.16",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 3
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 9
+    },
+    "h24": {
+     "buys": 22,
+     "sells": 67
+    }
+   },
+   "volume": {
+    "h24": 7760.05,
+    "h6": 3049.25,
+    "h1": 69.1,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.05,
+    "h6": -2.29,
+    "h24": -1.48
+   },
+   "liquidity": {
+    "usd": 524932.58,
+    "base": 121338,
+    "quote": 262466
+   },
+   "fdv": 237966733,
+   "marketCap": 237966733,
+   "pairCreatedAt": 1785499703000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/_adygEN4Qq4udnTC?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/UNkUZaHjAUTdSdpl?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x1b50119bad9efa60686ec1a418409bd391148f4c?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "https://bigbull.biz/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/bigbullfinance_",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/bigbull_finance",
+      "type": "telegram"
+     },
+     {
+      "url": "https://www.instagram.com/bigbull.finance_",
+      "type": "instagram"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 13.26876658866803,
+   "_liq_usd": 524932.58
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x63f3c275b8d8a786f43ce64496decc5b3a1d6856",
+   "pairAddress": "0x63F3c275b8d8a786f43ce64496decc5B3a1d6856",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xf1a05A63bc33269fc5dA861385B28ab6671a921b",
+    "name": "AiFu",
+    "symbol": "AFF"
+   },
+   "quoteToken": {
+    "address": "0xdb953299588b7A7C38044bcD004b4b1892026333",
+    "name": "Ai DeFi",
+    "symbol": "AiFi"
+   },
+   "priceNative": "0.05331",
+   "priceUsd": "0.02316",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 11,
+     "sells": 26
+    },
+    "h24": {
+     "buys": 32,
+     "sells": 53
+    }
+   },
+   "volume": {
+    "h24": 14888.98,
+    "h6": 7365.18,
+    "h1": 554.92,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.48,
+    "h6": 1.99,
+    "h24": 7.29
+   },
+   "liquidity": {
+    "usd": 458772.13,
+    "base": 9901309,
+    "quote": 527933
+   },
+   "fdv": 445435,
+   "marketCap": 445435,
+   "pairCreatedAt": 1782713145000,
+   "_src": "pairbatch",
+   "_age_days": 45.52059529237173,
+   "_liq_usd": 458772.13
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xcffc8c19cfd66b445c612339c668fa8ce1d2ea19",
+   "pairAddress": "0xcffc8C19cfD66b445C612339C668Fa8cE1d2Ea19",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x6F161448740241b01B034cB5c6B2fc34223Fad02",
+    "name": "HAKE",
+    "symbol": "HAKE"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.2478",
+   "priceUsd": "0.2478",
+   "txns": {
+    "m5": {
+     "buys": 17,
+     "sells": 6
+    },
+    "h1": {
+     "buys": 122,
+     "sells": 106
+    },
+    "h6": {
+     "buys": 920,
+     "sells": 543
+    },
+    "h24": {
+     "buys": 2961,
+     "sells": 1387
+    }
+   },
+   "volume": {
+    "h24": 823902.57,
+    "h6": 428407.32,
+    "h1": 65561.07,
+    "m5": 6508.14
+   },
+   "priceChange": {
+    "m5": 1.06,
+    "h1": -33.56,
+    "h6": -31.08,
+    "h24": -60.35
+   },
+   "liquidity": {
+    "usd": 421187.79,
+    "base": 849786,
+    "quote": 210591
+   },
+   "fdv": 31189837,
+   "marketCap": 31189837,
+   "pairCreatedAt": 1784466179000,
+   "_src": "tokenpairs",
+   "_age_days": 25.23084992200136,
+   "_liq_usd": 421187.79
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/bsc/0x51a45a72cc96ca3ba615e25e80a6af2740ae2e2d",
+   "pairAddress": "0x51A45A72Cc96CA3bA615E25e80a6Af2740ae2E2d",
+   "baseToken": {
+    "address": "0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1",
+    "name": "SpaceX",
+    "symbol": "SPCXB"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "142.4363",
+   "priceUsd": "142.43",
+   "txns": {
+    "m5": {
+     "buys": 30,
+     "sells": 42
+    },
+    "h1": {
+     "buys": 961,
+     "sells": 1082
+    },
+    "h6": {
+     "buys": 9221,
+     "sells": 9584
+    },
+    "h24": {
+     "buys": 15646,
+     "sells": 16962
+    }
+   },
+   "volume": {
+    "h24": 4502022.24,
+    "h6": 2119089.88,
+    "h1": 185808.39,
+    "m5": 3637.64
+   },
+   "priceChange": {
+    "m5": -0.06,
+    "h1": 0.12,
+    "h6": -2.43,
+    "h24": -4.02
+   },
+   "liquidity": {
+    "usd": 417946.19,
+    "base": 1138.5715,
+    "quote": 255772
+   },
+   "fdv": 69713696,
+   "marketCap": 69713696,
+   "pairCreatedAt": 1781621414000,
+   "_src": "pairbatch",
+   "_age_days": 58.1563707553347,
+   "_liq_usd": 417946.19
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xce448a804a2a00fab11b67e9830687c5646d187e",
+   "pairAddress": "0xCE448A804a2A00faB11B67e9830687C5646D187E",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xA55E9422BF173a3d5275F756B15683cCd509CBEF",
+    "name": "HASH Market Token",
+    "symbol": "HASH"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "6.2081",
+   "priceUsd": "6.20",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 2
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 12
+    },
+    "h24": {
+     "buys": 44,
+     "sells": 77
+    }
+   },
+   "volume": {
+    "h24": 8370.31,
+    "h6": 915.82,
+    "h1": 113.2,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.06,
+    "h6": -0.5,
+    "h24": 1.5
+   },
+   "liquidity": {
+    "usd": 366193.86,
+    "base": 29492,
+    "quote": 183096
+   },
+   "fdv": 620820,
+   "marketCap": 620820,
+   "pairCreatedAt": 1784107005000,
+   "_src": "pairbatch",
+   "_age_days": 29.387956403482843,
+   "_liq_usd": 366193.86
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xd20e3c6611c8ed506eca4e3c3a0e4437bc76eb85",
+   "pairAddress": "0xD20e3c6611c8Ed506ECA4e3C3a0E4437BC76eB85",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x87e22C22EE71788c3aba5F86372B0DbdB88A889e",
+    "name": "VL",
+    "symbol": "VL"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "145.6602",
+   "priceUsd": "145.66",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 5,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 19,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 1653.31,
+    "h6": 404.93,
+    "h1": 92.03,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.1,
+    "h6": 0.46,
+    "h24": 1.79
+   },
+   "liquidity": {
+    "usd": 354878,
+    "base": 1218.1705,
+    "quote": 177439
+   },
+   "fdv": 30551491,
+   "marketCap": 30551491,
+   "pairCreatedAt": 1782905861000,
+   "_src": "pairbatch",
+   "_age_days": 43.29008603311247,
+   "_liq_usd": 354878.0
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xb745780a2ae327dd4ccba179a88836ecee42cd56",
+   "pairAddress": "0xB745780A2Ae327dd4CCbA179a88836ecEe42cd56",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x57ecFb01f2FA4e8A768AaaE2B9fB4DC0CF9effff",
+    "name": "VANTA",
+    "symbol": "VTA"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000003802",
+   "priceUsd": "0.002312",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 402,
+     "sells": 123
+    },
+    "h24": {
+     "buys": 1188,
+     "sells": 394
+    }
+   },
+   "volume": {
+    "h24": 64987.46,
+    "h6": 17402.89,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -0.84,
+    "h24": -1.21
+   },
+   "liquidity": {
+    "usd": 351460.66,
+    "base": 76007800,
+    "quote": 289.02064
+   },
+   "fdv": 2298848,
+   "marketCap": 2298848,
+   "pairCreatedAt": 1781706962000,
+   "_src": "pairbatch",
+   "_age_days": 57.166231866445806,
+   "_liq_usd": 351460.66
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xd55fa2c5e63ecac3a158ca3fed4c8c2185ed45b2",
+   "pairAddress": "0xd55Fa2c5E63eCAC3A158ca3fED4c8C2185ED45b2",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x7A848a5A8169aa6a2f603D056A749f924F504444",
+    "name": "The Final Form Bull",
+    "symbol": "CZ"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000006836",
+   "priceUsd": "0.004157",
+   "txns": {
+    "m5": {
+     "buys": 5,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 34,
+     "sells": 17
+    },
+    "h6": {
+     "buys": 318,
+     "sells": 193
+    },
+    "h24": {
+     "buys": 1304,
+     "sells": 1004
+    }
+   },
+   "volume": {
+    "h24": 287280.73,
+    "h6": 49158.74,
+    "h1": 4185.29,
+    "m5": 931.36
+   },
+   "priceChange": {
+    "m5": 0.96,
+    "h1": 0.89,
+    "h6": -4.47,
+    "h24": -17.6
+   },
+   "liquidity": {
+    "usd": 341200.51,
+    "base": 41032743,
+    "quote": 280.5233
+   },
+   "fdv": 1247188,
+   "marketCap": 1247188,
+   "pairCreatedAt": 1783100367000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/zkwOIBGPCM9K6rQC?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/ewyE2neCXkX01m7M?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x7a848a5a8169aa6a2f603d056a749f924f504444?timestamp=1786646400000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/i/communities/1975172548406161791",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 41.03885918126062,
+   "_liq_usd": 341200.51
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xddc808cce3cfbc0c70ab9d3f2ddf8e87ca0778a0",
+   "pairAddress": "0xddc808cCe3CFBc0c70Ab9D3F2dDf8E87CA0778a0",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x5577622192D42740f27218dfbe16e84d70E6aBD3",
+    "name": "Grok Bot",
+    "symbol": "GrokBot"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.0000009067",
+   "priceUsd": "0.0000009067",
+   "txns": {
+    "m5": {
+     "buys": 3,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 27,
+     "sells": 18
+    },
+    "h6": {
+     "buys": 137,
+     "sells": 119
+    },
+    "h24": {
+     "buys": 586,
+     "sells": 441
+    }
+   },
+   "volume": {
+    "h24": 642723.83,
+    "h6": 158145.32,
+    "h1": 20694.25,
+    "m5": 1393.85
+   },
+   "priceChange": {
+    "m5": 1.69,
+    "h1": 7.73,
+    "h6": 2.28,
+    "h24": 568
+   },
+   "liquidity": {
+    "usd": 333240.33,
+    "base": 184671970061,
+    "quote": 165785
+   },
+   "fdv": 906768,
+   "marketCap": 906768,
+   "pairCreatedAt": 1786543366000,
+   "_src": "tokenpairs",
+   "_age_days": 1.1893337182976582,
+   "_liq_usd": 333240.33
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xb7a39286bff6cdc84ff4ca43b832b3011a3e0963",
+   "pairAddress": "0xb7A39286Bff6cdc84fF4ca43B832B3011a3e0963",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xb45a6Ce5437eBE421b341E5bb92508432Ce99999",
+    "name": "Romantic",
+    "symbol": "Romantic"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.0001092",
+   "priceUsd": "0.06644",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 12,
+     "sells": 5
+    },
+    "h6": {
+     "buys": 284,
+     "sells": 154
+    },
+    "h24": {
+     "buys": 746,
+     "sells": 541
+    }
+   },
+   "volume": {
+    "h24": 81065.22,
+    "h6": 29681.12,
+    "h1": 496.76,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.12,
+    "h6": 12.02,
+    "h24": 11.97
+   },
+   "liquidity": {
+    "usd": 327886.85,
+    "base": 2467526,
+    "quote": 269.5772
+   },
+   "fdv": 1109051,
+   "marketCap": 1109051,
+   "pairCreatedAt": 1784881028000,
+   "_src": "tokenpairs",
+   "_age_days": 20.429356866445808,
+   "_liq_usd": 327886.85
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xe9b9998b2ec5430d2246c7f1f8d9f298c97d7365",
+   "pairAddress": "0xe9b9998B2EC5430D2246c7f1F8D9f298c97D7365",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x431a3BEE82E2ca41e49895CbECE5bB0F76A89b7A",
+    "name": "Apple",
+    "symbol": "AAPLB"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "303.9658",
+   "priceUsd": "303.96",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 36,
+     "sells": 28
+    },
+    "h6": {
+     "buys": 132,
+     "sells": 147
+    },
+    "h24": {
+     "buys": 306,
+     "sells": 402
+    }
+   },
+   "volume": {
+    "h24": 145066.93,
+    "h6": 102105.66,
+    "h1": 6659.74,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.04,
+    "h6": 0.09,
+    "h24": 0.46
+   },
+   "liquidity": {
+    "usd": 319065.19,
+    "base": 682.5623,
+    "quote": 111589
+   },
+   "fdv": 5277965,
+   "marketCap": 5277965,
+   "pairCreatedAt": 1785387961000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/fyskG6U1kIKhgT96?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/PEVoPC1KCdYFtmBa?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a?timestamp=1786646100000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/finder_bnb",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 14.562076773853214,
+   "_liq_usd": 319065.19
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x14ca9d552ed2cf0d5dfd1f89bc6793a464e2ed16",
+   "pairAddress": "0x14ca9d552eD2CF0D5dFD1f89Bc6793a464e2ed16",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xFe189E97832DA1573e4e4Ff034F4fFC3a15c7777",
+    "name": "MarsCoin",
+    "symbol": "MarsCoin"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.05604",
+   "priceUsd": "0.05604",
+   "txns": {
+    "m5": {
+     "buys": 19,
+     "sells": 11
+    },
+    "h1": {
+     "buys": 454,
+     "sells": 323
+    },
+    "h6": {
+     "buys": 2323,
+     "sells": 2089
+    },
+    "h24": {
+     "buys": 7157,
+     "sells": 6852
+    }
+   },
+   "volume": {
+    "h24": 3820752.66,
+    "h6": 1446853.39,
+    "h1": 201916.15,
+    "m5": 7776.61
+   },
+   "priceChange": {
+    "m5": 0.21,
+    "h1": 1.9,
+    "h6": 2.17,
+    "h24": -4.41
+   },
+   "liquidity": {
+    "usd": 315032.95,
+    "base": 1975988,
+    "quote": 204292
+   },
+   "fdv": 56042870,
+   "marketCap": 56042870,
+   "pairCreatedAt": 1785397624000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/u4Cazq0Q1QaUwZ1Z?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/_wujGUmzqKEKF1dT?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xfe189e97832da1573e4e4ff034f4ffc3a15c7777?timestamp=1786646400000",
+    "websites": [
+     {
+      "url": "https://www.marscoinbnb.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/MarsCoin7777",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 14.450236496075435,
+   "_liq_usd": 315032.95
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xfc76cc56c5f0962fdba127f5a582df37fda9ce71",
+   "pairAddress": "0xfC76cc56C5f0962fDBa127F5a582Df37FDA9CE71",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x1Df197D03967eD707E5AABc2c6Cf0c0d62cb7777",
+    "name": "\u5343\u91cc\u9a6c",
+    "symbol": "QLM"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.00001824",
+   "priceUsd": "0.01109",
+   "txns": {
+    "m5": {
+     "buys": 4,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 56,
+     "sells": 3
+    },
+    "h6": {
+     "buys": 351,
+     "sells": 44
+    },
+    "h24": {
+     "buys": 1533,
+     "sells": 217
+    }
+   },
+   "volume": {
+    "h24": 64703.8,
+    "h6": 7661.17,
+    "h1": 677.48,
+    "m5": 24.32
+   },
+   "priceChange": {
+    "m5": 0.12,
+    "h1": 0.81,
+    "h6": 0.75,
+    "h24": 6.87
+   },
+   "liquidity": {
+    "usd": 311094,
+    "base": 14014414,
+    "quote": 255.7103
+   },
+   "fdv": 1608141,
+   "marketCap": 1650163,
+   "pairCreatedAt": 1783511386000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/fHMrD67DpHbRG9rU?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/GtH23Ug2Pqp4C_LL?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x1df197d03967ed707e5aabc2c6cf0c0d62cb7777?timestamp=1786646400000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/Qlm_DeFi",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/QLiM_Flap",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 36.28169482940877,
+   "_liq_usd": 311094.0
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x44ea468b40ec3f9de546fd5da9c3af7a9d23833a",
+   "pairAddress": "0x44Ea468B40ec3f9DE546Fd5Da9C3AF7A9D23833A",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xe9337Dde3dd9e97f1f45A56412767ce5098E7777",
+    "name": "\u4f55\u5fc5\u4e1c\u5954\u897f\u8d70 \u5e01\u5b89\u5168\u90e8\u90fd\u6709",
+    "symbol": "\u5e01\u6709"
+   },
+   "quoteToken": {
+    "address": "0x7138b48df7D98D7e3cc221BfE7192D0a178182D8",
+    "name": "SPY",
+    "symbol": "SPYB"
+   },
+   "priceNative": "0.000007228",
+   "priceUsd": "0.005605",
+   "txns": {
+    "m5": {
+     "buys": 28,
+     "sells": 10
+    },
+    "h1": {
+     "buys": 514,
+     "sells": 340
+    },
+    "h6": {
+     "buys": 3880,
+     "sells": 2425
+    },
+    "h24": {
+     "buys": 11088,
+     "sells": 6462
+    }
+   },
+   "volume": {
+    "h24": 4700494.85,
+    "h6": 1731254.79,
+    "h1": 232004.16,
+    "m5": 7786.81
+   },
+   "priceChange": {
+    "m5": -0.71,
+    "h1": -10.01,
+    "h6": -20.9,
+    "h24": -39.49
+   },
+   "liquidity": {
+    "usd": 309794.1,
+    "base": 27561238,
+    "quote": 200.235
+   },
+   "fdv": 5605784,
+   "marketCap": 5605784,
+   "pairCreatedAt": 1785499479000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/SsIr-9CUtKdF1bxK?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/8iOrK5xmlzApKuZV?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xe9337dde3dd9e97f1f45a56412767ce5098e7777?timestamp=1786646100000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/0xcocoCN/status/2059925780747178413",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 13.271359181260621,
+   "_liq_usd": 309794.1
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x5de5a5da39a23a023b964c25d1a836f9eea7cfd1",
+   "pairAddress": "0x5de5A5Da39a23a023B964C25d1A836F9eeA7CFD1",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x57aeDac0cCaafDEc0ec62FC4fBFd8252735affff",
+    "name": "REAL WORLD APPAREL",
+    "symbol": "JACKET"
+   },
+   "quoteToken": {
+    "address": "0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436",
+    "name": "NVIDIA Corp",
+    "symbol": "NVDAB"
+   },
+   "priceNative": "0.00001939",
+   "priceUsd": "0.004378",
+   "txns": {
+    "m5": {
+     "buys": 22,
+     "sells": 12
+    },
+    "h1": {
+     "buys": 246,
+     "sells": 231
+    },
+    "h6": {
+     "buys": 1617,
+     "sells": 1604
+    },
+    "h24": {
+     "buys": 5543,
+     "sells": 5496
+    }
+   },
+   "volume": {
+    "h24": 1636298.82,
+    "h6": 640123.53,
+    "h1": 91483.48,
+    "m5": 5307.8
+   },
+   "priceChange": {
+    "m5": 0.06,
+    "h1": -9.86,
+    "h6": 8.4,
+    "h24": 0.51
+   },
+   "liquidity": {
+    "usd": 307361.17,
+    "base": 35149612,
+    "quote": 679.7475
+   },
+   "fdv": 4378753,
+   "marketCap": 4378753,
+   "pairCreatedAt": 1785766888000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/tLusa-uKfRakBTvi?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/39hLB_mAufkkhXlh?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x57aedac0ccaafdec0ec62fc4fbfd8252735affff?timestamp=1786646700000",
+    "websites": [
+     {
+      "url": "https://jacket.fund/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/jacket_cto",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 10.176347607186546,
+   "_liq_usd": 307361.17
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x7aa6d92fc369a8c1edc631a3aac44efb0808ddbf",
+   "pairAddress": "0x7aA6d92Fc369A8C1EDc631A3aAc44eFB0808ddbF",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x7138b48df7D98D7e3cc221BfE7192D0a178182D8",
+    "name": "SPY",
+    "symbol": "SPYB"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "777.3550",
+   "priceUsd": "777.35",
+   "txns": {
+    "m5": {
+     "buys": 15,
+     "sells": 16
+    },
+    "h1": {
+     "buys": 238,
+     "sells": 360
+    },
+    "h6": {
+     "buys": 4248,
+     "sells": 4981
+    },
+    "h24": {
+     "buys": 12877,
+     "sells": 15677
+    }
+   },
+   "volume": {
+    "h24": 5149358.71,
+    "h6": 2085543.36,
+    "h1": 73358.74,
+    "m5": 4301.26
+   },
+   "priceChange": {
+    "m5": 0.02,
+    "h1": -0.07,
+    "h6": 0.37,
+    "h24": 0.51
+   },
+   "liquidity": {
+    "usd": 305848.88,
+    "base": 140.4451,
+    "quote": 196673
+   },
+   "fdv": 18264434,
+   "marketCap": 18264434,
+   "pairCreatedAt": 1783475229000,
+   "_src": "pairbatch",
+   "_age_days": 36.700178625705064,
+   "_liq_usd": 305848.88
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/bsc/0x3b75172a3d636b763980b2e950268dc6f59c0b72",
+   "pairAddress": "0x3b75172a3d636b763980B2E950268dc6F59c0b72",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x27645951262895AC9f4F18Cde02154aA4fbb86C0",
+    "name": "GOGOGO",
+    "symbol": "GOGOGO"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.0000000009038",
+   "priceUsd": "0.0000000009038",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 6,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 93,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 331.86,
+    "h6": 28.26,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.04,
+    "h24": 0.44
+   },
+   "liquidity": {
+    "usd": 296617.56,
+    "base": 164085165475945,
+    "quote": 148308
+   },
+   "fdv": 148451,
+   "marketCap": 148451,
+   "pairCreatedAt": 1783008535000,
+   "_src": "pairbatch",
+   "_age_days": 42.10172955163099,
+   "_liq_usd": 296617.56
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x4366ca77b9b561ac2ee7a683f6088a368d900bf8",
+   "pairAddress": "0x4366cA77B9B561aC2EE7A683F6088a368d900Bf8",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xC2d2DfBf9A7F27138Ee32b9a4C17a2E5233aAAAA",
+    "name": "APEX",
+    "symbol": "APEX"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.0000009919",
+   "priceUsd": "0.0006059",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 4,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 44,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 1432.12,
+    "h6": 91.55,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.09,
+    "h24": 4.07
+   },
+   "liquidity": {
+    "usd": 284707.34,
+    "base": 234943507,
+    "quote": 233.0572
+   },
+   "fdv": 175578,
+   "marketCap": 175578,
+   "pairCreatedAt": 1781482460000,
+   "_src": "pairbatch",
+   "_age_days": 59.764634644223584,
+   "_liq_usd": 284707.34
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x5fbd0eed09f1fdf8ed6ce503ce2ffda8a5988d69",
+   "pairAddress": "0x5fbd0EED09f1fDf8Ed6cE503ce2fFDA8a5988d69",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x18b866363a03E1e1eF4E61648E253bE8E2a2d682",
+    "name": "RMT",
+    "symbol": "RMT"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000002687",
+   "priceUsd": "0.001635",
+   "txns": {
+    "m5": {
+     "buys": 9,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 93,
+     "sells": 2
+    },
+    "h6": {
+     "buys": 882,
+     "sells": 10
+    },
+    "h24": {
+     "buys": 2314,
+     "sells": 34
+    }
+   },
+   "volume": {
+    "h24": 4498.11,
+    "h6": 1450.45,
+    "h1": 175.99,
+    "m5": 12.08
+   },
+   "priceChange": {
+    "m5": 0.1,
+    "h1": 0.13,
+    "h6": 1.34,
+    "h24": 4.82
+   },
+   "liquidity": {
+    "usd": 283702.67,
+    "base": 86751109,
+    "quote": 233.1317
+   },
+   "fdv": 1539130,
+   "marketCap": 1539130,
+   "pairCreatedAt": 1783503445000,
+   "_src": "tokenpairs",
+   "_age_days": 36.37360455163099,
+   "_liq_usd": 283702.67
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x4cb1b8b701cd46bdf8b8ceb78459acbfd842e4ff",
+   "pairAddress": "0x4Cb1B8B701Cd46Bdf8b8CeB78459acbFD842E4fF",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x5892B6EE1adEeb7d6169FCB052cfcF6bBc253139",
+    "name": "MC",
+    "symbol": "MC"
+   },
+   "quoteToken": {
+    "address": "0x82BbE7f1864279fc9604267509D6BAe946333919",
+    "name": "RT",
+    "symbol": "RT"
+   },
+   "priceNative": "0.04182",
+   "priceUsd": "0.003290",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 20,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 92,
+     "sells": 7
+    }
+   },
+   "volume": {
+    "h24": 411.89,
+    "h6": 32.45,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 1.57,
+    "h24": 18.87
+   },
+   "liquidity": {
+    "usd": 281748.77,
+    "base": 42811984,
+    "quote": 1790739
+   },
+   "fdv": 319801,
+   "marketCap": 319801,
+   "pairCreatedAt": 1786173282000,
+   "_src": "pairbatch",
+   "_age_days": 5.472713347927288,
+   "_liq_usd": 281748.77
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xc338a9ca7577370826e8e58f096f657178fd1b5c",
+   "pairAddress": "0xC338a9cA7577370826e8e58F096F657178Fd1b5c",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x31d19B3633eBdb60Dc9d690b3e9eB1FFF61A7777",
+    "name": "Asian games",
+    "symbol": "Asian games"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.00001598",
+   "priceUsd": "0.009721",
+   "txns": {
+    "m5": {
+     "buys": 8,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 89,
+     "sells": 4
+    },
+    "h6": {
+     "buys": 923,
+     "sells": 133
+    },
+    "h24": {
+     "buys": 2734,
+     "sells": 360
+    }
+   },
+   "volume": {
+    "h24": 166496.73,
+    "h6": 69947.13,
+    "h1": 923.52,
+    "m5": 10.52
+   },
+   "priceChange": {
+    "m5": 0.07,
+    "h1": 0.02,
+    "h6": -9.28,
+    "h24": -7.54
+   },
+   "liquidity": {
+    "usd": 280691.81,
+    "base": 14436093,
+    "quote": 230.7106
+   },
+   "fdv": 2889697,
+   "marketCap": 2889697,
+   "pairCreatedAt": 1786191816000,
+   "_src": "pairbatch",
+   "_age_days": 5.258199459038399,
+   "_liq_usd": 280691.81
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xd496ea8c50494462ad035c7a9176504ea1354d85",
+   "pairAddress": "0xd496Ea8C50494462aD035c7a9176504ea1354D85",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x0881623565F98311c26D2D3cBd91C88e415cc4E1",
+    "name": "Multipli",
+    "symbol": "MULT"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.00000002497",
+   "priceUsd": "0.00001519",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 28,
+     "sells": 21
+    },
+    "h6": {
+     "buys": 170,
+     "sells": 129
+    },
+    "h24": {
+     "buys": 678,
+     "sells": 524
+    }
+   },
+   "volume": {
+    "h24": 295773.29,
+    "h6": 74102.83,
+    "h1": 14412.92,
+    "m5": 939.34
+   },
+   "priceChange": {
+    "m5": -0.14,
+    "h1": 4.45,
+    "h6": 13.65,
+    "h24": 72.17
+   },
+   "liquidity": {
+    "usd": 277413.69,
+    "base": 9130696955,
+    "quote": 228.02375
+   },
+   "fdv": 1517962,
+   "marketCap": 1517962,
+   "pairCreatedAt": 1786361985000,
+   "_src": "pairbatch",
+   "_age_days": 3.2886508479272876,
+   "_liq_usd": 277413.69
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x92f9f7909852e0b9f20c56c481b18010562d034a",
+   "pairAddress": "0x92f9f7909852E0B9F20C56c481B18010562d034A",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xDd1667eC26684D62B43958D7f161540318720839",
+    "name": "ZT",
+    "symbol": "ZT"
+   },
+   "quoteToken": {
+    "address": "0xC9882dEF23bc42D53895b8361D0b1EDC7570Bc6A",
+    "name": "FistToken",
+    "symbol": "FIST"
+   },
+   "priceNative": "0.01340",
+   "priceUsd": "0.003207",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 9,
+     "sells": 3
+    },
+    "h6": {
+     "buys": 70,
+     "sells": 38
+    },
+    "h24": {
+     "buys": 271,
+     "sells": 103
+    }
+   },
+   "volume": {
+    "h24": 19821.49,
+    "h6": 3728.88,
+    "h1": 427.32,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.49,
+    "h6": -3.79,
+    "h24": -12.1
+   },
+   "liquidity": {
+    "usd": 267766.69,
+    "base": 41739436,
+    "quote": 559531
+   },
+   "fdv": 646611,
+   "marketCap": 646611,
+   "pairCreatedAt": 1784616775000,
+   "_src": "pairbatch",
+   "_age_days": 23.4878406627421,
+   "_liq_usd": 267766.69
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xb0f5e5400e8f0f7c242f2b7740c004f020579c41",
+   "pairAddress": "0xB0f5E5400E8F0F7C242F2b7740C004f020579c41",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x5b1910eAaD6450E50f816082Aa078C41F10C292f",
+    "name": "Tesla, Inc. ",
+    "symbol": "TSLAB"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "338.1317",
+   "priceUsd": "338.13",
+   "txns": {
+    "m5": {
+     "buys": 3,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 305,
+     "sells": 347
+    },
+    "h6": {
+     "buys": 1211,
+     "sells": 1048
+    },
+    "h24": {
+     "buys": 2103,
+     "sells": 2092
+    }
+   },
+   "volume": {
+    "h24": 407366.07,
+    "h6": 292221.93,
+    "h1": 62365.62,
+    "m5": 601.83
+   },
+   "priceChange": {
+    "m5": 0.03,
+    "h1": 0.54,
+    "h6": 3.77,
+    "h24": 3.49
+   },
+   "liquidity": {
+    "usd": 267185.63,
+    "base": 138.02155,
+    "quote": 220516
+   },
+   "fdv": 13472274,
+   "marketCap": 13472274,
+   "pairCreatedAt": 1785482576000,
+   "_src": "pairbatch",
+   "_age_days": 13.466995755334695,
+   "_liq_usd": 267185.63
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xe2561a789e8d94f3f9b620aaecc627e1e205fe8b",
+   "pairAddress": "0xe2561a789E8d94f3f9B620AaEcc627e1E205FE8B",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xCa56094722450016F280C4Fd6a333E5c36903827",
+    "name": "ShopinX Token",
+    "symbol": "SPX"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.2471",
+   "priceUsd": "0.2471",
+   "txns": {
+    "m5": {
+     "buys": 4,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 48,
+     "sells": 26
+    },
+    "h6": {
+     "buys": 222,
+     "sells": 140
+    },
+    "h24": {
+     "buys": 751,
+     "sells": 611
+    }
+   },
+   "volume": {
+    "h24": 156371.11,
+    "h6": 44445.99,
+    "h1": 8430.32,
+    "m5": 425.51
+   },
+   "priceChange": {
+    "m5": 0.16,
+    "h1": 1.05,
+    "h6": 5.17,
+    "h24": 2.12
+   },
+   "liquidity": {
+    "usd": 263717.33,
+    "base": 583494,
+    "quote": 119523
+   },
+   "fdv": 247121214,
+   "marketCap": 61780304,
+   "pairCreatedAt": 1785020106000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/r4qDYkT28Y0LBVLb?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/zLHI5bZkD-uro1sQ?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xca56094722450016f280c4fd6a333e5c36903827?timestamp=1786646400000",
+    "websites": [
+     {
+      "url": "https://shopinx.io",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/ShopinxSPX",
+      "type": "twitter"
+     },
+     {
+      "url": "https://www.instagram.com/shopin.x?igsh=MXJ3cjl6eHI0emY5OA==",
+      "type": "instagram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 18.819657792371732,
+   "_liq_usd": 263717.33
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x3dc984df68520e3269243db6adca691a031473e7",
+   "pairAddress": "0x3dC984dF68520E3269243Db6Adca691a031473E7",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x7122af246EBd72899268DcFa486d2E437A419527",
+    "name": "\u529f\u592b\u5973\u8db3",
+    "symbol": "\u529f\u592b\u5973\u8db3"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.00002241",
+   "priceUsd": "0.01363",
+   "txns": {
+    "m5": {
+     "buys": 6,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 69,
+     "sells": 5
+    },
+    "h6": {
+     "buys": 609,
+     "sells": 148
+    },
+    "h24": {
+     "buys": 2467,
+     "sells": 877
+    }
+   },
+   "volume": {
+    "h24": 340970.88,
+    "h6": 77190.96,
+    "h1": 3656.27,
+    "m5": 68.47
+   },
+   "priceChange": {
+    "m5": 0.14,
+    "h1": -0.97,
+    "h6": -10.04,
+    "h24": -14.31
+   },
+   "liquidity": {
+    "usd": 257507.06,
+    "base": 9439899,
+    "quote": 211.6334
+   },
+   "fdv": 2720084,
+   "marketCap": 2720084,
+   "pairCreatedAt": 1786437327000,
+   "_src": "tokenpairs",
+   "_age_days": 2.416636959038399,
+   "_liq_usd": 257507.06
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x18d52270d09ab842c87acd45977dcf64a82fa4ad",
+   "pairAddress": "0x18d52270d09AB842c87acd45977dCF64a82FA4ad",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436",
+    "name": "NVIDIA Corp",
+    "symbol": "NVDAB"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "225.6550",
+   "priceUsd": "225.65",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 54,
+     "sells": 46
+    },
+    "h6": {
+     "buys": 278,
+     "sells": 247
+    },
+    "h24": {
+     "buys": 490,
+     "sells": 422
+    }
+   },
+   "volume": {
+    "h24": 64233.22,
+    "h6": 25440.06,
+    "h1": 5347.87,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.14,
+    "h24": 1.16
+   },
+   "liquidity": {
+    "usd": 255127.41,
+    "base": 356.07553,
+    "quote": 174777
+   },
+   "fdv": 9860041,
+   "marketCap": 9860041,
+   "pairCreatedAt": 1785306683000,
+   "_src": "pairbatch",
+   "_age_days": 15.502794366445807,
+   "_liq_usd": 255127.41
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x2d473fcf1113888a76e678bdf808e557422833a6",
+   "pairAddress": "0x2D473fCF1113888a76e678bDf808e557422833a6",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x5e4538460E07A12ea756fe1B774bf5C006797777",
+    "name": "BoLe",
+    "symbol": "BoLe"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.00001254",
+   "priceUsd": "0.007636",
+   "txns": {
+    "m5": {
+     "buys": 5,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 54,
+     "sells": 3
+    },
+    "h6": {
+     "buys": 354,
+     "sells": 64
+    },
+    "h24": {
+     "buys": 1364,
+     "sells": 255
+    }
+   },
+   "volume": {
+    "h24": 58325.54,
+    "h6": 22051.6,
+    "h1": 768.71,
+    "m5": 60.86
+   },
+   "priceChange": {
+    "m5": 0.17,
+    "h1": 1.12,
+    "h6": 0.95,
+    "h24": -0.06
+   },
+   "liquidity": {
+    "usd": 252843.54,
+    "base": 16556811,
+    "quote": 207.5895
+   },
+   "fdv": 3118115,
+   "marketCap": 3123201,
+   "pairCreatedAt": 1784113219000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/b4YlUOH64ceEA2mv?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/3Y4AbGIkDPSqbt1l?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x5e4538460e07a12ea756fe1b774bf5c006797777?timestamp=1786646700000",
+    "websites": [
+     {
+      "url": "https://m.debox.pro/group?id=hbueubhc&code=j3e35crx",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/_GOUTCOIN",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/BoLeOfficial",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 29.316035107186547,
+   "_liq_usd": 252843.54
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xdabbd019c0174bdae6354f32b158d42e4a0e7489",
+   "pairAddress": "0xdabbd019c0174BDAE6354f32b158D42e4A0E7489",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xB0c2aB5af4028461acE3f6e1C33a4eE1404E7777",
+    "name": "Cets On Gold",
+    "symbol": "CETS"
+   },
+   "quoteToken": {
+    "address": "0x21cAef8A43163Eea865baeE23b9C2E327696A3bf",
+    "name": "Tether Gold",
+    "symbol": "XAUt"
+   },
+   "priceNative": "0.000001168",
+   "priceUsd": "0.005081",
+   "txns": {
+    "m5": {
+     "buys": 7,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 89,
+     "sells": 58
+    },
+    "h6": {
+     "buys": 1187,
+     "sells": 450
+    },
+    "h24": {
+     "buys": 2526,
+     "sells": 1234
+    }
+   },
+   "volume": {
+    "h24": 822449.99,
+    "h6": 220216.32,
+    "h1": 27649.86,
+    "m5": 3689.16
+   },
+   "priceChange": {
+    "m5": 6.07,
+    "h1": 3.18,
+    "h6": 12.66,
+    "h24": 11.44
+   },
+   "liquidity": {
+    "usd": 252176.57,
+    "base": 24811747,
+    "quote": 28.9873
+   },
+   "fdv": 4856767,
+   "marketCap": 4865910,
+   "pairCreatedAt": 1785990216000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/JHaysQJRxvozJKl4?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/nKNsntiqfYwLvgMQ?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xb0c2ab5af4028461ace3f6e1c33a4ee1404e7777?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "https://cetsongold.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/cetsongold",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/cetsongold",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 7.591532792371733,
+   "_liq_usd": 252176.57
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x3a4b1ff7efe14d16d353a862cd9e9d1fd4781d0e",
+   "pairAddress": "0x3a4B1Ff7EFe14d16D353A862cD9e9d1fd4781D0e",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x0fD1eBe9200DC1E587B8Ee82Ccbd2a13413532f2",
+    "name": "PEPGEM",
+    "symbol": "PEPGEM"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.1519",
+   "priceUsd": "0.1519",
+   "txns": {
+    "m5": {
+     "buys": 7,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 73,
+     "sells": 44
+    },
+    "h6": {
+     "buys": 436,
+     "sells": 245
+    },
+    "h24": {
+     "buys": 4147,
+     "sells": 5609
+    }
+   },
+   "volume": {
+    "h24": 175242.92,
+    "h6": 1151.36,
+    "h1": 93.36,
+    "m5": 9.95
+   },
+   "priceChange": {
+    "h1": 0.01,
+    "h6": 0.71,
+    "h24": 5.4
+   },
+   "liquidity": {
+    "usd": 247199.75,
+    "base": 813285,
+    "quote": 123599
+   },
+   "fdv": 14782858,
+   "marketCap": 14782858,
+   "pairCreatedAt": 1784897940000,
+   "_src": "tokenpairs",
+   "_age_days": 20.233616125705066,
+   "_liq_usd": 247199.75
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x0d2ecc05f8f38129d4ff21585f050821f17de5cc",
+   "pairAddress": "0x0D2Ecc05f8F38129d4Ff21585f050821F17De5cC",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x670225Aa919952c630764F5A7d36837c9f866666",
+    "name": "BF",
+    "symbol": "BF"
+   },
+   "quoteToken": {
+    "address": "0x04125F069597A132ea40054397e6b6564B3b7777",
+    "name": "\u90fd\u8e0f\u9a6c\u5f97\u6765",
+    "symbol": "\u90fd\u8e0f\u9a6c\u5f97\u6765"
+   },
+   "priceNative": "26879.8683",
+   "priceUsd": "19.087",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 5,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 22,
+     "sells": 10
+    }
+   },
+   "volume": {
+    "h24": 783.88,
+    "h6": 209.9,
+    "h1": 99.85,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.28,
+    "h6": -5.36,
+    "h24": -1.14
+   },
+   "liquidity": {
+    "usd": 239647.33,
+    "base": 6277.6865,
+    "quote": 168743389
+   },
+   "fdv": 161849,
+   "marketCap": 161849,
+   "pairCreatedAt": 1783797321000,
+   "_src": "pairbatch",
+   "_age_days": 32.9722619590384,
+   "_liq_usd": 239647.33
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x12ca5bdf5fae4b0fe7d2855c6799ae09218d6874",
+   "pairAddress": "0x12CA5BdF5fAE4B0fE7D2855c6799ae09218D6874",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xDD2FeE7fc438AEA520e2678E9dDBebC5B7b63333",
+    "name": "DBURN",
+    "symbol": "DBURN"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.0001386",
+   "priceUsd": "0.08435",
+   "txns": {
+    "m5": {
+     "buys": 7,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 57,
+     "sells": 9
+    },
+    "h6": {
+     "buys": 560,
+     "sells": 140
+    },
+    "h24": {
+     "buys": 2293,
+     "sells": 582
+    }
+   },
+   "volume": {
+    "h24": 229009.79,
+    "h6": 47798.92,
+    "h1": 1567.64,
+    "m5": 88.66
+   },
+   "priceChange": {
+    "m5": 0.21,
+    "h1": -0.72,
+    "h6": 3.38,
+    "h24": -17.81
+   },
+   "liquidity": {
+    "usd": 236864.5,
+    "base": 1403938,
+    "quote": 194.6874
+   },
+   "fdv": 1141178,
+   "marketCap": 1141178,
+   "pairCreatedAt": 1786081888000,
+   "_src": "pairbatch",
+   "_age_days": 6.530514273853214,
+   "_liq_usd": 236864.5
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x38cdc7d3a751e5276ae874c9c4114b7876a143c9",
+   "pairAddress": "0x38CdC7D3A751e5276aE874C9c4114b7876A143c9",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x82BbE7f1864279fc9604267509D6BAe946333919",
+    "name": "RT",
+    "symbol": "RT"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.07959",
+   "priceUsd": "0.07959",
+   "txns": {
+    "m5": {
+     "buys": 4,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 32,
+     "sells": 14
+    },
+    "h6": {
+     "buys": 202,
+     "sells": 59
+    },
+    "h24": {
+     "buys": 376,
+     "sells": 135
+    }
+   },
+   "volume": {
+    "h24": 18745.49,
+    "h6": 3245.35,
+    "h1": 441.33,
+    "m5": 38.51
+   },
+   "priceChange": {
+    "m5": 0.07,
+    "h1": 0.14,
+    "h6": 2.72,
+    "h24": 19.62
+   },
+   "liquidity": {
+    "usd": 236778.51,
+    "base": 1487405,
+    "quote": 118389
+   },
+   "fdv": 1193612,
+   "marketCap": 1193612,
+   "pairCreatedAt": 1786160462000,
+   "_src": "tokenpairs",
+   "_age_days": 5.621092977556917,
+   "_liq_usd": 236778.51
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x10e8d7a9e36cbf06e5070f61c73bc67132deb2ff",
+   "pairAddress": "0x10e8d7A9e36cBf06e5070f61c73bc67132dEB2ff",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x21cAef8A43163Eea865baeE23b9C2E327696A3bf",
+    "name": "Tether Gold",
+    "symbol": "XAUt"
+   },
+   "quoteToken": {
+    "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+    "name": "BTCB Token",
+    "symbol": "BTCB"
+   },
+   "priceNative": "0.06877",
+   "priceUsd": "4348.12",
+   "txns": {
+    "m5": {
+     "buys": 16,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 94,
+     "sells": 66
+    },
+    "h6": {
+     "buys": 841,
+     "sells": 504
+    },
+    "h24": {
+     "buys": 1857,
+     "sells": 1463
+    }
+   },
+   "volume": {
+    "h24": 760064.81,
+    "h6": 299853.84,
+    "h1": 26189.06,
+    "m5": 1462.43
+   },
+   "priceChange": {
+    "m5": 0.04,
+    "h1": 0.08,
+    "h6": -0.27,
+    "h24": -0.91
+   },
+   "liquidity": {
+    "usd": 236173.03,
+    "base": 21.9682,
+    "quote": 2.2245
+   },
+   "fdv": 57066717,
+   "marketCap": 57066717,
+   "pairCreatedAt": 1785040614000,
+   "_src": "tokenpairs",
+   "_age_days": 18.582296681260623,
+   "_liq_usd": 236173.03
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x0b72bf3c70531e04d58783b2dd12fb71180744de",
+   "pairAddress": "0x0B72bf3C70531E04d58783b2DD12fb71180744De",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x309409237C4dB70Cd66067741eDcF02Bf69E7777",
+    "name": "CZBURN",
+    "symbol": "CBURN"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.00001154",
+   "priceUsd": "0.007020",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 20,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 284,
+     "sells": 44
+    },
+    "h24": {
+     "buys": 1484,
+     "sells": 299
+    }
+   },
+   "volume": {
+    "h24": 160948.88,
+    "h6": 17356.77,
+    "h1": 217.85,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.39,
+    "h6": -1.55,
+    "h24": 20.76
+   },
+   "liquidity": {
+    "usd": 236141.26,
+    "base": 16817925,
+    "quote": 194.1114
+   },
+   "fdv": 6825323,
+   "marketCap": 6825323,
+   "pairCreatedAt": 1786445990000,
+   "_src": "tokenpairs",
+   "_age_days": 2.3163707553346953,
+   "_liq_usd": 236141.26
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x4a4bea953813c118c260be9a26b2321e57aa62e5",
+   "pairAddress": "0x4A4Bea953813C118C260BE9A26B2321E57aA62e5",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xFe189E97832DA1573e4e4Ff034F4fFC3a15c7777",
+    "name": "MarsCoin",
+    "symbol": "MarsCoin"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.05603",
+   "priceUsd": "0.05603",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 40,
+     "sells": 17
+    },
+    "h6": {
+     "buys": 229,
+     "sells": 109
+    },
+    "h24": {
+     "buys": 563,
+     "sells": 470
+    }
+   },
+   "volume": {
+    "h24": 538933.95,
+    "h6": 160274.87,
+    "h1": 19219.11,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 1.53,
+    "h6": 2.38,
+    "h24": -3.97
+   },
+   "liquidity": {
+    "usd": 219313.03,
+    "base": 1442156,
+    "quote": 138495
+   },
+   "fdv": 56039455,
+   "marketCap": 56039455,
+   "pairCreatedAt": 1785249282000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/u4Cazq0Q1QaUwZ1Z?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/_wujGUmzqKEKF1dT?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xfe189e97832da1573e4e4ff034f4ffc3a15c7777?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "https://www.marscoinbnb.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/MarsCoin7777",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 16.167157792371732,
+   "_liq_usd": 219313.03
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xfbb04b4d5f8610d09cc6973b1efd44c0fe51bbac",
+   "pairAddress": "0xfBb04B4D5F8610D09cc6973b1Efd44C0fE51bbAc",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x3A51dAE2Dc3D901A2cEfeD3Ad128116bf31C7777",
+    "name": "\u66b4\u8e81\u725b",
+    "symbol": "\u66b4\u8e81\u725b"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000008725",
+   "priceUsd": "0.005308",
+   "txns": {
+    "m5": {
+     "buys": 6,
+     "sells": 3
+    },
+    "h1": {
+     "buys": 62,
+     "sells": 69
+    },
+    "h6": {
+     "buys": 346,
+     "sells": 296
+    },
+    "h24": {
+     "buys": 1343,
+     "sells": 766
+    }
+   },
+   "volume": {
+    "h24": 9134.91,
+    "h6": 4234.09,
+    "h1": 580.6,
+    "m5": 3.19
+   },
+   "priceChange": {
+    "m5": 0.06,
+    "h1": -0.91,
+    "h6": -4.14,
+    "h24": -4.78
+   },
+   "liquidity": {
+    "usd": 209015.84,
+    "base": 19688644,
+    "quote": 171.7979
+   },
+   "fdv": 673556,
+   "marketCap": 673556,
+   "pairCreatedAt": 1784979908000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/fX1QhevW_6FdAM0U?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x3a51dae2dc3d901a2cefed3ad128116bf31c7777?timestamp=1786646100000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/ANGRYBULU",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/ANGRYBULU",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 19.284912422001362,
+   "_liq_usd": 209015.84
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x207fb72397dde915d0d48427f77ff26bbcff2bae",
+   "pairAddress": "0x207fB72397ddE915D0d48427F77ff26bBcFf2BAE",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xaA63730f078FF3C3B31e3521BD8E63A8a7a7297e",
+    "name": "\u5b87\u6811\u673a\u5668\u4eba",
+    "symbol": "\u5b87\u6811\u673a\u5668\u4eba"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000000004965",
+   "priceUsd": "0.000003020",
+   "txns": {
+    "m5": {
+     "buys": 5,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 88,
+     "sells": 32
+    },
+    "h6": {
+     "buys": 537,
+     "sells": 199
+    },
+    "h24": {
+     "buys": 2120,
+     "sells": 799
+    }
+   },
+   "volume": {
+    "h24": 1137991.24,
+    "h6": 288802.1,
+    "h1": 45726.65,
+    "m5": 2896.46
+   },
+   "priceChange": {
+    "m5": 3.33,
+    "h1": 4.81,
+    "h6": 50.13,
+    "h24": 614
+   },
+   "liquidity": {
+    "usd": 201381.4,
+    "base": 33334084954,
+    "quote": 165.5225
+   },
+   "fdv": 3020653,
+   "marketCap": 3020653,
+   "pairCreatedAt": 1786534331000,
+   "_src": "pairbatch",
+   "_age_days": 1.2939054775569174,
+   "_liq_usd": 201381.4
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x46b7d5f6a5a465052648ad6ed8a51a0d713e3280",
+   "pairAddress": "0x46b7d5F6a5a465052648ad6ED8a51A0D713e3280",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xF5Ed4e9fb91F19D2E7f9D485F8D812c679eedd50",
+    "name": "\u8d64\u5b50",
+    "symbol": "CZ"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.9611",
+   "priceUsd": "0.9611",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 4,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 48,
+     "sells": 51
+    },
+    "h24": {
+     "buys": 298,
+     "sells": 285
+    }
+   },
+   "volume": {
+    "h24": 66699.38,
+    "h6": 9106.84,
+    "h1": 108.35,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.23,
+    "h6": -5.37,
+    "h24": 8.12
+   },
+   "liquidity": {
+    "usd": 190767,
+    "base": 99237,
+    "quote": 95383
+   },
+   "fdv": 961161,
+   "marketCap": 961161,
+   "pairCreatedAt": 1785506288000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/oB6Ff-tIOSFCFoEm?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/ultz18WlpJOADVZQ?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xf5ed4e9fb91f19d2e7f9d485f8d812c679eedd50?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "https://chizifi.app",
+      "label": "Website"
+     },
+     {
+      "url": "https://m.debox.pro/group?id=uqw5ek6c&code=rs8ek3zq",
+      "label": "DEBOX"
+     }
+    ],
+    "socials": []
+   },
+   "_src": "pairbatch",
+   "_age_days": 13.19255131089025,
+   "_liq_usd": 190767.0
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x439bbbcb0536460850d95158439968b8fbcdbf20",
+   "pairAddress": "0x439BBbcb0536460850d95158439968B8FBCdbF20",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x0118508d60B355b83B96eAcc08C41b71E8314c6b",
+    "name": "\u5e01\u5b89\u5b87\u5b99",
+    "symbol": "\u5e01\u5b89\u5b87\u5b99"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000000002159",
+   "priceUsd": "0.000001313",
+   "txns": {
+    "m5": {
+     "buys": 9,
+     "sells": 3
+    },
+    "h1": {
+     "buys": 89,
+     "sells": 32
+    },
+    "h6": {
+     "buys": 527,
+     "sells": 193
+    },
+    "h24": {
+     "buys": 2086,
+     "sells": 795
+    }
+   },
+   "volume": {
+    "h24": 1126168.93,
+    "h6": 281717.36,
+    "h1": 45220.61,
+    "m5": 3305.51
+   },
+   "priceChange": {
+    "m5": 2.28,
+    "h1": 8.41,
+    "h6": 80.76,
+    "h24": 651
+   },
+   "liquidity": {
+    "usd": 188220.17,
+    "base": 71814966679,
+    "quote": 154.3394
+   },
+   "fdv": 1313655,
+   "marketCap": 1313655,
+   "pairCreatedAt": 1786532564000,
+   "_src": "tokenpairs",
+   "_age_days": 1.3143568664458063,
+   "_liq_usd": 188220.17
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x84307d86e8c367a98acdcab707ebe741e1f2c412",
+   "pairAddress": "0x84307D86E8C367a98aCDcaB707eBE741E1F2C412",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xeEb3d73d4dd44e6E4d957d89492f05d5CCeE7777",
+    "name": "SUMMER",
+    "symbol": "SUMMER"
+   },
+   "quoteToken": {
+    "address": "0x7138b48df7D98D7e3cc221BfE7192D0a178182D8",
+    "name": "SPY",
+    "symbol": "SPYB"
+   },
+   "priceNative": "0.000003043",
+   "priceUsd": "0.002360",
+   "txns": {
+    "m5": {
+     "buys": 3,
+     "sells": 4
+    },
+    "h1": {
+     "buys": 67,
+     "sells": 56
+    },
+    "h6": {
+     "buys": 2850,
+     "sells": 1109
+    },
+    "h24": {
+     "buys": 4490,
+     "sells": 2248
+    }
+   },
+   "volume": {
+    "h24": 1210299.33,
+    "h6": 619034.64,
+    "h1": 21263.79,
+    "m5": 584.34
+   },
+   "priceChange": {
+    "m5": -0.33,
+    "h1": 3.27,
+    "h6": -10.53,
+    "h24": -14.88
+   },
+   "liquidity": {
+    "usd": 183667.22,
+    "base": 38910457,
+    "quote": 118.4113
+   },
+   "fdv": 2360127,
+   "marketCap": 2360127,
+   "pairCreatedAt": 1785931454000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/aB3ntId2oYy-gR_O?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xeeb3d73d4dd44e6e4d957d89492f05d5ccee7777?timestamp=1786646100000",
+    "websites": [],
+    "socials": []
+   },
+   "_src": "pairbatch",
+   "_age_days": 8.271648533112472,
+   "_liq_usd": 183667.22
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x1d0c60d03d0ee3beef7691cc8c1b2029379585e0",
+   "pairAddress": "0x1D0c60d03D0EE3bEef7691cc8c1b2029379585e0",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x7138b48df7D98D7e3cc221BfE7192D0a178182D8",
+    "name": "SPY",
+    "symbol": "SPYB"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "1.2768",
+   "priceUsd": "777.72",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 30,
+     "sells": 12
+    },
+    "h6": {
+     "buys": 288,
+     "sells": 319
+    },
+    "h24": {
+     "buys": 1089,
+     "sells": 1267
+    }
+   },
+   "volume": {
+    "h24": 77027.31,
+    "h6": 20549.66,
+    "h1": 1173.74,
+    "m5": 87.42
+   },
+   "priceChange": {
+    "m5": -0.04,
+    "h1": -0.12,
+    "h6": 0.46,
+    "h24": 0.56
+   },
+   "liquidity": {
+    "usd": 179831.77,
+    "base": 115.6138,
+    "quote": 147.6233
+   },
+   "fdv": 18273154,
+   "marketCap": 18273154,
+   "pairCreatedAt": 1785747842000,
+   "_src": "tokenpairs",
+   "_age_days": 10.396787422001362,
+   "_liq_usd": 179831.77
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xd91d7b5c971202ee2693ad30b217cdad0009e33d",
+   "pairAddress": "0xd91D7B5c971202eE2693Ad30b217CDad0009e33D",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xc626AD09B1c30B556705741731879EE95d7C9939",
+    "name": "Terra Kinetic Network",
+    "symbol": "TKN"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.0000008537",
+   "priceUsd": "0.0005201",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 3,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 21,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 1477.93,
+    "h6": 82.28,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.01,
+    "h24": 3.03
+   },
+   "liquidity": {
+    "usd": 179426.4,
+    "base": 172476917,
+    "quote": 147.2542
+   },
+   "fdv": 99498,
+   "marketCap": 99498,
+   "pairCreatedAt": 1784782829000,
+   "_src": "pairbatch",
+   "_age_days": 21.565919366445808,
+   "_liq_usd": 179426.4
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x8fc5e4cc4768449bc7feb0bf094bcdc3e4b16975",
+   "pairAddress": "0x8fC5E4cC4768449bc7fEb0Bf094BCdc3e4B16975",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x3745e245612f130B57589688060454A8ae43276C",
+    "name": "Vow Euro",
+    "symbol": "v\u20ac"
+   },
+   "quoteToken": {
+    "address": "0x9C23942Ca2C35e06d1d20747F33705983A18d2AB",
+    "name": "Vow Dollar BSC",
+    "symbol": "v$"
+   },
+   "priceNative": "1.8602",
+   "priceUsd": "0.7130",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 3
+    },
+    "h24": {
+     "buys": 0,
+     "sells": 10
+    }
+   },
+   "volume": {
+    "h24": 600.11,
+    "h6": 101.97,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -2.78,
+    "h24": -3.61
+   },
+   "liquidity": {
+    "usd": 177407.94,
+    "base": 124398,
+    "quote": 231412
+   },
+   "fdv": 2041810,
+   "marketCap": 2041810,
+   "pairCreatedAt": 1784336853000,
+   "_src": "pairbatch",
+   "_age_days": 26.727678625705064,
+   "_liq_usd": 177407.94
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xf153fe4e7d71e7c1c8ae29344bd28991fd160e8d",
+   "pairAddress": "0xF153fe4e7D71e7c1c8aE29344BD28991Fd160e8d",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x45578E017c5014F06d5DA1707EEA7AFAec295437",
+    "name": "Zirix",
+    "symbol": "ZX"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.1860",
+   "priceUsd": "0.1860",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 2,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 22,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 39,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 12993.79,
+    "h6": 5478.65,
+    "h1": 606.5,
+    "m5": 56
+   },
+   "priceChange": {
+    "m5": 0.13,
+    "h1": 1.41,
+    "h6": 14.33,
+    "h24": 42.06
+   },
+   "liquidity": {
+    "usd": 175874.95,
+    "base": 472588,
+    "quote": 87937
+   },
+   "fdv": 454841,
+   "marketCap": 454841,
+   "pairCreatedAt": 1785781418000,
+   "_src": "pairbatch",
+   "_age_days": 10.008176310890251,
+   "_liq_usd": 175874.95
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xcf7e25d3b5890947f2c7fded0d101ab0b9175afe",
+   "pairAddress": "0xCF7e25D3B5890947f2c7fDed0D101aB0b9175AfE",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xdeA5a7a216c867Df782779f4ab0E3b2aB868f2E3",
+    "name": "\u5173\u5c71\u6708",
+    "symbol": "\u5173\u5c71\u6708"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.01490",
+   "priceUsd": "0.01490",
+   "txns": {
+    "m5": {
+     "buys": 4,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 63,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 441,
+     "sells": 53
+    },
+    "h24": {
+     "buys": 1828,
+     "sells": 246
+    }
+   },
+   "volume": {
+    "h24": 85273.19,
+    "h6": 21070.54,
+    "h1": 554.42,
+    "m5": 0.31
+   },
+   "priceChange": {
+    "h1": 0.3,
+    "h6": -9.78,
+    "h24": -9.95
+   },
+   "liquidity": {
+    "usd": 169784.81,
+    "base": 5694563,
+    "quote": 84892
+   },
+   "fdv": 1418139,
+   "marketCap": 1418139,
+   "pairCreatedAt": 1785982778000,
+   "_src": "tokenpairs",
+   "_age_days": 7.677620755334695,
+   "_liq_usd": 169784.81
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xca00fe1a387ecb65cbdd6e5aea3c4dea0ec18ad9",
+   "pairAddress": "0xca00fe1A387EcB65CbDd6E5aea3C4dea0eC18ad9",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xEB112E3feb273fFC3ea6532724d53ec8EE388888",
+    "name": "DS",
+    "symbol": "DS"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.0001982",
+   "priceUsd": "0.1208",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 46,
+     "sells": 43
+    },
+    "h24": {
+     "buys": 83,
+     "sells": 60
+    }
+   },
+   "volume": {
+    "h24": 12952.29,
+    "h6": 8469.49,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -0.9,
+    "h24": 2.71
+   },
+   "liquidity": {
+    "usd": 169219.09,
+    "base": 700000,
+    "quote": 138.7746
+   },
+   "fdv": 120871,
+   "marketCap": 120871,
+   "pairCreatedAt": 1785700428000,
+   "_src": "pairbatch",
+   "_age_days": 10.94556057014951,
+   "_liq_usd": 169219.09
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x88d81ca52ce8147917afc8a9aa4d5ac835915636",
+   "pairAddress": "0x88d81ca52cE8147917aFC8A9aa4D5AC835915636",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x4B1AaCD47bED1bD9f91935aBE149DfD8B2777777",
+    "name": "AW",
+    "symbol": "AW"
+   },
+   "quoteToken": {
+    "address": "0xD34ce4430ee40823d73C18d228f5465C3E67d4F9",
+    "name": "TaiJi",
+    "symbol": "TaiJi"
+   },
+   "priceNative": "0.1029",
+   "priceUsd": "0.04690",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 45,
+     "sells": 132
+    }
+   },
+   "volume": {
+    "h24": 6975.68,
+    "h6": 49.92,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -0.13,
+    "h24": -3.65
+   },
+   "liquidity": {
+    "usd": 165348.53,
+    "base": 1762542,
+    "quote": 181419
+   },
+   "fdv": 1302620,
+   "marketCap": 1302620,
+   "pairCreatedAt": 1783904794000,
+   "_src": "pairbatch",
+   "_age_days": 31.728361496075436,
+   "_liq_usd": 165348.53
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xc84c8a7a25ceb962403775fa5a8c38fbce0d4162",
+   "pairAddress": "0xC84c8a7A25cEb962403775FA5a8C38Fbce0D4162",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x51f1AFC16E154d1601e61EcA21d8Af4897f1e840",
+    "name": "Talus Token",
+    "symbol": "US"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.02490",
+   "priceUsd": "0.02490",
+   "txns": {
+    "m5": {
+     "buys": 73,
+     "sells": 66
+    },
+    "h1": {
+     "buys": 293,
+     "sells": 251
+    },
+    "h6": {
+     "buys": 1300,
+     "sells": 1271
+    },
+    "h24": {
+     "buys": 3587,
+     "sells": 3958
+    }
+   },
+   "volume": {
+    "h24": 452240.96,
+    "h6": 143683.36,
+    "h1": 37868.92,
+    "m5": 14850.74
+   },
+   "priceChange": {
+    "m5": 13.03,
+    "h1": 11.39,
+    "h6": -16.41,
+    "h24": -18.02
+   },
+   "liquidity": {
+    "usd": 161509.03,
+    "base": 3414225,
+    "quote": 76481
+   },
+   "fdv": 12409109,
+   "marketCap": 12409109,
+   "pairCreatedAt": 1781840503000,
+   "_src": "tokenpairs",
+   "_age_days": 55.62061844051988,
+   "_liq_usd": 161509.03
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x647b607b03abd4f3587cc0fb4704422f9a674a7f",
+   "pairAddress": "0x647b607b03aBd4F3587cC0fB4704422f9a674A7f",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xF5Ed4e9fb91F19D2E7f9D485F8D812c679eedd50",
+    "name": "\u8d64\u5b50",
+    "symbol": "CZ"
+   },
+   "quoteToken": {
+    "address": "0x19F46FDDbaC1ab00D203Cc80515a44E320260419",
+    "name": "\u592a\u521d",
+    "symbol": "Chaos"
+   },
+   "priceNative": "21.6466",
+   "priceUsd": "1.027",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 17
+    },
+    "h24": {
+     "buys": 62,
+     "sells": 24
+    }
+   },
+   "volume": {
+    "h24": 6147.71,
+    "h6": 456.23,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -1.18,
+    "h24": 13.92
+   },
+   "liquidity": {
+    "usd": 158810.93,
+    "base": 77249,
+    "quote": 1672187
+   },
+   "fdv": 1027911,
+   "marketCap": 1027911,
+   "pairCreatedAt": 1785506288000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/oB6Ff-tIOSFCFoEm?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/ultz18WlpJOADVZQ?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xf5ed4e9fb91f19d2e7f9d485f8d812c679eedd50?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "https://chizifi.app",
+      "label": "Website"
+     },
+     {
+      "url": "https://m.debox.pro/group?id=uqw5ek6c&code=rs8ek3zq",
+      "label": "DEBOX"
+     }
+    ],
+    "socials": []
+   },
+   "_src": "pairbatch",
+   "_age_days": 13.19255131089025,
+   "_liq_usd": 158810.93
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x1570651f5507720b0a8473ca1e5851049cac7a89",
+   "pairAddress": "0x1570651F5507720B0A8473ca1E5851049cac7a89",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x82FdfDBb44Cf8e1E256746dACb2A34D9B70acf8C",
+    "name": "\u5e01\u5b89\u6e38\u620f",
+    "symbol": "\u5e01\u5b89\u6e38\u620f"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000000003909",
+   "priceUsd": "0.000002385",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 70,
+     "sells": 49
+    },
+    "h24": {
+     "buys": 461,
+     "sells": 351
+    }
+   },
+   "volume": {
+    "h24": 354750.87,
+    "h6": 46380.34,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 9.66,
+    "h24": 1123
+   },
+   "liquidity": {
+    "usd": 155541.21,
+    "base": 32599280005,
+    "quote": 127.4322
+   },
+   "fdv": 1908523,
+   "marketCap": 1908523,
+   "pairCreatedAt": 1786541358000,
+   "_src": "pairbatch",
+   "_age_days": 1.2125744590383989,
+   "_liq_usd": 155541.21
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x954be0c876355cc34e7729345c61de00e9832d89",
+   "pairAddress": "0x954BE0C876355CC34e7729345c61DE00e9832d89",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x2413a79D1c4A110857fFe72328195303088Eb77f",
+    "name": "\u5e01\u5b89\u4e2d\u56fd",
+    "symbol": "\u5e01\u5b89\u4e2d\u56fd"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000000003477",
+   "priceUsd": "0.000002116",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 75,
+     "sells": 47
+    },
+    "h24": {
+     "buys": 483,
+     "sells": 353
+    }
+   },
+   "volume": {
+    "h24": 344972.21,
+    "h6": 45021.68,
+    "h1": 0.08,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.3,
+    "h6": 13.25,
+    "h24": 1236
+   },
+   "liquidity": {
+    "usd": 155170.08,
+    "base": 36662960346,
+    "quote": 127.5105
+   },
+   "fdv": 1904553,
+   "marketCap": 1904553,
+   "pairCreatedAt": 1786541232000,
+   "_src": "pairbatch",
+   "_age_days": 1.2140327923717322,
+   "_liq_usd": 155170.08
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x040c925d68a32ffa6199dada68b4b9751f07ddb0",
+   "pairAddress": "0x040C925D68A32Ffa6199DADA68b4b9751f07DDB0",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xc69EEAD86a8249A768708DBA88001FEb90068888",
+    "name": "BearWin",
+    "symbol": "BRC"
+   },
+   "quoteToken": {
+    "address": "0xc53C4AB9105bc302951366FCA84261f33E999999",
+    "name": "BWIN",
+    "symbol": "BW"
+   },
+   "priceNative": "0.05572",
+   "priceUsd": "0.002029",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 30,
+     "sells": 36
+    },
+    "h24": {
+     "buys": 221,
+     "sells": 336
+    }
+   },
+   "volume": {
+    "h24": 2216.02,
+    "h6": 540.77,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -0.92,
+    "h24": -5.32
+   },
+   "liquidity": {
+    "usd": 148816.3,
+    "base": 36667821,
+    "quote": 2043174
+   },
+   "fdv": 108939,
+   "marketCap": 108939,
+   "pairCreatedAt": 1785131993000,
+   "_src": "pairbatch",
+   "_age_days": 17.524669366445806,
+   "_liq_usd": 148816.3
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xebceb9c56f7011a424e895bc3f48b1f7229ee4e3",
+   "pairAddress": "0xebCEb9c56F7011A424E895bc3F48b1F7229ee4E3",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xb1D1F602034F7c4b242169b818200d07C117FfFF",
+    "name": "MIZU KAPPA",
+    "symbol": "MIZU"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000004079",
+   "priceUsd": "0.002481",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 3
+    },
+    "h6": {
+     "buys": 6,
+     "sells": 9
+    },
+    "h24": {
+     "buys": 36,
+     "sells": 31
+    }
+   },
+   "volume": {
+    "h24": 2895.73,
+    "h6": 368.75,
+    "h1": 66.25,
+    "m5": 48.4
+   },
+   "priceChange": {
+    "m5": -0.09,
+    "h1": 0.05,
+    "h6": 0.05,
+    "h24": 1.31
+   },
+   "liquidity": {
+    "usd": 147517.85,
+    "base": 29725884,
+    "quote": 121.2541
+   },
+   "fdv": 2481303,
+   "marketCap": 2481303,
+   "pairCreatedAt": 1783381124000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/U3AjGV7a-Rc-g3YM?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/tfr4ciPYzRHym4BI?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xb1d1f602034f7c4b242169b818200d07c117ffff?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "https://mizukappa.io/",
+      "label": "Website"
+     },
+     {
+      "url": "https://www.facebook.com/MizukappaonBsc",
+      "label": "Facebook"
+     },
+     {
+      "url": "https://whatsapp.com/channel/0029Vb78EzE6mYPG4HhB700Y",
+      "label": "WhatsApp"
+     },
+     {
+      "url": "https://www.youtube.com/@mizukappatoken",
+      "label": "YouTube"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/Mizu_kappa",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/Mizukappa",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 37.78935686644581,
+   "_liq_usd": 147517.85
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x5018b018ceb7645c927c5cf246786f89ebcbe7ea",
+   "pairAddress": "0x5018b018cEB7645c927c5Cf246786F89ebCbe7Ea",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x80106cb3EAD06659A5ad19DF39D9b4733863B9b0",
+    "name": "Microsoft",
+    "symbol": "MSFTB"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "495.7554",
+   "priceUsd": "495.75",
+   "txns": {
+    "m5": {
+     "buys": 4,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 9,
+     "sells": 4
+    },
+    "h6": {
+     "buys": 82,
+     "sells": 90
+    },
+    "h24": {
+     "buys": 1055,
+     "sells": 966
+    }
+   },
+   "volume": {
+    "h24": 136375.02,
+    "h6": 45305.97,
+    "h1": 3835.35,
+    "m5": 1540.44
+   },
+   "priceChange": {
+    "m5": 0.1,
+    "h1": 0.14,
+    "h6": 0.4,
+    "h24": 0.45
+   },
+   "liquidity": {
+    "usd": 145562.84,
+    "base": 82.251,
+    "quote": 104786
+   },
+   "fdv": 3048274,
+   "marketCap": 3048274,
+   "pairCreatedAt": 1784565856000,
+   "_src": "tokenpairs",
+   "_age_days": 24.07718094051988,
+   "_liq_usd": 145562.84
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xd3691ebbbfca22b983cc236abc38dfac56ddc65a",
+   "pairAddress": "0xd3691EBbbFCa22b983cC236abc38dFac56DdC65a",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xC689A4aF8A68c61386766755BB8C8d0A54388888",
+    "name": "EP",
+    "symbol": "EP"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.00001641",
+   "priceUsd": "0.009980",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 5
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 22
+    },
+    "h24": {
+     "buys": 0,
+     "sells": 77
+    }
+   },
+   "volume": {
+    "h24": 1442.3,
+    "h6": 492.75,
+    "h1": 80.24,
+    "m5": 2.13
+   },
+   "priceChange": {
+    "m5": 0.03,
+    "h1": -0.25,
+    "h6": -1.77,
+    "h24": -3.98
+   },
+   "liquidity": {
+    "usd": 144413.68,
+    "base": 7235153,
+    "quote": 118.7612
+   },
+   "fdv": 9858410,
+   "marketCap": 9858410,
+   "pairCreatedAt": 1782748019000,
+   "_src": "tokenpairs",
+   "_age_days": 45.116961033112474,
+   "_liq_usd": 144413.68
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xffe68427490247f4151a7e8ef744c59f4fc98a13",
+   "pairAddress": "0xFfe68427490247F4151A7E8ef744c59f4fc98a13",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xE7E569417D315Ef260778C09d289d7966213C452",
+    "name": "SIXSEVEN",
+    "symbol": "67"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.03039",
+   "priceUsd": "0.03039",
+   "txns": {
+    "m5": {
+     "buys": 3,
+     "sells": 4
+    },
+    "h1": {
+     "buys": 50,
+     "sells": 51
+    },
+    "h6": {
+     "buys": 311,
+     "sells": 306
+    },
+    "h24": {
+     "buys": 1220,
+     "sells": 1213
+    }
+   },
+   "volume": {
+    "h24": 81225.26,
+    "h6": 22029,
+    "h1": 3839.59,
+    "m5": 213.58
+   },
+   "priceChange": {
+    "m5": -0.01,
+    "h1": -0.18,
+    "h6": 1.67,
+    "h24": 6.09
+   },
+   "liquidity": {
+    "usd": 142127.91,
+    "base": 2257818,
+    "quote": 73502
+   },
+   "fdv": 2348670,
+   "marketCap": 2348670,
+   "pairCreatedAt": 1784894260000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/MZEKoayDUsmANNeY?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/lBt_-YktwxBhfd_n?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xe7e569417d315ef260778c09d289d7966213c452?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "https://6sixseven7.club/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/sixsevenapp",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/club67",
+      "type": "telegram"
+     },
+     {
+      "url": "https://www.instagram.com/club.67",
+      "type": "instagram"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 20.276208718297656,
+   "_liq_usd": 142127.91
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xa2b1926cb477e92445cf70602f1a7200361f761d",
+   "pairAddress": "0xa2b1926Cb477e92445Cf70602f1A7200361F761D",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xe9Bc5C6A86caA44fD7b469bf3cc7c563E4F77777",
+    "name": "Giggle Mascot",
+    "symbol": "Max"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000002814",
+   "priceUsd": "0.001712",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 13,
+     "sells": 19
+    },
+    "h6": {
+     "buys": 151,
+     "sells": 172
+    },
+    "h24": {
+     "buys": 945,
+     "sells": 985
+    }
+   },
+   "volume": {
+    "h24": 514673.08,
+    "h6": 64152.62,
+    "h1": 5543.8,
+    "m5": 4.92
+   },
+   "priceChange": {
+    "m5": 0.08,
+    "h1": -11.16,
+    "h6": -18.49,
+    "h24": -9.51
+   },
+   "liquidity": {
+    "usd": 140117.94,
+    "base": 40912273,
+    "quote": 115.1395
+   },
+   "fdv": 1712419,
+   "marketCap": 1712419,
+   "pairCreatedAt": 1785570602000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/MBoMVHy2AApb09MH?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/V9Y52pOaVqKmpk5f?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xe9bc5c6a86caa44fd7b469bf3cc7c563e4f77777?timestamp=1786646700000",
+    "websites": [
+     {
+      "url": "https://www.maxbnb.meme/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/GiggleMascotBNB",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/GiggleMascotBNB",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 12.44817631089025,
+   "_liq_usd": 140117.94
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xfd95cb1391999006eb91797a7c62acfe88b20292",
+   "pairAddress": "0xfD95CB1391999006Eb91797a7c62acFe88b20292",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x4eF9d3062c7F6ebA4AAE4990c5036598C6eff4ec",
+    "name": "Alibaba",
+    "symbol": "BABAB"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "121.8219",
+   "priceUsd": "121.82",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 16,
+     "sells": 71
+    },
+    "h6": {
+     "buys": 1137,
+     "sells": 684
+    },
+    "h24": {
+     "buys": 2488,
+     "sells": 1851
+    }
+   },
+   "volume": {
+    "h24": 238246.43,
+    "h6": 72558.51,
+    "h1": 2647.91,
+    "m5": 9.74
+   },
+   "priceChange": {
+    "h1": -0.06,
+    "h6": -1.59,
+    "h24": -2.59
+   },
+   "liquidity": {
+    "usd": 139424.42,
+    "base": 851.9538,
+    "quote": 35637
+   },
+   "fdv": 2443292,
+   "marketCap": 2443292,
+   "pairCreatedAt": 1785740466000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/9aXX9QHCoJuiPI59?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "https://taobaodoll.netlify.app",
+      "label": "Website"
+     }
+    ],
+    "socials": []
+   },
+   "_src": "pairbatch",
+   "_age_days": 10.482157792371732,
+   "_liq_usd": 139424.42
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xc04e7fac7ea87ea9a0d31b6bcd7ca9b44ce4f803",
+   "pairAddress": "0xC04e7fac7ea87ea9a0D31B6BCD7CA9B44CE4F803",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xa4390B901a63641c92327E5793b45FCB46954444",
+    "name": "TCryptochicks",
+    "symbol": "TCC"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000001393",
+   "priceUsd": "0.0008480",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 22,
+     "sells": 20
+    },
+    "h6": {
+     "buys": 195,
+     "sells": 149
+    },
+    "h24": {
+     "buys": 878,
+     "sells": 658
+    }
+   },
+   "volume": {
+    "h24": 110741.44,
+    "h6": 16659.68,
+    "h1": 2132.57,
+    "m5": 2.43
+   },
+   "priceChange": {
+    "m5": 0.02,
+    "h1": 1.22,
+    "h6": 1.02,
+    "h24": -14.63
+   },
+   "liquidity": {
+    "usd": 137849.89,
+    "base": 81273992,
+    "quote": 113.2534
+   },
+   "fdv": 414276,
+   "marketCap": 848057,
+   "pairCreatedAt": 1783237587000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/MKtO4_OEhkEGyXFP?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/G0xS0Qo6qBm7aM4X?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xa4390b901a63641c92327e5793b45fcb46954444?timestamp=1786646700000",
+    "websites": [
+     {
+      "url": "https://tcc.fun/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/i/communities/1987264839560147056",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/TCConBSC",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 39.45066473681618,
+   "_liq_usd": 137849.89
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x12cd92372983c4d60fd40ae6c7545bbc5ebc8ca7",
+   "pairAddress": "0x12cd92372983c4d60Fd40ae6c7545bbc5EBc8cA7",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x5460b5E88799D27bbdf8A210926C17Dec18d7777",
+    "name": "VenusCoin",
+    "symbol": "VenusCoin"
+   },
+   "quoteToken": {
+    "address": "0x21cAef8A43163Eea865baeE23b9C2E327696A3bf",
+    "name": "Tether Gold",
+    "symbol": "XAUt"
+   },
+   "priceNative": "0.0000002656",
+   "priceUsd": "0.001152",
+   "txns": {
+    "m5": {
+     "buys": 3,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 24,
+     "sells": 17
+    },
+    "h6": {
+     "buys": 220,
+     "sells": 139
+    },
+    "h24": {
+     "buys": 774,
+     "sells": 541
+    }
+   },
+   "volume": {
+    "h24": 313017.07,
+    "h6": 86319.19,
+    "h1": 10483,
+    "m5": 1109.02
+   },
+   "priceChange": {
+    "m5": 2.55,
+    "h1": -6.65,
+    "h6": -17.88,
+    "h24": -3.26
+   },
+   "liquidity": {
+    "usd": 137656.71,
+    "base": 59700147,
+    "quote": 15.8613
+   },
+   "fdv": 1117147,
+   "marketCap": 1119432,
+   "pairCreatedAt": 1785896020000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/kcvGCQHyNBoTwjzC?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/6FEEH6byaRhK8K5e?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x5460b5e88799d27bbdf8a210926c17dec18d7777?timestamp=1786646400000",
+    "websites": [
+     {
+      "url": "https://venuscoinbnb.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/VenusCoin7777",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 8.681764273853213,
+   "_liq_usd": 137656.71
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xd05df375fd50726a0680ffdc295a9ba56a7295c9",
+   "pairAddress": "0xd05df375Fd50726A0680ffDC295A9bA56A7295C9",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xC6Bff31BbFa84d3c05AD61D8Ec47bE8B31517777",
+    "name": "The Martian Dog",
+    "symbol": "Marvin"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000003697",
+   "priceUsd": "0.002250",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 2
+    },
+    "h6": {
+     "buys": 156,
+     "sells": 136
+    },
+    "h24": {
+     "buys": 1530,
+     "sells": 1054
+    }
+   },
+   "volume": {
+    "h24": 85887.47,
+    "h6": 7638.18,
+    "h1": 1317.56,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 3.96,
+    "h6": -1.31,
+    "h24": 23.56
+   },
+   "liquidity": {
+    "usd": 136454.58,
+    "base": 30309800,
+    "quote": 112.07953
+   },
+   "fdv": 2246133,
+   "marketCap": 2246133,
+   "pairCreatedAt": 1786031045000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/BOHr6RIDoDEBcJaN?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xc6bff31bbfa84d3c05ad61d8ec47be8b31517777?timestamp=1786646100000",
+    "websites": [],
+    "socials": []
+   },
+   "_src": "pairbatch",
+   "_age_days": 7.118974922001362,
+   "_liq_usd": 136454.58
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x0167aad664fcf265dc26a8b9647200cb6ca650c2",
+   "pairAddress": "0x0167aaD664FcF265dC26A8B9647200cb6CA650c2",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x8881d7B8e8702494866Fc3d05B9aA3c52c79A62E",
+    "name": "\u516b\u65b9\u6765",
+    "symbol": "BFC"
+   },
+   "quoteToken": {
+    "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.0004578",
+   "priceUsd": "0.0004578",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 13,
+     "sells": 2
+    }
+   },
+   "volume": {
+    "h24": 2091.18,
+    "h6": 74.24,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.39,
+    "h24": 7.21
+   },
+   "liquidity": {
+    "usd": 133526.3,
+    "base": 145813939,
+    "quote": 66763
+   },
+   "fdv": 79101,
+   "marketCap": 79101,
+   "pairCreatedAt": 1784183102000,
+   "_src": "pairbatch",
+   "_age_days": 28.50720408866803,
+   "_liq_usd": 133526.3
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/bsc/0x3663bf9ba7f368e9cadc247d224080ec814f1429",
+   "pairAddress": "0x3663BF9Ba7f368e9cADc247d224080ec814F1429",
+   "baseToken": {
+    "address": "0xe9337Dde3dd9e97f1f45A56412767ce5098E7777",
+    "name": "\u4f55\u5fc5\u4e1c\u5954\u897f\u8d70 \u5e01\u5b89\u5168\u90e8\u90fd\u6709",
+    "symbol": "\u5e01\u6709"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.005522",
+   "priceUsd": "0.005522",
+   "txns": {
+    "m5": {
+     "buys": 6,
+     "sells": 10
+    },
+    "h1": {
+     "buys": 208,
+     "sells": 87
+    },
+    "h6": {
+     "buys": 1027,
+     "sells": 760
+    },
+    "h24": {
+     "buys": 2944,
+     "sells": 1898
+    }
+   },
+   "volume": {
+    "h24": 1825847.03,
+    "h6": 623010.65,
+    "h1": 86254.35,
+    "m5": 1224.55
+   },
+   "priceChange": {
+    "m5": -0.44,
+    "h1": -9.78,
+    "h6": -22.07,
+    "h24": -40.42
+   },
+   "liquidity": {
+    "usd": 133227.67,
+    "base": 15607000,
+    "quote": 47040
+   },
+   "fdv": 5522320,
+   "marketCap": 5522320,
+   "pairCreatedAt": 1785500659000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/SsIr-9CUtKdF1bxK?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/8iOrK5xmlzApKuZV?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xe9337dde3dd9e97f1f45a56412767ce5098e7777?timestamp=1786646100000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/0xcocoCN/status/2059925780747178413",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 13.257701773853213,
+   "_liq_usd": 133227.67
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x9955ea00dd43747c9b5a49838a300291ad96a837",
+   "pairAddress": "0x9955ea00dD43747c9B5a49838a300291AD96A837",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xf225e70162837A811C77Dc2bB413A5C06E97FfFf",
+    "name": "SpaceXcoin",
+    "symbol": "SpaceXcoin"
+   },
+   "quoteToken": {
+    "address": "0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1",
+    "name": "SpaceX",
+    "symbol": "SPCXB"
+   },
+   "priceNative": "0.000007854",
+   "priceUsd": "0.001118",
+   "txns": {
+    "m5": {
+     "buys": 32,
+     "sells": 27
+    },
+    "h1": {
+     "buys": 804,
+     "sells": 631
+    },
+    "h6": {
+     "buys": 2067,
+     "sells": 1647
+    },
+    "h24": {
+     "buys": 3660,
+     "sells": 2975
+    }
+   },
+   "volume": {
+    "h24": 882082.01,
+    "h6": 543547.63,
+    "h1": 216856.89,
+    "m5": 7218.86
+   },
+   "priceChange": {
+    "m5": -2.76,
+    "h1": 39.35,
+    "h6": 66.06,
+    "h24": 175
+   },
+   "liquidity": {
+    "usd": 132826.99,
+    "base": 59311798,
+    "quote": 466.6776
+   },
+   "fdv": 1118761,
+   "marketCap": 1118761,
+   "pairCreatedAt": 1786352724000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/FaxgqFSxIkki1vdi?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/S7YQZTp4XYo-HMKr?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xf225e70162837a811c77dc2bb413a5c06e97ffff?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "http://SpaceXCoinBSC.com",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/spacexcoinf",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/SpaceXcoin1",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 3.395838347927288,
+   "_liq_usd": 132826.99
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xca059e284e74c351600fd339dd474f80995d60ea",
+   "pairAddress": "0xcA059e284e74C351600fD339dd474F80995D60EA",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x0B175544Cf87Bf3f17Df828b1156A44018b328fA",
+    "name": "SpaceXcoin",
+    "symbol": "SpaceXcoin"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000000001825",
+   "priceUsd": "0.000001112",
+   "txns": {
+    "m5": {
+     "buys": 7,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 99,
+     "sells": 26
+    },
+    "h6": {
+     "buys": 616,
+     "sells": 156
+    },
+    "h24": {
+     "buys": 2425,
+     "sells": 621
+    }
+   },
+   "volume": {
+    "h24": 1216674.62,
+    "h6": 292288.5,
+    "h1": 44575.59,
+    "m5": 2990.72
+   },
+   "priceChange": {
+    "m5": 3.44,
+    "h1": 9.83,
+    "h6": 58.84,
+    "h24": 4363
+   },
+   "liquidity": {
+    "usd": 127187.64,
+    "base": 57185270200,
+    "quote": 104.4079
+   },
+   "fdv": 1112066,
+   "marketCap": 1112066,
+   "pairCreatedAt": 1786547123000,
+   "_src": "tokenpairs",
+   "_age_days": 1.1458499220013618,
+   "_liq_usd": 127187.64
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x40ddb4dd313615a255c59abd1aef32ba3f2222b5",
+   "pairAddress": "0x40DdB4dd313615a255c59abD1aEf32Ba3f2222b5",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x0D6aE45c96eC4df860300087462266e19140F6dc",
+    "name": "COSM",
+    "symbol": "COSM"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.0003539",
+   "priceUsd": "0.2152",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 15,
+     "sells": 20
+    },
+    "h6": {
+     "buys": 405,
+     "sells": 546
+    },
+    "h24": {
+     "buys": 2336,
+     "sells": 3193
+    }
+   },
+   "volume": {
+    "h24": 363875.31,
+    "h6": 47245.62,
+    "h1": 1067.86,
+    "m5": 20.91
+   },
+   "priceChange": {
+    "m5": -0.04,
+    "h1": -1.52,
+    "h6": -4.18,
+    "h24": -42.83
+   },
+   "liquidity": {
+    "usd": 124380.58,
+    "base": 288908,
+    "quote": 102.2614
+   },
+   "fdv": 1054809,
+   "marketCap": 1054809,
+   "pairCreatedAt": 1784820274000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/DNB2GhCDOEQUEsPp?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/Pa2tvAlD2gfHCjXh?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x0d6ae45c96ec4df860300087462266e19140f6dc?timestamp=1786646400000",
+    "websites": [
+     {
+      "url": "https://m.debox.pro/group?id=w6agxkyt&code",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://t.me/COSM_cn",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 21.1325281627421,
+   "_liq_usd": 124380.58
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x1176b6ee898e1b2aee1c8860fc4b6fe17859eea8",
+   "pairAddress": "0x1176b6Ee898e1B2AeE1C8860FC4b6FE17859EeA8",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xC1073C967E323F2E197fA3975EC3b279974d7777",
+    "name": "SPK",
+    "symbol": "Spark"
+   },
+   "quoteToken": {
+    "address": "0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1",
+    "name": "SpaceX",
+    "symbol": "SPCXB"
+   },
+   "priceNative": "0.000009483",
+   "priceUsd": "0.001351",
+   "txns": {
+    "m5": {
+     "buys": 4,
+     "sells": 3
+    },
+    "h1": {
+     "buys": 17,
+     "sells": 12
+    },
+    "h6": {
+     "buys": 159,
+     "sells": 60
+    },
+    "h24": {
+     "buys": 451,
+     "sells": 150
+    }
+   },
+   "volume": {
+    "h24": 49285.3,
+    "h6": 23203.22,
+    "h1": 8212.75,
+    "m5": 3865.4
+   },
+   "priceChange": {
+    "m5": 8.29,
+    "h1": -5.35,
+    "h6": 21.29,
+    "h24": 57.31
+   },
+   "liquidity": {
+    "usd": 122559.29,
+    "base": 45357750,
+    "quote": 430.1358
+   },
+   "fdv": 785987,
+   "marketCap": 786191,
+   "pairCreatedAt": 1785470493000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/5oQ__hQXb8pYT8eI?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xc1073c967e323f2e197fa3975ec3b279974d7777?timestamp=1786646400000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/0xbaua",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 13.606845292371732,
+   "_liq_usd": 122559.29
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x575d5eaead1e1700b97be9778e76d9145f30efaa",
+   "pairAddress": "0x575D5eAEAD1e1700b97BE9778E76d9145F30efaA",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x44Ff8893e4f245c772486134589AbA54f9Cb95BB",
+    "name": "WROON",
+    "symbol": "WROON"
+   },
+   "quoteToken": {
+    "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.03266",
+   "priceUsd": "0.03266",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 9,
+     "sells": 5
+    },
+    "h24": {
+     "buys": 60,
+     "sells": 45
+    }
+   },
+   "volume": {
+    "h24": 6309.04,
+    "h6": 1344.17,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 3.23,
+    "h24": -0.89
+   },
+   "liquidity": {
+    "usd": 120502.39,
+    "base": 1844630,
+    "quote": 60251
+   },
+   "fdv": 653260,
+   "marketCap": 653260,
+   "pairCreatedAt": 1785767877000,
+   "_src": "pairbatch",
+   "_age_days": 10.164900847927289,
+   "_liq_usd": 120502.39
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xffb73f02924b524bd1508408ac6bf5fc9e8e9173",
+   "pairAddress": "0xFfb73F02924B524bd1508408AC6BF5fC9E8e9173",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x70F7B593148283e7d84CeAB31407Bae0b5317777",
+    "name": "\u5171\u751f    ",
+    "symbol": "gongsheng"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000002951",
+   "priceUsd": "0.001797",
+   "txns": {
+    "m5": {
+     "buys": 13,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 121,
+     "sells": 16
+    },
+    "h6": {
+     "buys": 584,
+     "sells": 101
+    },
+    "h24": {
+     "buys": 1304,
+     "sells": 145
+    }
+   },
+   "volume": {
+    "h24": 57980.36,
+    "h6": 48631.92,
+    "h1": 6585.72,
+    "m5": 28.11
+   },
+   "priceChange": {
+    "m5": 0.2,
+    "h1": 5.32,
+    "h6": 80.99,
+    "h24": 87.97
+   },
+   "liquidity": {
+    "usd": 119955.71,
+    "base": 33358520,
+    "quote": 98.4712
+   },
+   "fdv": 257843,
+   "marketCap": 257843,
+   "pairCreatedAt": 1785675929000,
+   "_src": "tokenpairs",
+   "_age_days": 11.22911381089025,
+   "_liq_usd": 119955.71
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x60c04117753e634fe2d0587493613aaccdd0329c",
+   "pairAddress": "0x60c04117753E634fE2D0587493613aACCDD0329c",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x330990DaE53BCa4C5811C5362B44C33a47db7777",
+    "name": "Asteroid Shiba",
+    "symbol": "ASTEROID"
+   },
+   "quoteToken": {
+    "address": "0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1",
+    "name": "SpaceX",
+    "symbol": "SPCXB"
+   },
+   "priceNative": "0.000004784",
+   "priceUsd": "0.0006811",
+   "txns": {
+    "m5": {
+     "buys": 34,
+     "sells": 26
+    },
+    "h1": {
+     "buys": 45,
+     "sells": 35
+    },
+    "h6": {
+     "buys": 204,
+     "sells": 106
+    },
+    "h24": {
+     "buys": 439,
+     "sells": 323
+    }
+   },
+   "volume": {
+    "h24": 104311.6,
+    "h6": 36767.87,
+    "h1": 14929.2,
+    "m5": 11603.17
+   },
+   "priceChange": {
+    "m5": 4.61,
+    "h1": 1.23,
+    "h6": -1.25,
+    "h24": -8.32
+   },
+   "liquidity": {
+    "usd": 119736.05,
+    "base": 87564770,
+    "quote": 422.1465
+   },
+   "fdv": 681130,
+   "marketCap": 681130,
+   "pairCreatedAt": 1785544769000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/VJya9OkIYNPCfgAS?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/6Z48-03Imty5-Yo4?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x330990dae53bca4c5811c5362b44c33a47db7777?timestamp=1786646400000",
+    "websites": [
+     {
+      "url": "https://asteroidmemes.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/asteroidbsccto?s=11",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/AsteroidBNBCTO",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 12.747169366445807,
+   "_liq_usd": 119736.05
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xd9e51cb178dcbd0de2333ef5cf94cd042ae49f31",
+   "pairAddress": "0xd9E51Cb178dCbD0de2333ef5cf94cd042aE49F31",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x684a1768c8d0098811017B7812c23978dd58c276",
+    "name": "Monkey",
+    "symbol": "Monkey"
+   },
+   "quoteToken": {
+    "address": "0x21cAef8A43163Eea865baeE23b9C2E327696A3bf",
+    "name": "Tether Gold",
+    "symbol": "XAUt"
+   },
+   "priceNative": "0.0000000000000000000000000009885",
+   "priceUsd": "0.000000000000000000000004289",
+   "txns": {
+    "m5": {
+     "buys": 6,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 113,
+     "sells": 118
+    },
+    "h6": {
+     "buys": 1931,
+     "sells": 1246
+    },
+    "h24": {
+     "buys": 6532,
+     "sells": 4975
+    }
+   },
+   "volume": {
+    "h24": 1794607.72,
+    "h6": 444254.99,
+    "h1": 18387.93,
+    "m5": 784.56
+   },
+   "priceChange": {
+    "m5": -1.77,
+    "h1": -23.63,
+    "h6": 0.32,
+    "h24": -83.69
+   },
+   "liquidity": {
+    "usd": 118723.95,
+    "base": 3.875687382673142e+26,
+    "quote": 26.9765
+   },
+   "marketCap": 29618282,
+   "pairCreatedAt": 1785846687000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/M4eGF2oSICLhv7I4?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/hlyNivFogjYXbnY0?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x684a1768c8d0098811017b7812c23978dd58c276?timestamp=1786646400000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/mocobsc",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/monkeybsc89",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 9.25274807014951,
+   "_liq_usd": 118723.95
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xffc1c1db5aef5c1b36d835a5c5159422d3213066",
+   "pairAddress": "0xFfc1c1Db5aef5C1b36d835a5c5159422d3213066",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x990C71fDFA761bCF500AC8753f775FF7Fb1b4444",
+    "name": "714",
+    "symbol": "9"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000002048",
+   "priceUsd": "0.001245",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 11,
+     "sells": 8
+    },
+    "h6": {
+     "buys": 155,
+     "sells": 112
+    },
+    "h24": {
+     "buys": 508,
+     "sells": 360
+    }
+   },
+   "volume": {
+    "h24": 149636.68,
+    "h6": 45889.82,
+    "h1": 1571.29,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -1.7,
+    "h6": -17.55,
+    "h24": -34.05
+   },
+   "liquidity": {
+    "usd": 115305.57,
+    "base": 46293162,
+    "quote": 94.8283
+   },
+   "fdv": 1245384,
+   "marketCap": 1245384,
+   "pairCreatedAt": 1783256037000,
+   "_src": "pairbatch",
+   "_age_days": 39.23712307014951,
+   "_liq_usd": 115305.57
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xe5380b1848e71cbfcd1974d92bd4b76659c67534",
+   "pairAddress": "0xE5380b1848e71cBfCD1974d92BD4b76659C67534",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x8554D38b95E4F7Ca11D391008627Df30B2b07777",
+    "name": "PIZZA",
+    "symbol": "PIZZA"
+   },
+   "quoteToken": {
+    "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+    "name": "BTCB Token",
+    "symbol": "BTCB"
+   },
+   "priceNative": "0.00000001362",
+   "priceUsd": "0.0008608",
+   "txns": {
+    "m5": {
+     "buys": 4,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 46,
+     "sells": 32
+    },
+    "h6": {
+     "buys": 393,
+     "sells": 245
+    },
+    "h24": {
+     "buys": 997,
+     "sells": 704
+    }
+   },
+   "volume": {
+    "h24": 221296.53,
+    "h6": 80202.46,
+    "h1": 12099.06,
+    "m5": 1746.42
+   },
+   "priceChange": {
+    "m5": 6.38,
+    "h1": 0.78,
+    "h6": -16.48,
+    "h24": -12.63
+   },
+   "liquidity": {
+    "usd": 111021.64,
+    "base": 64485535,
+    "quote": 0.8787
+   },
+   "fdv": 853594,
+   "marketCap": 853594,
+   "pairCreatedAt": 1785644885000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/vxfpPuQsNLbaLQK3?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/KG7Yb4U_DVBQvcTP?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x8554d38b95e4f7ca11d391008627df30b2b07777?timestamp=1786646700000",
+    "websites": [
+     {
+      "url": "https://pizzabtc.meme/",
+      "label": "Website"
+     },
+     {
+      "url": "https://x.com/i/chat/group_join/g2084587888868528222/lCCeWGbGI8",
+      "label": "Community"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/PizzaBTCB",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/pizzabschain",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 11.588419366445807,
+   "_liq_usd": 111021.64
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xa8552bd2bd061885ab04c0cbfdc8493744d9318d",
+   "pairAddress": "0xA8552bd2bd061885ab04C0CbfDC8493744D9318d",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x21cAef8A43163Eea865baeE23b9C2E327696A3bf",
+    "name": "Tether Gold",
+    "symbol": "XAUt"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "7.1517",
+   "priceUsd": "4353.97",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 2,
+     "sells": 45
+    },
+    "h6": {
+     "buys": 143,
+     "sells": 193
+    },
+    "h24": {
+     "buys": 533,
+     "sells": 654
+    }
+   },
+   "volume": {
+    "h24": 156278.35,
+    "h6": 40818.65,
+    "h1": 3605.88,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -0.25,
+    "h24": -0.93
+   },
+   "liquidity": {
+    "usd": 110326.29,
+    "base": 16.5215,
+    "quote": 63.06167
+   },
+   "fdv": 57143542,
+   "marketCap": 57143542,
+   "pairCreatedAt": 1785833453000,
+   "_src": "pairbatch",
+   "_age_days": 9.405919366445806,
+   "_liq_usd": 110326.29
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x5038ffa600d759689150da17822b41018fd70d12",
+   "pairAddress": "0x5038ffA600d759689150DA17822b41018Fd70d12",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xb723c2010fE240FFcd177BEdeD7e64E411c91313",
+    "name": "JF",
+    "symbol": "JF"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.07047",
+   "priceUsd": "0.07047",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 6,
+     "sells": 14
+    },
+    "h24": {
+     "buys": 124,
+     "sells": 141
+    }
+   },
+   "volume": {
+    "h24": 2102.28,
+    "h6": 105.25,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -0.33,
+    "h24": -3.98
+   },
+   "liquidity": {
+    "usd": 108186.55,
+    "base": 767530,
+    "quote": 54093
+   },
+   "fdv": 9647060,
+   "marketCap": 9647060,
+   "pairCreatedAt": 1784902543000,
+   "_src": "pairbatch",
+   "_age_days": 20.180340662742104,
+   "_liq_usd": 108186.55
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xd9265bb5a2552ecfb0da6d5edc7874d71156ec4c",
+   "pairAddress": "0xD9265bB5A2552eCFB0Da6d5eDc7874d71156ec4c",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xEde00776439f9C49C592e43EeE34777a51847777",
+    "name": "utility token",
+    "symbol": "utility"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.007848",
+   "priceUsd": "0.007848",
+   "txns": {
+    "m5": {
+     "buys": 102,
+     "sells": 44
+    },
+    "h1": {
+     "buys": 3459,
+     "sells": 2066
+    },
+    "h6": {
+     "buys": 7687,
+     "sells": 4798
+    },
+    "h24": {
+     "buys": 9240,
+     "sells": 6455
+    }
+   },
+   "volume": {
+    "h24": 3100202.35,
+    "h6": 2743416.78,
+    "h1": 992726.34,
+    "m5": 20954.68
+   },
+   "priceChange": {
+    "m5": 1.47,
+    "h1": 37.23,
+    "h6": 111,
+    "h24": 2191
+   },
+   "liquidity": {
+    "usd": 105635.63,
+    "base": 2533997,
+    "quote": 85746
+   },
+   "fdv": 7848956,
+   "marketCap": 7848956,
+   "pairCreatedAt": 1786584269000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/n4rQw3aB43gfiEc8?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xede00776439f9c49c592e43eee34777a51847777?timestamp=1786646100000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/cz_binance/status/1355395314845278209",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 0.7159193664458063,
+   "_liq_usd": 105635.63
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xf021672236c69919867dae2b75279d9f94762f01",
+   "pairAddress": "0xf021672236C69919867DaE2B75279d9F94762f01",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x816B28F07546f8776cd6492DF6b75aadf3d04444",
+    "name": "MarsCoin",
+    "symbol": "MarsCoin"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.0001649",
+   "priceUsd": "0.0001649",
+   "txns": {
+    "m5": {
+     "buys": 4,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 81,
+     "sells": 36
+    },
+    "h6": {
+     "buys": 631,
+     "sells": 224
+    },
+    "h24": {
+     "buys": 1426,
+     "sells": 806
+    }
+   },
+   "volume": {
+    "h24": 32288419.38,
+    "h6": 365191.13,
+    "h1": 62997.1,
+    "m5": 4482.46
+   },
+   "priceChange": {
+    "m5": 2.23,
+    "h1": 29.27,
+    "h6": 158,
+    "h24": 8097
+   },
+   "liquidity": {
+    "usd": 103896.33,
+    "base": 314854418,
+    "quote": 51948
+   },
+   "fdv": 164991,
+   "marketCap": 164991,
+   "pairCreatedAt": 1786615400000,
+   "_src": "pairbatch",
+   "_age_days": 0.3556068664458063,
+   "_liq_usd": 103896.33
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x29271ed4b6b8ff41c326c81ca040fd110a4a047e",
+   "pairAddress": "0x29271eD4B6B8FF41c326C81ca040fd110A4A047e",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x9DbeF6496134C151b9F9855cc5a1Ee77f0324444",
+    "name": "GPU",
+    "symbol": "GPU"
+   },
+   "quoteToken": {
+    "address": "0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436",
+    "name": "NVIDIA Corp",
+    "symbol": "NVDAB"
+   },
+   "priceNative": "0.000003775",
+   "priceUsd": "0.0008509",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 6,
+     "sells": 3
+    },
+    "h6": {
+     "buys": 133,
+     "sells": 109
+    },
+    "h24": {
+     "buys": 399,
+     "sells": 360
+    }
+   },
+   "volume": {
+    "h24": 77479.37,
+    "h6": 22492.12,
+    "h1": 968.35,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 3.07,
+    "h6": -16.77,
+    "h24": -27.77
+   },
+   "liquidity": {
+    "usd": 103201.34,
+    "base": 60640194,
+    "quote": 228.9695
+   },
+   "fdv": 850932,
+   "marketCap": 850932,
+   "pairCreatedAt": 1785512287000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/AgZhF8079k-uVeNp?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/NWcq_FY9hNkVpJ0G?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x9dbef6496134c151b9f9855cc5a1ee77f0324444?timestamp=1786646100000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/GPUonBSC",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 13.12311844051988,
+   "_liq_usd": 103201.34
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x2f19f30b8be1a00e6a5903953f17244fbfcb0309",
+   "pairAddress": "0x2f19F30b8Be1A00E6a5903953F17244FBFcB0309",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x0b6d8934fC8838B1027b510364A2087317bD4444",
+    "name": "Binance bibi",
+    "symbol": "bibi"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.0000009639",
+   "priceUsd": "0.0005864",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 7,
+     "sells": 5
+    },
+    "h6": {
+     "buys": 75,
+     "sells": 45
+    },
+    "h24": {
+     "buys": 289,
+     "sells": 209
+    }
+   },
+   "volume": {
+    "h24": 39607.05,
+    "h6": 7508.46,
+    "h1": 210.92,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.72,
+    "h6": -6.99,
+    "h24": -6.86
+   },
+   "liquidity": {
+    "usd": 103154.09,
+    "base": 87954821,
+    "quote": 84.7874
+   },
+   "fdv": 586404,
+   "marketCap": 586404,
+   "pairCreatedAt": 1783334147000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/ED87sfypMuWCxBdO?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/jS5Gt2981EIpymMG?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x0b6d8934fc8838b1027b510364a2087317bd4444?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "https://www.binance.com/en/square/profile/bibi",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/bibiplushie",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 38.333072144223586,
+   "_liq_usd": 103154.09
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xf6cfa001cb3a809952debb823670d0b565bd66ea",
+   "pairAddress": "0xf6cFa001Cb3a809952DEBb823670d0B565BD66EA",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x0Def250DCBA76AC11706AdAe158e0951C6eBffff",
+    "name": "QUALNET QUANTUM",
+    "symbol": "QAN"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.0000004112",
+   "priceUsd": "0.0002501",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 35,
+     "sells": 25
+    },
+    "h6": {
+     "buys": 202,
+     "sells": 148
+    },
+    "h24": {
+     "buys": 993,
+     "sells": 691
+    }
+   },
+   "volume": {
+    "h24": 2192293.25,
+    "h6": 202108.79,
+    "h1": 44295.94,
+    "m5": 16.42
+   },
+   "priceChange": {
+    "m5": 0.04,
+    "h1": 4.05,
+    "h6": 4.28,
+    "h24": 1567
+   },
+   "liquidity": {
+    "usd": 102051.51,
+    "base": 204013566,
+    "quote": 83.9032
+   },
+   "fdv": 350152,
+   "marketCap": 350152,
+   "pairCreatedAt": 1786574734000,
+   "_src": "tokenpairs",
+   "_age_days": 0.8262781627421026,
+   "_liq_usd": 102051.51
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x45dcb68a2ddccf00271b6941cffe70676e5c8247",
+   "pairAddress": "0x45DCB68A2ddcCF00271B6941cFfe70676e5C8247",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x244B112Cf746e62A5DF723cbDe9906a6dEfd7777",
+    "name": "bStocks Never Sleep",
+    "symbol": "bStocks"
+   },
+   "quoteToken": {
+    "address": "0x7138b48df7D98D7e3cc221BfE7192D0a178182D8",
+    "name": "SPY",
+    "symbol": "SPYB"
+   },
+   "priceNative": "0.0000008203",
+   "priceUsd": "0.0006382",
+   "txns": {
+    "m5": {
+     "buys": 19,
+     "sells": 12
+    },
+    "h1": {
+     "buys": 265,
+     "sells": 138
+    },
+    "h6": {
+     "buys": 2391,
+     "sells": 1351
+    },
+    "h24": {
+     "buys": 10727,
+     "sells": 6094
+    }
+   },
+   "volume": {
+    "h24": 2754650.31,
+    "h6": 512416.69,
+    "h1": 56403.18,
+    "m5": 3944.62
+   },
+   "priceChange": {
+    "m5": 7.33,
+    "h1": -16.83,
+    "h6": -33.46,
+    "h24": -76.07
+   },
+   "liquidity": {
+    "usd": 101723.32,
+    "base": 79687804,
+    "quote": 65.3716
+   },
+   "fdv": 638262,
+   "marketCap": 638262,
+   "pairCreatedAt": 1786092464000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/YRLl7SQ27aH2eGJ6?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/0EvZdY1WYev3iGgl?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x244b112cf746e62a5df723cbde9906a6defd7777?timestamp=1786646400000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/search?q=%24bStocks",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 6.408106866445806,
+   "_liq_usd": 101723.32
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xa0b30645d730f7cde1f25a857e4d52d024d21ac7",
+   "pairAddress": "0xA0B30645d730f7cdE1F25a857E4D52D024D21ac7",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xbC2751Efe1bF9dd72230a62C40E3FFE87D415013",
+    "name": "Whitegold",
+    "symbol": "WG"
+   },
+   "quoteToken": {
+    "address": "0x791237154fc00A0b29d11F29fBdC420904f979cB",
+    "name": "GoalDEX",
+    "symbol": "GOLD"
+   },
+   "priceNative": "4.7695",
+   "priceUsd": "17.86",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 3,
+     "sells": 3
+    }
+   },
+   "volume": {
+    "h24": 1113.88,
+    "h6": 160.93,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 2.11,
+    "h24": 0.34
+   },
+   "liquidity": {
+    "usd": 100879.88,
+    "base": 2822.7416,
+    "quote": 13463
+   },
+   "fdv": 992720,
+   "marketCap": 992720,
+   "pairCreatedAt": 1782820623000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/uQ1bgxu6yQ9LlW1Y?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/kEjEQ62vdKPKUXDZ?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xbc2751efe1bf9dd72230a62c40e3ffe87d415013?timestamp=1786646100000",
+    "websites": [
+     {
+      "url": "https://www.whitegoaldex.org/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/goaldexorg",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/goaldex",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 44.2766369590384,
+   "_liq_usd": 100879.88
+  }
+ ],
+ "profiles": {
+  "0x7a50aeef23be43009801944a9f3187025df17777": {
+   "links": [
+    {
+     "url": "https://flap.sh/bnb/0x7a50aeef23be43009801944a9f3187025df17777/taxinfo?lang=en"
+    },
+    {
+     "type": "twitter",
+     "url": "https://x.com/thresiltech/status/2087936185440358710"
+    }
+   ],
+   "description": "Game starts. Mars stops."
+  },
+  "0x5528d0993e9975b943b8c68a36beebfa249c7777": {
+   "links": [
+    {
+     "url": "https://bstockpools.xyz/"
+    },
+    {
+     "type": "twitter",
+     "url": "https://x.com/bStockPools"
+    }
+   ],
+   "description": "Pair any existing BSC token with a tokenized stock like NVIDIA, Tesla, SpaceX or Circle.\n\nCreate the pool, own the LP position and earn a share of the trading fees generated by the market."
+  },
+  "0x49f5bcab31a86c1ceefa6fb34680ff66bf8a7777": {
+   "links": [
+    {
+     "url": "https://jinfrog.gold/"
+    },
+    {
+     "url": "https://x.com/i/chat/group_join/g2087179090759708700/vL2Q7uHRuD"
+    },
+    {
+     "type": "twitter",
+     "url": "https://x.com/jintoadbnb"
+    },
+    {
+     "type": "telegram",
+     "url": "https://t.me/JinToad"
+    }
+   ],
+   "description": "the lucky golden toad | \u91d1\u87fe | hand drawn + AI"
+  },
+  "0x354e1a55ac2c0c11d77f83c67f186ca2f2457777": {
+   "links": [
+    {
+     "type": "twitter",
+     "url": "https://x.com/snapcoinbsc"
+    }
+   ],
+   "description": "SnapCoin created by SpaceX"
+  }
+ },
+ "stats": {
+  "ds_calls": 655,
+  "ds_fail": 0
+ },
+ "discovery": {
+  "gt_pools.json": {
+   "total": 5707,
+   "new": 5707,
+   "errors": 0
+  },
+  "ds_search_pools.json": {
+   "total": 2064,
+   "new": 1836,
+   "errors": 0
+  }
+ },
+ "errors": [],
+ "total_ds_pairs_seen": 4196
+}

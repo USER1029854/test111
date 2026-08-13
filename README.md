@@ -56,7 +56,40 @@ Anything uncertain is kept and flagged. Tokens whose honeypot check *failed* are
 marked as unverified rather than being treated as passing — a failed check is never
 recorded as a clean one.
 
+## Result of the 2026-08-13 run
+
+| Stage | Count |
+|---|---|
+| Pools discovered (net A: GeckoTerminal) | 5,707 |
+| Pools discovered (net B: DEXScreener search) | 2,064 (1,836 unique to this net) |
+| Merged discovery universe | 7,543 |
+| Pairs read authoritatively from DEXScreener | 4,192 (655 calls, 0 failures) |
+| Pairs meeting liquidity >= $100k and age < 60d | 120 |
+| Distinct tokens | 112 |
+| Dropped (confirmed honeypots) | 3 |
+| **Kept** | **109** |
+
+QA: 12 rows re-fetched live from DEXScreener, 12/12 matched (max drift 4.5%).
+
+### Screening coverage
+
+honeypot.is could screen only **3 of 112** tokens; the other 109 returned
+`404 pair not found`. GoPlus covered 111 of 112. One token has no usable safety
+data from either provider and is kept with a `SAFETY_CHECK_UNAVAILABLE` flag.
+
+### Caveats worth carrying into any use of this list
+
+- **74 of 109 have neither a website nor socials on DEXScreener.** Liquidity and age
+  are objective; "is a real project" is not, and the loose filter keeps them.
+- **20 of 109 are quoted against an obscure token rather than a major asset**
+  (e.g. CDAO/Pro, NEX/AIC). Liquidity denominated in a thin quote token can be
+  circular, so the headline USD figure is softer for those rows.
+- A cluster of tickers imitates real equities (NVDAB, AAPLB, TSLAB, MSFTB, GOOGLB,
+  BABAB, GMEB, SKHYB). These are lookalike tokens, not equity products.
+- 35 of 109 have both a web presence and a verified contract — the strictest subset,
+  reachable by filtering the CSV on `websites`/`socials` and `src_verified`.
+
 ## Output
 
-- `data/bsc_new_projects.csv` — the kept projects
+- `data/bsc_new_projects.csv` — the 109 kept projects
 - `data/bsc_excluded.csv` — everything dropped, with `drop_reason`, so the filter is auditable

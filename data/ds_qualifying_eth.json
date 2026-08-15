@@ -1,0 +1,3799 @@
+{
+ "chain": "eth",
+ "qualifying": [
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x771fc81007d2ec7b5c4f3d39515dc7a83db2113c",
+   "pairAddress": "0x771FC81007D2Ec7B5C4f3D39515Dc7a83dB2113c",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x819Cef100B177529035D035434CbAc49Fa9660cE",
+    "name": "Bittensor",
+    "symbol": "TAO"
+   },
+   "quoteToken": {
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.1088",
+   "priceUsd": "204.58",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 3,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0.42,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "liquidity": {
+    "usd": 2148113383.63,
+    "base": 10499999,
+    "quote": 0.0002288
+   },
+   "fdv": 4296226767,
+   "marketCap": 4296226767,
+   "pairCreatedAt": 1786742387000,
+   "_src": "pairbatch",
+   "_age_days": 0.3598691315728205,
+   "_liq_usd": 2148113383.63
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xc36b68ab20195ce7996509770ff68f5812cbb0c0",
+   "pairAddress": "0xC36b68aB20195Ce7996509770fF68f5812cbb0c0",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xEA7b2FC6Df1294732B8cf1F95c27b05e6e990E9b",
+    "name": "Hedera",
+    "symbol": "HBAR"
+   },
+   "quoteToken": {
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.00003085",
+   "priceUsd": "0.05798",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 2,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0.07,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "liquidity": {
+    "usd": 1449620084.88,
+    "base": 24999999998,
+    "quote": 4.186e-05
+   },
+   "fdv": 2899240170,
+   "marketCap": 2899240170,
+   "pairCreatedAt": 1786743215000,
+   "_src": "pairbatch",
+   "_age_days": 0.3502857982394872,
+   "_liq_usd": 1449620084.88
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "curve",
+   "url": "https://dexscreener.com/ethereum/0x25a637c80ad90177d0b3ff28aa2d3f74f7165ccb",
+   "pairAddress": "0x25a637C80AD90177d0B3fF28aa2D3F74F7165ccb",
+   "labels": [
+    "stbl"
+   ],
+   "baseToken": {
+    "address": "0x280839980a7eD0D7717F64125fE241012E5F5815",
+    "name": "Staked trUSD",
+    "symbol": "strUSD"
+   },
+   "quoteToken": {
+    "address": "0xd0580192E98eA6CEB9c7b6191Ed2E27560911697",
+    "name": "trUSD",
+    "symbol": "trUSD"
+   },
+   "priceNative": "1.01332",
+   "priceUsd": "1.013",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 18,
+     "sells": 3
+    },
+    "h24": {
+     "buys": 31,
+     "sells": 18
+    }
+   },
+   "volume": {
+    "h24": 185228.01,
+    "h6": 80831.85,
+    "h1": 3439.54,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.04,
+    "h6": -0.01,
+    "h24": 0.05
+   },
+   "liquidity": {
+    "usd": 10068445.63,
+    "base": 5119076,
+    "quote": 4881152
+   },
+   "fdv": 43239009,
+   "marketCap": 43239009,
+   "pairCreatedAt": 1784201723000,
+   "_src": "pairbatch",
+   "_age_days": 29.765702464906155,
+   "_liq_usd": 10068445.63
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "curve",
+   "url": "https://dexscreener.com/ethereum/0x6f63deedc9870d6c16fc644c6654748352cdc87c",
+   "pairAddress": "0x6F63deEDc9870D6c16FC644C6654748352cdc87c",
+   "labels": [
+    "stbl"
+   ],
+   "baseToken": {
+    "address": "0x98A878b1Cd98131B271883B390f68D2c90674665",
+    "name": "apxUSD",
+    "symbol": "apxUSD"
+   },
+   "quoteToken": {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.9285",
+   "priceUsd": "0.9285",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 4
+    },
+    "h6": {
+     "buys": 2,
+     "sells": 7
+    },
+    "h24": {
+     "buys": 43,
+     "sells": 64
+    }
+   },
+   "volume": {
+    "h24": 830586.97,
+    "h6": 109901.68,
+    "h1": 52924.83,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.05,
+    "h6": -0.69,
+    "h24": -2.49
+   },
+   "liquidity": {
+    "usd": 6947645.68,
+    "base": 6463399,
+    "quote": 946064
+   },
+   "fdv": 289775482,
+   "marketCap": 289775482,
+   "pairCreatedAt": 1785427007000,
+   "_src": "pairbatch",
+   "_age_days": 15.584174687128376,
+   "_liq_usd": 6947645.68
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "curve",
+   "url": "https://dexscreener.com/ethereum/0xb723a224c9acf3891b20437b4d55dd45600f5fa3",
+   "pairAddress": "0xb723a224c9ACF3891B20437B4d55dd45600F5FA3",
+   "labels": [
+    "stbl"
+   ],
+   "baseToken": {
+    "address": "0xd0580192E98eA6CEB9c7b6191Ed2E27560911697",
+    "name": "trUSD",
+    "symbol": "trUSD"
+   },
+   "quoteToken": {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.9999",
+   "priceUsd": "0.9999",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 10
+    },
+    "h6": {
+     "buys": 38,
+     "sells": 43
+    },
+    "h24": {
+     "buys": 100,
+     "sells": 98
+    }
+   },
+   "volume": {
+    "h24": 434933.12,
+    "h6": 77437.27,
+    "h1": 3998.11,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.02,
+    "h24": 0.01
+   },
+   "liquidity": {
+    "usd": 5150308.97,
+    "base": 2448186,
+    "quote": 2702125
+   },
+   "fdv": 60592458,
+   "marketCap": 60592458,
+   "pairCreatedAt": 1784200643000,
+   "_src": "pairbatch",
+   "_age_days": 29.778202464906155,
+   "_liq_usd": 5150308.97
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "curve",
+   "url": "https://dexscreener.com/ethereum/0xd1d954bc94c843815ec7b8119f2de00af27fa6ff",
+   "pairAddress": "0xd1D954BC94c843815EC7b8119f2de00AF27Fa6Ff",
+   "labels": [
+    "stbl"
+   ],
+   "baseToken": {
+    "address": "0xCAcd6fd266aF91b8AeD52aCCc382b4e165586E29",
+    "name": "Frax USD",
+    "symbol": "frxUSD"
+   },
+   "quoteToken": {
+    "address": "0xd0580192E98eA6CEB9c7b6191Ed2E27560911697",
+    "name": "trUSD",
+    "symbol": "trUSD"
+   },
+   "priceNative": "0.9998",
+   "priceUsd": "1.0000041",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 10
+    },
+    "h24": {
+     "buys": 7,
+     "sells": 17
+    }
+   },
+   "volume": {
+    "h24": 262432.55,
+    "h6": 60042.45,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -0.02,
+    "h24": 0.01
+   },
+   "liquidity": {
+    "usd": 4880991.93,
+    "base": 2559118,
+    "quote": 2321395
+   },
+   "fdv": 99263491,
+   "marketCap": 99263491,
+   "pairCreatedAt": 1784649095000,
+   "_src": "pairbatch",
+   "_age_days": 24.587785798239487,
+   "_liq_usd": 4880991.93
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x45aecbbcc9b5414bcfd84f1ae5f3d9f5488ba403",
+   "pairAddress": "0x45aECbBCc9B5414bcfD84f1aE5F3d9f5488ba403",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xc84782858B7Bef5d25182Dbac956A6Aa463AeFE5",
+    "name": "PRDCTR",
+    "symbol": "PRD"
+   },
+   "quoteToken": {
+    "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.0005886",
+   "priceUsd": "0.0005886",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 3,
+     "sells": 2
+    },
+    "h6": {
+     "buys": 7,
+     "sells": 12
+    },
+    "h24": {
+     "buys": 45,
+     "sells": 52
+    }
+   },
+   "volume": {
+    "h24": 25671.63,
+    "h6": 3054.43,
+    "h1": 812.26,
+    "m5": 308.44
+   },
+   "priceChange": {
+    "m5": -0.22,
+    "h1": 0.18,
+    "h6": -0.85,
+    "h24": -1.14
+   },
+   "liquidity": {
+    "usd": 4458858.48,
+    "base": 6738686722,
+    "quote": 491962
+   },
+   "fdv": 55924121,
+   "marketCap": 55924121,
+   "pairCreatedAt": 1782754067000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/WSl8Me_HkzRDTQJ_?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/vRQrndQLP9bpo0Wz?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0xc84782858b7bef5d25182dbac956a6aa463aefe5?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://prdctr.io",
+      "label": "Website"
+     },
+     {
+      "url": "https://cdn.prod.website-files.com/68d52d4e9165d0321dd96326/69ea20b508236d65e6821d5b_PRDCTR%20Whitepaper%20Apr%2023.pdf",
+      "label": "Docs"
+     },
+     {
+      "url": "https://github.com/predictor-foundation",
+      "label": "GitHub"
+     },
+     {
+      "url": "https://www.linkedin.com/company/prdctr-network/",
+      "label": "LinkedIn"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/PRDCTR_IO",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/TruthNetworkOfficiall",
+      "type": "telegram"
+     },
+     {
+      "url": "https://discord.gg/PGu4ynsG",
+      "type": "discord"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 46.52098024268393,
+   "_liq_usd": 4458858.48
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x71cc83eb0b50653bdb6b83ec138602b376cae1da",
+   "pairAddress": "0x71cc83EB0b50653Bdb6b83eC138602B376Cae1DA",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xeE41ED87afAb2682F5688714499EbF4fa5c6fF19",
+    "name": "Truth",
+    "symbol": "TRUU"
+   },
+   "quoteToken": {
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.000001098",
+   "priceUsd": "0.002064",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0.16,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "liquidity": {
+    "usd": 3096540.58,
+    "base": 1499999918,
+    "quote": 9e-05
+   },
+   "fdv": 6193081,
+   "marketCap": 6193081,
+   "pairCreatedAt": 1786743911000,
+   "_src": "pairbatch",
+   "_age_days": 0.34223024268393165,
+   "_liq_usd": 3096540.58
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xc087873669adc4a76a3a3d4df06f3245da9ceda8",
+   "pairAddress": "0xc087873669aDc4A76A3A3D4DF06F3245dA9cEda8",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x0F3ae93C6813cc85C9797b683ff1Db93Ade20F7D",
+    "name": "ChonceIIoon",
+    "symbol": "CHL"
+   },
+   "quoteToken": {
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.000001098",
+   "priceUsd": "0.002064",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0.16,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "liquidity": {
+    "usd": 3096330.43,
+    "base": 1499999918,
+    "quote": 9e-05
+   },
+   "fdv": 6192661,
+   "marketCap": 6192661,
+   "pairCreatedAt": 1786746779000,
+   "_src": "pairbatch",
+   "_age_days": 0.3090357982394872,
+   "_liq_usd": 3096330.43
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xc8e2ead0f86c658becc7fe0f6acc4e528b87b22bebc7dffa6848810282614078",
+   "pairAddress": "0xc8e2ead0f86c658becc7fe0f6acc4e528b87b22bebc7dffa6848810282614078",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x600D601D8b9EB5DE5Ac90fEfC68d0d08801bFd3f",
+    "name": "Element",
+    "symbol": "ELMT"
+   },
+   "quoteToken": {
+    "address": "0x14D6C649292c5c9790c5196D1a9EA039307947a1",
+    "name": "GULD",
+    "symbol": "GULD"
+   },
+   "priceNative": "0.6849",
+   "priceUsd": "0.01512",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 4,
+     "sells": 4
+    },
+    "h6": {
+     "buys": 21,
+     "sells": 28
+    },
+    "h24": {
+     "buys": 111,
+     "sells": 116
+    }
+   },
+   "volume": {
+    "h24": 142779.6,
+    "h6": 33741.02,
+    "h1": 2456.04,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 2.58,
+    "h6": 4.06,
+    "h24": 0.32
+   },
+   "liquidity": {
+    "usd": 2960658.65,
+    "base": 173428343,
+    "quote": 15265364
+   },
+   "fdv": 132695304,
+   "marketCap": 132695304,
+   "pairCreatedAt": 1782873263000,
+   "_src": "tokenpairs",
+   "_age_days": 45.1413969093506,
+   "_liq_usd": 2960658.65
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x42271fca1fa435b176d46a5544b2698a1e261782",
+   "pairAddress": "0x42271FcA1FA435B176D46a5544B2698a1E261782",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xCE6170EA245dC8D1f275A710a062b70f125F0110",
+    "name": "FXRP",
+    "symbol": "FXRP"
+   },
+   "quoteToken": {
+    "address": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+    "name": "RLUSD",
+    "symbol": "RLUSD"
+   },
+   "priceNative": "1.001255",
+   "priceUsd": "1.0014",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 13,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 13,
+     "sells": 34
+    }
+   },
+   "volume": {
+    "h24": 124953.21,
+    "h6": 39345.43,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.51,
+    "h24": -0.53
+   },
+   "liquidity": {
+    "usd": 2926375.05,
+    "base": 1248714,
+    "quote": 1675635
+   },
+   "fdv": 11110990,
+   "marketCap": 11110990,
+   "pairCreatedAt": 1785172043000,
+   "_src": "pairbatch",
+   "_age_days": 18.535146909350598,
+   "_liq_usd": 2926375.05
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xee0703f70ee7b617b59c4c360cdb0441db6967584cb3f04f3024e093b8b21657",
+   "pairAddress": "0xee0703f70ee7b617b59c4c360cdb0441db6967584cb3f04f3024e093b8b21657",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x1Aad217B8F78dbA5E6693460e8470F8b1A3977f3",
+    "name": "Strategy PP Variable xStock",
+    "symbol": "STRCx"
+   },
+   "quoteToken": {
+    "address": "0x2162FDb116bc95d85b898BdAE77e053eF0C36eAA",
+    "name": "Uds My",
+    "symbol": "UDS"
+   },
+   "priceNative": "94.3449",
+   "priceUsd": "1364158.069",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 3,
+     "sells": 5
+    },
+    "h24": {
+     "buys": 10,
+     "sells": 15
+    }
+   },
+   "volume": {
+    "h24": 4166496.03,
+    "h6": 1103686.7,
+    "h1": 374814.81,
+    "m5": 268272.01
+   },
+   "priceChange": {
+    "m5": 1.75,
+    "h1": 1.05,
+    "h6": -0.44,
+    "h24": 0.26
+   },
+   "liquidity": {
+    "usd": 2739718.27,
+    "base": 0.3217,
+    "quote": 159.1217
+   },
+   "fdv": 2280288282583,
+   "marketCap": 2032307246962,
+   "pairCreatedAt": 1785310247000,
+   "_src": "tokenpairs",
+   "_age_days": 16.935563576017266,
+   "_liq_usd": 2739718.27
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x95475b9b1492cf109969ff25c2862ef38d1a9998c6288f8b9b7d1c99c6443c2e",
+   "pairAddress": "0x95475b9b1492cf109969ff25c2862ef38d1a9998c6288f8b9b7d1c99c6443c2e",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x95669A6589A81A6704bab1020722d0C405841885",
+    "name": "Give",
+    "symbol": "GIVE"
+   },
+   "quoteToken": {
+    "address": "0x14D6C649292c5c9790c5196D1a9EA039307947a1",
+    "name": "GULD",
+    "symbol": "GULD"
+   },
+   "priceNative": "0.9907",
+   "priceUsd": "0.02188",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 11,
+     "sells": 9
+    },
+    "h6": {
+     "buys": 51,
+     "sells": 36
+    },
+    "h24": {
+     "buys": 185,
+     "sells": 133
+    }
+   },
+   "volume": {
+    "h24": 592835.95,
+    "h6": 143753.57,
+    "h1": 31443.1,
+    "m5": 3746.62
+   },
+   "priceChange": {
+    "m5": 4.39,
+    "h1": 2.69,
+    "h6": 4.52,
+    "h24": 0.15
+   },
+   "liquidity": {
+    "usd": 2187825.44,
+    "base": 87626663,
+    "quote": 12236984
+   },
+   "fdv": 49026881,
+   "marketCap": 49026881,
+   "pairCreatedAt": 1782944615000,
+   "_src": "tokenpairs",
+   "_age_days": 44.31556357601726,
+   "_liq_usd": 2187825.44
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x6a0f5830e56c0ad9dd425b3cf97f94e3c15b9a3b692b0bcd361840f262cd27b1",
+   "pairAddress": "0x6a0f5830e56c0ad9dd425b3cf97f94e3c15b9a3b692b0bcd361840f262cd27b1",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0xb10CB07CA2CDac77FbB5707f6690301f9d036F45",
+    "name": "Win",
+    "symbol": "WIN"
+   },
+   "quoteToken": {
+    "address": "0x14D6C649292c5c9790c5196D1a9EA039307947a1",
+    "name": "GULD",
+    "symbol": "GULD"
+   },
+   "priceNative": "0.8616",
+   "priceUsd": "0.01903",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 10,
+     "sells": 9
+    },
+    "h6": {
+     "buys": 57,
+     "sells": 48
+    },
+    "h24": {
+     "buys": 203,
+     "sells": 179
+    }
+   },
+   "volume": {
+    "h24": 165120.87,
+    "h6": 44812,
+    "h1": 13610.04,
+    "m5": 3.08
+   },
+   "priceChange": {
+    "h1": 9.46,
+    "h6": 22.48,
+    "h24": 3361
+   },
+   "liquidity": {
+    "usd": 2161019.85,
+    "base": 112609165,
+    "quote": 817598
+   },
+   "fdv": 178101704,
+   "marketCap": 178101704,
+   "pairCreatedAt": 1782874067000,
+   "_src": "tokenpairs",
+   "_age_days": 45.13209135379504,
+   "_liq_usd": 2161019.85
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x93f900e15be5ee054dd9a874e4ecdafd2a4f27e86424ab3a4f50af84eb51dad8",
+   "pairAddress": "0x93f900e15be5ee054dd9a874e4ecdafd2a4f27e86424ab3a4f50af84eb51dad8",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0xb2089A7069861C8D90c8dA3aaCAB8e9188C0C531",
+    "name": "Green",
+    "symbol": "GREEN"
+   },
+   "quoteToken": {
+    "address": "0x14D6C649292c5c9790c5196D1a9EA039307947a1",
+    "name": "GULD",
+    "symbol": "GULD"
+   },
+   "priceNative": "0.9289",
+   "priceUsd": "0.02051",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 5,
+     "sells": 9
+    },
+    "h6": {
+     "buys": 42,
+     "sells": 47
+    },
+    "h24": {
+     "buys": 157,
+     "sells": 166
+    }
+   },
+   "volume": {
+    "h24": 315738.66,
+    "h6": 83603.58,
+    "h1": 13500.84,
+    "m5": 1920.7
+   },
+   "priceChange": {
+    "m5": 4.21,
+    "h1": 2.47,
+    "h6": 4.24,
+    "h24": 0.04
+   },
+   "liquidity": {
+    "usd": 2065469.27,
+    "base": 97172689,
+    "quote": 3248739
+   },
+   "fdv": 842789265,
+   "marketCap": 842789265,
+   "pairCreatedAt": 1782873467000,
+   "_src": "tokenpairs",
+   "_age_days": 45.13903579823949,
+   "_liq_usd": 2065469.27
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xf63fb2907e8f1067caad3dbf158bcd71b9937a054e601a7a4f8cda55e2417ce8",
+   "pairAddress": "0xf63fb2907e8f1067caad3dbf158bcd71b9937a054e601a7a4f8cda55e2417ce8",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x14D6C649292c5c9790c5196D1a9EA039307947a1",
+    "name": "GULD",
+    "symbol": "GULD"
+   },
+   "quoteToken": {
+    "address": "0x1223334444A7466fBf985B14E1F4EdAf3883bCa6",
+    "name": "Grow",
+    "symbol": "GROW"
+   },
+   "priceNative": "0.8728",
+   "priceUsd": "0.02314",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 4,
+     "sells": 8
+    },
+    "h6": {
+     "buys": 26,
+     "sells": 32
+    },
+    "h24": {
+     "buys": 92,
+     "sells": 127
+    }
+   },
+   "volume": {
+    "h24": 204761.6,
+    "h6": 64932.36,
+    "h1": 17992.67,
+    "m5": 625.27
+   },
+   "priceChange": {
+    "h1": -0.04,
+    "h6": -0.09,
+    "h24": -0.4
+   },
+   "liquidity": {
+    "usd": 1983225.47,
+    "base": 52316711,
+    "quote": 29137040
+   },
+   "fdv": 39361204,
+   "marketCap": 39361204,
+   "pairCreatedAt": 1782873599000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/x9tmXJI1oSTPvcxx?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/RRBEGrQlnQ6UbFmo?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x14d6c649292c5c9790c5196d1a9ea039307947a1?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://adventurewurld.com/",
+      "label": "Website"
+     },
+     {
+      "url": "https://adventurewurld.gitbook.io/adventurewurld-docs",
+      "label": "Docs"
+     },
+     {
+      "url": "https://core-app.adventurewurld.com/",
+      "label": "Node Management"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/AdventureWurld",
+      "type": "twitter"
+     },
+     {
+      "url": "https://discord.gg/adventurewurld",
+      "type": "discord"
+     },
+     {
+      "url": "https://www.instagram.com/adventurewurld/",
+      "type": "instagram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 45.13750802046171,
+   "_liq_usd": 1983225.47
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x9f78fbfd4ae6a0251556764875d1c2a08681b7daf8c1461cbb72063412533f16",
+   "pairAddress": "0x9f78fbfd4ae6a0251556764875d1c2a08681b7daf8c1461cbb72063412533f16",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x40AAf75454036Bed56F3266cCf18f6b7befd6Aca",
+    "name": "Codex",
+    "symbol": "CDXR"
+   },
+   "quoteToken": {
+    "address": "0x1223334444A7466fBf985B14E1F4EdAf3883bCa6",
+    "name": "Grow",
+    "symbol": "GROW"
+   },
+   "priceNative": "0.7994",
+   "priceUsd": "0.02119",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 5
+    },
+    "h6": {
+     "buys": 4,
+     "sells": 26
+    },
+    "h24": {
+     "buys": 21,
+     "sells": 93
+    }
+   },
+   "volume": {
+    "h24": 198100.58,
+    "h6": 37440.6,
+    "h1": 8523.25,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.02,
+    "h6": -0.12,
+    "h24": -0.71
+   },
+   "liquidity": {
+    "usd": 1961855.08,
+    "base": 29061664,
+    "quote": 50761383
+   },
+   "fdv": 35427998,
+   "marketCap": 270044619,
+   "pairCreatedAt": 1784168255000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/AMht6kpE_OQ1YQ8L?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x40aaf75454036bed56f3266ccf18f6b7befd6aca?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://codexblockchain.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/codex_hosting",
+      "type": "twitter"
+     },
+     {
+      "url": "https://discord.com/invite/YcytNDqSZz",
+      "type": "discord"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 30.153063576017264,
+   "_liq_usd": 1961855.08
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xfd89a241eecd9e1f35338f016d4b94b778ae3e5fb7d306a2ff95398fb91c15f3",
+   "pairAddress": "0xfd89a241eecd9e1f35338f016d4b94b778ae3e5fb7d306a2ff95398fb91c15f3",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x14D6C649292c5c9790c5196D1a9EA039307947a1",
+    "name": "GULD",
+    "symbol": "GULD"
+   },
+   "quoteToken": {
+    "address": "0x888888888887715FB9D9F84175Af9e6cCE46807e",
+    "name": "Elevate",
+    "symbol": "ELEVATE"
+   },
+   "priceNative": "0.2507",
+   "priceUsd": "0.02285",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 25,
+     "sells": 22
+    },
+    "h6": {
+     "buys": 95,
+     "sells": 82
+    },
+    "h24": {
+     "buys": 120,
+     "sells": 102
+    }
+   },
+   "volume": {
+    "h24": 253807.56,
+    "h6": 196558.74,
+    "h1": 57008.86,
+    "m5": 3246.56
+   },
+   "priceChange": {
+    "m5": 0.01,
+    "h1": 0.03,
+    "h6": 0.08,
+    "h24": 0.05
+   },
+   "liquidity": {
+    "usd": 1934631.84,
+    "base": 32671581,
+    "quote": 13034387
+   },
+   "fdv": 38866384,
+   "marketCap": 38866384,
+   "pairCreatedAt": 1784338223000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/x9tmXJI1oSTPvcxx?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/RRBEGrQlnQ6UbFmo?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x14d6c649292c5c9790c5196d1a9ea039307947a1?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://adventurewurld.com/",
+      "label": "Website"
+     },
+     {
+      "url": "https://adventurewurld.gitbook.io/adventurewurld-docs",
+      "label": "Docs"
+     },
+     {
+      "url": "https://core-app.adventurewurld.com/",
+      "label": "Node Management"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/AdventureWurld",
+      "type": "twitter"
+     },
+     {
+      "url": "https://discord.gg/adventurewurld",
+      "type": "discord"
+     },
+     {
+      "url": "https://www.instagram.com/adventurewurld/",
+      "type": "instagram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 28.18584135379504,
+   "_liq_usd": 1934631.84
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x9bf340f4abf37237734e308a2b1072fe5199f6b7c861c7b2682d77a844868d5e",
+   "pairAddress": "0x9bf340f4abf37237734e308a2b1072fe5199f6b7c861c7b2682d77a844868d5e",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x40AAf75454036Bed56F3266cCf18f6b7befd6Aca",
+    "name": "Codex",
+    "symbol": "CDXR"
+   },
+   "quoteToken": {
+    "address": "0x600D601D8b9EB5DE5Ac90fEfC68d0d08801bFd3f",
+    "name": "Element",
+    "symbol": "ELMT"
+   },
+   "priceNative": "1.3441",
+   "priceUsd": "0.02033",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 2,
+     "sells": 3
+    },
+    "h6": {
+     "buys": 16,
+     "sells": 13
+    },
+    "h24": {
+     "buys": 54,
+     "sells": 59
+    }
+   },
+   "volume": {
+    "h24": 221145.89,
+    "h6": 42428.35,
+    "h1": 10645.61,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 2.57,
+    "h6": 4.07,
+    "h24": 0.19
+   },
+   "liquidity": {
+    "usd": 1904251.6,
+    "base": 34487614,
+    "quote": 79526482
+   },
+   "fdv": 33983688,
+   "marketCap": 259035580,
+   "pairCreatedAt": 1784158823000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/AMht6kpE_OQ1YQ8L?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x40aaf75454036bed56f3266ccf18f6b7befd6aca?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://codexblockchain.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/codex_hosting",
+      "type": "twitter"
+     },
+     {
+      "url": "https://discord.com/invite/YcytNDqSZz",
+      "type": "discord"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 30.26223024268393,
+   "_liq_usd": 1904251.6
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x229a411547681db92dbe4e507fdc03454bbe8f6f0a71e5ff5b7116cd17f6b1dd",
+   "pairAddress": "0x229a411547681db92dbe4e507fdc03454bbe8f6f0a71e5ff5b7116cd17f6b1dd",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x40AAf75454036Bed56F3266cCf18f6b7befd6Aca",
+    "name": "Codex",
+    "symbol": "CDXR"
+   },
+   "quoteToken": {
+    "address": "0x14D6C649292c5c9790c5196D1a9EA039307947a1",
+    "name": "GULD",
+    "symbol": "GULD"
+   },
+   "priceNative": "0.9125",
+   "priceUsd": "0.02015",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 3,
+     "sells": 6
+    },
+    "h6": {
+     "buys": 9,
+     "sells": 47
+    },
+    "h24": {
+     "buys": 53,
+     "sells": 158
+    }
+   },
+   "volume": {
+    "h24": 409374.79,
+    "h6": 82701.02,
+    "h1": 6138.78,
+    "m5": 463.43
+   },
+   "priceChange": {
+    "h1": 4.03,
+    "h6": 4.02,
+    "h24": -0.22
+   },
+   "liquidity": {
+    "usd": 1899514.86,
+    "base": 53983831,
+    "quote": 36739586
+   },
+   "fdv": 33686787,
+   "marketCap": 256772499,
+   "pairCreatedAt": 1784159243000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/AMht6kpE_OQ1YQ8L?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x40aaf75454036bed56f3266ccf18f6b7befd6aca?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://codexblockchain.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/codex_hosting",
+      "type": "twitter"
+     },
+     {
+      "url": "https://discord.com/invite/YcytNDqSZz",
+      "type": "discord"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 30.25736913157282,
+   "_liq_usd": 1899514.86
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x264984e00973c1dd3e2e145687715f211568eb7685af5527bcee61a1e6812675",
+   "pairAddress": "0x264984e00973c1dd3e2e145687715f211568eb7685af5527bcee61a1e6812675",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0xb10cc888cB2CcE7036F4c7ECAd8a57Da16161338",
+    "name": "Switch",
+    "symbol": "SWITCH"
+   },
+   "quoteToken": {
+    "address": "0x14D6C649292c5c9790c5196D1a9EA039307947a1",
+    "name": "GULD",
+    "symbol": "GULD"
+   },
+   "priceNative": "0.8915",
+   "priceUsd": "0.01969",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 8,
+     "sells": 6
+    },
+    "h6": {
+     "buys": 32,
+     "sells": 42
+    },
+    "h24": {
+     "buys": 129,
+     "sells": 178
+    }
+   },
+   "volume": {
+    "h24": 303264.18,
+    "h6": 71655.59,
+    "h1": 17626.64,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 2.71,
+    "h6": 4.32,
+    "h24": 0.63
+   },
+   "liquidity": {
+    "usd": 1837907.37,
+    "base": 77064714,
+    "quote": 14503191
+   },
+   "fdv": 247637577,
+   "marketCap": 247637577,
+   "pairCreatedAt": 1782873959000,
+   "_src": "tokenpairs",
+   "_age_days": 45.13334135379504,
+   "_liq_usd": 1837907.37
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x80de586aca5d595b20280417b2d5fd099760a758e4210c6c36d3e17370196103",
+   "pairAddress": "0x80de586aca5d595b20280417b2d5fd099760a758e4210c6c36d3e17370196103",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x95669A6589A81A6704bab1020722d0C405841885",
+    "name": "Give",
+    "symbol": "GIVE"
+   },
+   "quoteToken": {
+    "address": "0x40AAf75454036Bed56F3266cCf18f6b7befd6Aca",
+    "name": "Codex",
+    "symbol": "CDXR"
+   },
+   "priceNative": "1.07356",
+   "priceUsd": "0.02154",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 5,
+     "sells": 5
+    },
+    "h24": {
+     "buys": 16,
+     "sells": 23
+    }
+   },
+   "volume": {
+    "h24": 119823.03,
+    "h6": 35578.57,
+    "h1": 6726.35,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.03,
+    "h6": 0.15,
+    "h24": 0.16
+   },
+   "liquidity": {
+    "usd": 1807438.44,
+    "base": 52884534,
+    "quote": 33294074
+   },
+   "fdv": 48265819,
+   "marketCap": 48265819,
+   "pairCreatedAt": 1784159219000,
+   "_src": "tokenpairs",
+   "_age_days": 30.257646909350598,
+   "_liq_usd": 1807438.44
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xd5546f56badc5a965b8dbe5fc9838041cb22919b53ccbd33bd0c47fc9e8bae5a",
+   "pairAddress": "0xd5546f56badc5a965b8dbe5fc9838041cb22919b53ccbd33bd0c47fc9e8bae5a",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x40AAf75454036Bed56F3266cCf18f6b7befd6Aca",
+    "name": "Codex",
+    "symbol": "CDXR"
+   },
+   "quoteToken": {
+    "address": "0xb10cc888cB2CcE7036F4c7ECAd8a57Da16161338",
+    "name": "Switch",
+    "symbol": "SWITCH"
+   },
+   "priceNative": "1.02978",
+   "priceUsd": "0.01878",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 3
+    },
+    "h6": {
+     "buys": 9,
+     "sells": 18
+    },
+    "h24": {
+     "buys": 46,
+     "sells": 78
+    }
+   },
+   "volume": {
+    "h24": 99523.42,
+    "h6": 18883.15,
+    "h1": 1316.71,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 3.21,
+    "h6": 6.07,
+    "h24": 1.71
+   },
+   "liquidity": {
+    "usd": 1709486.69,
+    "base": 14503008,
+    "quote": 78800264
+   },
+   "fdv": 31389204,
+   "marketCap": 239259512,
+   "pairCreatedAt": 1784159195000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/AMht6kpE_OQ1YQ8L?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x40aaf75454036bed56f3266ccf18f6b7befd6aca?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://codexblockchain.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/codex_hosting",
+      "type": "twitter"
+     },
+     {
+      "url": "https://discord.com/invite/YcytNDqSZz",
+      "type": "discord"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 30.257924687128376,
+   "_liq_usd": 1709486.69
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x19d044e9f31155f162928a04f261ea2af6f811130bbc850398cfaed377d7fdb9",
+   "pairAddress": "0x19d044e9f31155f162928a04f261ea2af6f811130bbc850398cfaed377d7fdb9",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x230f1E241C621d5af670Dad83ebCdd18971E2995",
+    "name": "Nesa",
+    "symbol": "NES"
+   },
+   "quoteToken": {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.2090",
+   "priceUsd": "0.2090",
+   "txns": {
+    "m5": {
+     "buys": 3,
+     "sells": 3
+    },
+    "h1": {
+     "buys": 49,
+     "sells": 51
+    },
+    "h6": {
+     "buys": 313,
+     "sells": 317
+    },
+    "h24": {
+     "buys": 1296,
+     "sells": 1271
+    }
+   },
+   "volume": {
+    "h24": 3789836.38,
+    "h6": 842679.02,
+    "h1": 139328.37,
+    "m5": 9198.75
+   },
+   "priceChange": {
+    "h1": -0.04,
+    "h6": 0.12,
+    "h24": -1.11
+   },
+   "liquidity": {
+    "usd": 1614688.7,
+    "base": 479689,
+    "quote": 1514397
+   },
+   "fdv": 26968633,
+   "marketCap": 29584041,
+   "pairCreatedAt": 1782670439000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/LNtwotWOjQKDtZZs?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/Eh5cSaMbpY_5y10W?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x230f1e241c621d5af670dad83ebcdd18971e2995?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://newswithcrypto.com",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/nesaorg",
+      "type": "twitter"
+     },
+     {
+      "url": "https://discord.com/invite/nesa",
+      "type": "discord"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 47.4888969093506,
+   "_liq_usd": 1614688.7
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xb2929cee7cb2dd10ecb450ed2df3f7ff2c3c1ef76235dfc7b8ff642451917861",
+   "pairAddress": "0xb2929cee7cb2dd10ecb450ed2df3f7ff2c3c1ef76235dfc7b8ff642451917861",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x40AAf75454036Bed56F3266cCf18f6b7befd6Aca",
+    "name": "Codex",
+    "symbol": "CDXR"
+   },
+   "quoteToken": {
+    "address": "0x888888888887715FB9D9F84175Af9e6cCE46807e",
+    "name": "Elevate",
+    "symbol": "ELEVATE"
+   },
+   "priceNative": "0.2278",
+   "priceUsd": "0.02077",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 21,
+     "sells": 18
+    },
+    "h6": {
+     "buys": 89,
+     "sells": 93
+    },
+    "h24": {
+     "buys": 120,
+     "sells": 115
+    }
+   },
+   "volume": {
+    "h24": 399538.98,
+    "h6": 279105.87,
+    "h1": 66669.21,
+    "m5": 1377.96
+   },
+   "priceChange": {
+    "m5": 0.01,
+    "h1": 0.03,
+    "h6": -0.29,
+    "h24": -0.15
+   },
+   "liquidity": {
+    "usd": 1496377.11,
+    "base": 45099718,
+    "quote": 6139992
+   },
+   "fdv": 34714700,
+   "marketCap": 264607614,
+   "pairCreatedAt": 1784337599000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/AMht6kpE_OQ1YQ8L?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x40aaf75454036bed56f3266ccf18f6b7befd6aca?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://codexblockchain.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/codex_hosting",
+      "type": "twitter"
+     },
+     {
+      "url": "https://discord.com/invite/YcytNDqSZz",
+      "type": "discord"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 28.193063576017266,
+   "_liq_usd": 1496377.11
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xb91f9f1de7d1049b9cb95d97fdc1340d35123890dcf19884def4ac6d94ced3ce",
+   "pairAddress": "0xb91f9f1de7d1049b9cb95d97fdc1340d35123890dcf19884def4ac6d94ced3ce",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x95669A6589A81A6704bab1020722d0C405841885",
+    "name": "Give",
+    "symbol": "GIVE"
+   },
+   "quoteToken": {
+    "address": "0x888888888887715FB9D9F84175Af9e6cCE46807e",
+    "name": "Elevate",
+    "symbol": "ELEVATE"
+   },
+   "priceNative": "0.2470",
+   "priceUsd": "0.02251",
+   "txns": {
+    "m5": {
+     "buys": 3,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 19,
+     "sells": 15
+    },
+    "h6": {
+     "buys": 96,
+     "sells": 84
+    },
+    "h24": {
+     "buys": 124,
+     "sells": 115
+    }
+   },
+   "volume": {
+    "h24": 237547.53,
+    "h6": 179386.21,
+    "h1": 41954.53,
+    "m5": 5293.87
+   },
+   "priceChange": {
+    "m5": 0.17,
+    "h1": 0.5,
+    "h6": 0.22,
+    "h24": 0.12
+   },
+   "liquidity": {
+    "usd": 1448805.64,
+    "base": 62570289,
+    "quote": 438232
+   },
+   "fdv": 50445678,
+   "marketCap": 50445678,
+   "pairCreatedAt": 1784337611000,
+   "_src": "tokenpairs",
+   "_age_days": 28.192924687128375,
+   "_liq_usd": 1448805.64
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xf13265715fb260771ccd8717edac0cfd26b4e4efa05c61a876242003bc616512",
+   "pairAddress": "0xf13265715fb260771ccd8717edac0cfd26b4e4efa05c61a876242003bc616512",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0xb2089A7069861C8D90c8dA3aaCAB8e9188C0C531",
+    "name": "Green",
+    "symbol": "GREEN"
+   },
+   "quoteToken": {
+    "address": "0x40AAf75454036Bed56F3266cCf18f6b7befd6Aca",
+    "name": "Codex",
+    "symbol": "CDXR"
+   },
+   "priceNative": "1.02566",
+   "priceUsd": "0.02058",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 5,
+     "sells": 4
+    },
+    "h6": {
+     "buys": 18,
+     "sells": 15
+    },
+    "h24": {
+     "buys": 61,
+     "sells": 52
+    }
+   },
+   "volume": {
+    "h24": 138787.96,
+    "h6": 31876.34,
+    "h1": 5659.99,
+    "m5": 2
+   },
+   "priceChange": {
+    "h1": 0.03,
+    "h6": 0.04,
+    "h24": -0.33
+   },
+   "liquidity": {
+    "usd": 1370748.93,
+    "base": 66073190,
+    "quote": 539024
+   },
+   "fdv": 845458017,
+   "marketCap": 845458017,
+   "pairCreatedAt": 1784159495000,
+   "_src": "tokenpairs",
+   "_age_days": 30.254452464906155,
+   "_liq_usd": 1370748.93
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xbe26d0e86426f365a1fe963e58c77432911ac6a61a3141b341b774f00b4ce3d8",
+   "pairAddress": "0xbe26d0e86426f365a1fe963e58c77432911ac6a61a3141b341b774f00b4ce3d8",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0xE76c5b78f93909d34404E9eb4C1f19e7582a5dE1",
+    "name": "Humanity",
+    "symbol": "H"
+   },
+   "quoteToken": {
+    "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.1181",
+   "priceUsd": "0.1181",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 24,
+     "sells": 18
+    },
+    "h6": {
+     "buys": 196,
+     "sells": 181
+    },
+    "h24": {
+     "buys": 1128,
+     "sells": 841
+    }
+   },
+   "volume": {
+    "h24": 740129.59,
+    "h6": 143630.43,
+    "h1": 13914.15,
+    "m5": 538.28
+   },
+   "priceChange": {
+    "m5": 0.08,
+    "h1": -0.02,
+    "h6": 0.52,
+    "h24": 19.1
+   },
+   "liquidity": {
+    "usd": 1164580.78,
+    "base": 4927053,
+    "quote": 582475
+   },
+   "fdv": 1181447775,
+   "marketCap": 1181447775,
+   "pairCreatedAt": 1786517687000,
+   "_src": "tokenpairs",
+   "_age_days": 2.960563576017265,
+   "_liq_usd": 1164580.78
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x2b06ebe46324f375dd2b212b1a1918524b80c709e5763de0d32dae5f0ac55fbf",
+   "pairAddress": "0x2b06ebe46324f375dd2b212b1a1918524b80c709e5763de0d32dae5f0ac55fbf",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x40AAf75454036Bed56F3266cCf18f6b7befd6Aca",
+    "name": "Codex",
+    "symbol": "CDXR"
+   },
+   "quoteToken": {
+    "address": "0xb10CB07CA2CDac77FbB5707f6690301f9d036F45",
+    "name": "Win",
+    "symbol": "WIN"
+   },
+   "priceNative": "1.07357",
+   "priceUsd": "0.01747",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 2,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 3,
+     "sells": 2
+    },
+    "h24": {
+     "buys": 17,
+     "sells": 13
+    }
+   },
+   "volume": {
+    "h24": 27354.48,
+    "h6": 7693.17,
+    "h1": 3409.35,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.85,
+    "h6": -2.43,
+    "h24": -4.82
+   },
+   "liquidity": {
+    "usd": 1136434.35,
+    "base": 370479,
+    "quote": 69410130
+   },
+   "fdv": 29210936,
+   "marketCap": 222655990,
+   "pairCreatedAt": 1784159147000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/AMht6kpE_OQ1YQ8L?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x40aaf75454036bed56f3266ccf18f6b7befd6aca?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://codexblockchain.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/codex_hosting",
+      "type": "twitter"
+     },
+     {
+      "url": "https://discord.com/invite/YcytNDqSZz",
+      "type": "discord"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 30.25848024268393,
+   "_liq_usd": 1136434.35
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x230ecd3c25b44af30db59c15f70df7794eb13f67a200f230b7400daa96fe804d",
+   "pairAddress": "0x230ecd3c25b44af30db59c15f70df7794eb13f67a200f230b7400daa96fe804d",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0xa0Df17B5aC76ABaBA36E1450E2cbCd18A620C845",
+    "name": "Fake World Assets",
+    "symbol": "FWA"
+   },
+   "quoteToken": {
+    "address": "0x0000000000000000000000000000000000000000",
+    "name": "Ether",
+    "symbol": "ETH"
+   },
+   "priceNative": "0.00001218",
+   "priceUsd": "0.02290",
+   "txns": {
+    "m5": {
+     "buys": 10,
+     "sells": 5
+    },
+    "h1": {
+     "buys": 101,
+     "sells": 95
+    },
+    "h6": {
+     "buys": 301,
+     "sells": 249
+    },
+    "h24": {
+     "buys": 1897,
+     "sells": 1316
+    }
+   },
+   "volume": {
+    "h24": 1520901.71,
+    "h6": 390181.61,
+    "h1": 175960.65,
+    "m5": 10332.17
+   },
+   "priceChange": {
+    "m5": 3.99,
+    "h1": 16.61,
+    "h6": 4.64,
+    "h24": -19.56
+   },
+   "liquidity": {
+    "usd": 1015749.85,
+    "base": 22689927,
+    "quote": 263.8125
+   },
+   "fdv": 22745559,
+   "marketCap": 22006902,
+   "pairCreatedAt": 1784223815000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/YEFggtEx_Tq-hpge?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/DXCRV6F3y9KfT5n-?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0xa0df17b5ac76ababa36e1450e2cbcd18a620c845?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://fwa.fun",
+      "label": "Website"
+     },
+     {
+      "url": "https://fwa.fun/docs",
+      "label": "Docs"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/token_works",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 29.510008020461708,
+   "_liq_usd": 1015749.85
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x7a52ba9092e364c766820ed007fd0fc13be21290d329eaade1948c984c821f2d",
+   "pairAddress": "0x7a52ba9092e364c766820ed007fd0fc13be21290d329eaade1948c984c821f2d",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x87b65C4aAFFA76881f9E96F3e7ED945ddFC3Cd7A",
+    "name": "syrupUSDG",
+    "symbol": "syrupUSDG"
+   },
+   "quoteToken": {
+    "address": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
+    "name": "Global Dollar",
+    "symbol": "USDG"
+   },
+   "priceNative": "1.005798",
+   "priceUsd": "1.0057",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 11,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 67306.42,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": 0.03
+   },
+   "liquidity": {
+    "usd": 993999.63,
+    "base": 207157,
+    "quote": 785640
+   },
+   "fdv": 104500556,
+   "marketCap": 104500556,
+   "pairCreatedAt": 1784572091000,
+   "_src": "tokenpairs",
+   "_age_days": 25.479035798239487,
+   "_liq_usd": 993999.63
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1",
+   "pairAddress": "0x56fc29b86900aa0afa6e20b020429bffba1105cfb45070492c67529b46eb48c1",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "name": "USDe",
+    "symbol": "USDe"
+   },
+   "quoteToken": {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.9999",
+   "priceUsd": "0.9999",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 2
+    },
+    "h1": {
+     "buys": 7,
+     "sells": 22
+    },
+    "h6": {
+     "buys": 22,
+     "sells": 157
+    },
+    "h24": {
+     "buys": 70,
+     "sells": 523
+    }
+   },
+   "volume": {
+    "h24": 2401632.53,
+    "h6": 446030.98,
+    "h1": 48309.83,
+    "m5": 30.83
+   },
+   "priceChange": {},
+   "liquidity": {
+    "usd": 974651.68,
+    "base": 153171,
+    "quote": 821481
+   },
+   "fdv": 3955836185,
+   "marketCap": 3955836185,
+   "pairCreatedAt": 1784330699000,
+   "_src": "tokenpairs",
+   "_age_days": 28.272924687128377,
+   "_liq_usd": 974651.68
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x75fe2cef220a7d473903345d9c690b629226477ae53cfa2b299037a1bdd72495",
+   "pairAddress": "0x75fe2cef220a7d473903345d9c690b629226477ae53cfa2b299037a1bdd72495",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x40AAf75454036Bed56F3266cCf18f6b7befd6Aca",
+    "name": "Codex",
+    "symbol": "CDXR"
+   },
+   "quoteToken": {
+    "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.02006",
+   "priceUsd": "0.02006",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 2,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 54,
+     "sells": 46
+    }
+   },
+   "volume": {
+    "h24": 11292.13,
+    "h6": 340.29,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.01,
+    "h24": -0.22
+   },
+   "liquidity": {
+    "usd": 903392.38,
+    "base": 44937320,
+    "quote": 1622.9911
+   },
+   "fdv": 33539724,
+   "marketCap": 255651533,
+   "pairCreatedAt": 1782415859000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/AMht6kpE_OQ1YQ8L?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x40aaf75454036bed56f3266ccf18f6b7befd6aca?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://codexblockchain.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/codex_hosting",
+      "type": "twitter"
+     },
+     {
+      "url": "https://discord.com/invite/YcytNDqSZz",
+      "type": "discord"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 50.435424687128375,
+   "_liq_usd": 903392.38
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x2e9eef85c2822c6ec9ee3d3e7da32873797c478de9815ca3021c4b21665b619d",
+   "pairAddress": "0x2e9eef85c2822c6ec9ee3d3e7da32873797c478de9815ca3021c4b21665b619d",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB",
+    "name": "ether.fi governance token",
+    "symbol": "ETHFI"
+   },
+   "quoteToken": {
+    "address": "0x0000000000000000000000000000000000000000",
+    "name": "Ether",
+    "symbol": "ETH"
+   },
+   "priceNative": "0.0002377",
+   "priceUsd": "0.4470",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 2
+    },
+    "h6": {
+     "buys": 20,
+     "sells": 33
+    },
+    "h24": {
+     "buys": 166,
+     "sells": 199
+    }
+   },
+   "volume": {
+    "h24": 439925.46,
+    "h6": 66651.86,
+    "h1": 151.97,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.27,
+    "h6": -0.91,
+    "h24": 3.61
+   },
+   "liquidity": {
+    "usd": 708131.8,
+    "base": 721497,
+    "quote": 205.08653
+   },
+   "fdv": 446385542,
+   "marketCap": 435179144,
+   "pairCreatedAt": 1786366283000,
+   "_src": "tokenpairs",
+   "_age_days": 4.712924687128376,
+   "_liq_usd": 708131.8
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x12a9c409e2f0868b3f5bf76cffcc0c5128a31c491188bd6dd35b3c232bb62a14",
+   "pairAddress": "0x12a9c409e2f0868b3f5bf76cffcc0c5128a31c491188bd6dd35b3c232bb62a14",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x19640000000ba88d36206BeB10D0e86011C8d08c",
+    "name": "Rally",
+    "symbol": "RALLY"
+   },
+   "quoteToken": {
+    "address": "0x14D6C649292c5c9790c5196D1a9EA039307947a1",
+    "name": "GULD",
+    "symbol": "GULD"
+   },
+   "priceNative": "3.9765",
+   "priceUsd": "0.08428",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 0,
+     "sells": 1
+    }
+   },
+   "volume": {
+    "h24": 31.36,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "liquidity": {
+    "usd": 705614.19,
+    "base": 61239,
+    "quote": 33048218
+   },
+   "fdv": 753040473,
+   "marketCap": 2841087467,
+   "pairCreatedAt": 1782873839000,
+   "_src": "tokenpairs",
+   "_age_days": 45.13473024268393,
+   "_liq_usd": 705614.19
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x7da1afe9de05528e6559b5845188b98d013843e630b20cd511b974a425267427",
+   "pairAddress": "0x7da1afe9de05528e6559b5845188b98d013843e630b20cd511b974a425267427",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
+    "name": "Global Dollar",
+    "symbol": "USDG"
+   },
+   "quoteToken": {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "1.00009709",
+   "priceUsd": "1.000097",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 6,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 31,
+     "sells": 3
+    },
+    "h24": {
+     "buys": 143,
+     "sells": 32
+    }
+   },
+   "volume": {
+    "h24": 1650278.33,
+    "h6": 60470.97,
+    "h1": 1420.98,
+    "m5": 408.25
+   },
+   "priceChange": {
+    "h24": 0.49
+   },
+   "liquidity": {
+    "usd": 644414.35,
+    "base": 470812,
+    "quote": 173555
+   },
+   "fdv": 451970356,
+   "marketCap": 451970356,
+   "pairCreatedAt": 1785833543000,
+   "_src": "tokenpairs",
+   "_age_days": 10.878896909350598,
+   "_liq_usd": 644414.35
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xb3511fc5f98c6d924e80ff4ef400baba00aacb9fb019eafc99ed8450275bc0d7",
+   "pairAddress": "0xb3511fc5f98c6d924e80ff4ef400baba00aacb9fb019eafc99ed8450275bc0d7",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7",
+    "name": "Staked USDat",
+    "symbol": "sUSDat"
+   },
+   "quoteToken": {
+    "address": "0x98A878b1Cd98131B271883B390f68D2c90674665",
+    "name": "apxUSD",
+    "symbol": "apxUSD"
+   },
+   "priceNative": "1.03133",
+   "priceUsd": "0.9587",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 3,
+     "sells": 2
+    },
+    "h24": {
+     "buys": 32,
+     "sells": 58
+    }
+   },
+   "volume": {
+    "h24": 230195.2,
+    "h6": 11085.25,
+    "h1": 2884.46,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.21,
+    "h6": 0.08,
+    "h24": -2
+   },
+   "liquidity": {
+    "usd": 379577.7,
+    "base": 338889,
+    "quote": 58805
+   },
+   "fdv": 77350928,
+   "marketCap": 77350928,
+   "pairCreatedAt": 1785831935000,
+   "_src": "tokenpairs",
+   "_age_days": 10.897508020461709,
+   "_liq_usd": 379577.7
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "curve",
+   "url": "https://dexscreener.com/ethereum/0x384ca8992f955009bdd94849488e580559590157",
+   "pairAddress": "0x384CA8992F955009Bdd94849488E580559590157",
+   "labels": [
+    "two"
+   ],
+   "baseToken": {
+    "address": "0x16F93eBC5320C89EfC8701577efe49d14A276a06",
+    "name": "CAD Digital Inc",
+    "symbol": "CADD"
+   },
+   "quoteToken": {
+    "address": "0xCAcd6fd266aF91b8AeD52aCCc382b4e165586E29",
+    "name": "Frax USD",
+    "symbol": "frxUSD"
+   },
+   "priceNative": "0.7166",
+   "priceUsd": "0.7166",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 1
+    }
+   },
+   "volume": {
+    "h24": 7158.11,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": -0.06
+   },
+   "liquidity": {
+    "usd": 304889.86,
+    "base": 219785,
+    "quote": 147371
+   },
+   "fdv": 397698,
+   "marketCap": 397698,
+   "pairCreatedAt": 1783432787000,
+   "_src": "tokenpairs",
+   "_age_days": 38.66542468712838,
+   "_liq_usd": 304889.86
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x30850e19afc43b95e41b1fe35185762b4b631e63d07e91b0300c6e0c8cbf7146",
+   "pairAddress": "0x30850e19afc43b95e41b1fe35185762b4b631e63d07e91b0300c6e0c8cbf7146",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0xCf4d29f14Cc585DDd1167F956092852AF844e040",
+    "name": "Prism",
+    "symbol": "PRISM"
+   },
+   "quoteToken": {
+    "address": "0x0000000000000000000000000000000000000000",
+    "name": "Ether",
+    "symbol": "ETH"
+   },
+   "priceNative": "0.3873",
+   "priceUsd": "729.96",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 21,
+     "sells": 16
+    },
+    "h24": {
+     "buys": 103,
+     "sells": 97
+    }
+   },
+   "volume": {
+    "h24": 149422.97,
+    "h6": 35760.48,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -8.38,
+    "h24": -1.79
+   },
+   "liquidity": {
+    "usd": 302367.21,
+    "base": 216.5671,
+    "quote": 76.5609
+   },
+   "fdv": 3643502,
+   "marketCap": 3643500,
+   "pairCreatedAt": 1785425147000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/BQLHFBsfPcHR-f4c?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/SIT_vNA6UBxGQINZ?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0xcf4d29f14cc585ddd1167f956092852af844e040?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://prismmothership.xyz",
+      "label": "Website"
+     },
+     {
+      "url": "https://prismmothership.xyz/how-it-works",
+      "label": "Docs"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/PrismMothership",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/PrismLP/",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 15.605702464906154,
+   "_liq_usd": 302367.21
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xd227d3d4602f4037839fff79dc5fd80e9cc45b4e",
+   "pairAddress": "0xD227D3D4602F4037839Fff79dC5fD80e9cC45B4E",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x7AdbFd873084dB714A57eD648ee69Aa4627Cb998",
+    "name": "Alberich Token",
+    "symbol": "ALBRH"
+   },
+   "quoteToken": {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.0001186",
+   "priceUsd": "0.0001186",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 4,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 27,
+     "sells": 19
+    },
+    "h24": {
+     "buys": 148,
+     "sells": 112
+    }
+   },
+   "volume": {
+    "h24": 76604.13,
+    "h6": 13279.93,
+    "h1": 874.96,
+    "m5": 275.1
+   },
+   "priceChange": {
+    "m5": 0.4,
+    "h1": 0.32,
+    "h6": 1.96,
+    "h24": 9.57
+   },
+   "liquidity": {
+    "usd": 276810.13,
+    "base": 1167219638,
+    "quote": 138351
+   },
+   "fdv": 10391330,
+   "marketCap": 10391330,
+   "pairCreatedAt": 1786485455000,
+   "_src": "pairbatch",
+   "_age_days": 3.3336191315728203,
+   "_liq_usd": 276810.13
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x6462361f939f9dd3a919ff9816e2eaefdefd944ccc13366148c830861a2bec6c",
+   "pairAddress": "0x6462361f939f9dd3a919ff9816e2eaefdefd944ccc13366148c830861a2bec6c",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x98A878b1Cd98131B271883B390f68D2c90674665",
+    "name": "apxUSD",
+    "symbol": "apxUSD"
+   },
+   "quoteToken": {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.9327",
+   "priceUsd": "0.9327",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 2,
+     "sells": 4
+    },
+    "h24": {
+     "buys": 28,
+     "sells": 20
+    }
+   },
+   "volume": {
+    "h24": 171072.94,
+    "h6": 6813.71,
+    "h1": 2775,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.03,
+    "h6": 0.1,
+    "h24": -1.48
+   },
+   "liquidity": {
+    "usd": 263462.15,
+    "base": 54576,
+    "quote": 212558
+   },
+   "fdv": 291074885,
+   "marketCap": 291074885,
+   "pairCreatedAt": 1782977927000,
+   "_src": "tokenpairs",
+   "_age_days": 43.930008020461706,
+   "_liq_usd": 263462.15
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "curve",
+   "url": "https://dexscreener.com/ethereum/0x279b5da45cb6fc61dddeae5327a47f20d7849361",
+   "pairAddress": "0x279B5da45cB6fc61dDDeae5327A47F20d7849361",
+   "labels": [
+    "two"
+   ],
+   "baseToken": {
+    "address": "0x28D4e499C4CdE621e1Cea7c9CBf9D43bf75a9525",
+    "name": "Helix Token",
+    "symbol": "HLX"
+   },
+   "quoteToken": {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.04733",
+   "priceUsd": "0.04733",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 3,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 12,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 28,
+     "sells": 16
+    }
+   },
+   "volume": {
+    "h24": 5145.68,
+    "h6": 968.16,
+    "h1": 435.86,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.75,
+    "h6": 1.66,
+    "h24": 0.8
+   },
+   "liquidity": {
+    "usd": 241089.56,
+    "base": 2576230,
+    "quote": 119138
+   },
+   "fdv": 4733720450,
+   "marketCap": 4733720450,
+   "pairCreatedAt": 1784731067000,
+   "_src": "tokenpairs",
+   "_age_days": 23.639035798239487,
+   "_liq_usd": 241089.56
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x7e208b310571bde49b511c496e9c33062134626b4c7d1cc56a8eb5d971903929",
+   "pairAddress": "0x7e208b310571bde49b511c496e9c33062134626b4c7d1cc56a8eb5d971903929",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x89Cf5C1b3bc04ea54795B37A85258F1dfC9c31dF",
+    "name": "Swing",
+    "symbol": "Swing"
+   },
+   "quoteToken": {
+    "address": "0x0000000000000000000000000000000000000000",
+    "name": "Ether",
+    "symbol": "ETH"
+   },
+   "priceNative": "0.000001391",
+   "priceUsd": "0.002615",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 8,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 97,
+     "sells": 36
+    },
+    "h24": {
+     "buys": 384,
+     "sells": 132
+    }
+   },
+   "volume": {
+    "h24": 45073.79,
+    "h6": 4964.15,
+    "h1": 1097.19,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 2.04,
+    "h6": 1.16,
+    "h24": 34.69
+   },
+   "liquidity": {
+    "usd": 224075.48,
+    "base": 34761243,
+    "quote": 70.8051
+   },
+   "fdv": 2615963,
+   "marketCap": 1208632,
+   "pairCreatedAt": 1783524395000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/vGvZSX8HXVQJuDuA?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/qF9wgff-761sUwje?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x89cf5c1b3bc04ea54795b37a85258f1dfc9c31df?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://swinghook.eth.limo",
+      "label": "Website"
+     },
+     {
+      "url": "https://www.swinghook.com/whitepaper",
+      "label": "Docs"
+     },
+     {
+      "url": "https://swinghook.eth.limo",
+      "label": "Decentralized"
+     },
+     {
+      "url": "https://github.com/Hooknomics",
+      "label": "Github"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/Hooknomics",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/swinghook",
+      "type": "telegram"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 37.6051469093506,
+   "_liq_usd": 224075.48
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xa4dcdb1bcf688bcaa53b24f15ca859cfb83a3921",
+   "pairAddress": "0xa4dCDb1BCf688BcAA53B24f15cA859cFB83A3921",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x9BE89D2a4cd102D8Fecc6BF9dA793be995C22541",
+    "name": "Binance Wrapped BTC",
+    "symbol": "BBTC"
+   },
+   "quoteToken": {
+    "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "name": "Coinbase Wrapped BTC",
+    "symbol": "cbBTC"
+   },
+   "priceNative": "1.0003760",
+   "priceUsd": "63114.014",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 2
+    },
+    "h24": {
+     "buys": 0,
+     "sells": 13
+    }
+   },
+   "volume": {
+    "h24": 31722.06,
+    "h6": 6594.95,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.17,
+    "h24": -0.56
+   },
+   "liquidity": {
+    "usd": 201325.15,
+    "base": 0.9956,
+    "quote": 2.195
+   },
+   "fdv": 183030595,
+   "marketCap": 183030595,
+   "pairCreatedAt": 1785743639000,
+   "_src": "tokenpairs",
+   "_age_days": 11.919452464906154,
+   "_liq_usd": 201325.15
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xa615a972eeb7285b62a9b9bad0ad3307c0bcf19039302a92488a70bc2f6f9038",
+   "pairAddress": "0xa615a972eeb7285b62a9b9bad0ad3307c0bcf19039302a92488a70bc2f6f9038",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7",
+    "name": "Staked USDat",
+    "symbol": "sUSDat"
+   },
+   "quoteToken": {
+    "address": "0x98A878b1Cd98131B271883B390f68D2c90674665",
+    "name": "apxUSD",
+    "symbol": "apxUSD"
+   },
+   "priceNative": "1.03084",
+   "priceUsd": "0.9583",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 2,
+     "sells": 3
+    }
+   },
+   "volume": {
+    "h24": 8403.73,
+    "h6": 4.02,
+    "h1": 4.02,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -1.1,
+    "h6": -1.1,
+    "h24": -1.73
+   },
+   "liquidity": {
+    "usd": 184332.07,
+    "base": 57387,
+    "quote": 139129
+   },
+   "fdv": 77314512,
+   "marketCap": 77314512,
+   "pairCreatedAt": 1785439727000,
+   "_src": "tokenpairs",
+   "_age_days": 15.436952464906154,
+   "_liq_usd": 184332.07
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x824c1c88a46e3ef82487cd785759c277c03ee935bb9cac8bb9ada6990bb3a15a",
+   "pairAddress": "0x824c1c88a46e3ef82487cd785759c277c03ee935bb9cac8bb9ada6990bb3a15a",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x38EEb52F0771140d10c4E9A9a72349A329Fe8a6A",
+    "name": "apyUSD",
+    "symbol": "apyUSD"
+   },
+   "quoteToken": {
+    "address": "0x98A878b1Cd98131B271883B390f68D2c90674665",
+    "name": "apxUSD",
+    "symbol": "apxUSD"
+   },
+   "priceNative": "1.4059",
+   "priceUsd": "1.30",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 17
+    },
+    "h24": {
+     "buys": 0,
+     "sells": 41
+    }
+   },
+   "volume": {
+    "h24": 206592.78,
+    "h6": 47884.69,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.27,
+    "h24": 0.09
+   },
+   "liquidity": {
+    "usd": 161065,
+    "base": 26881,
+    "quote": 135106
+   },
+   "fdv": 172932967,
+   "marketCap": 172932967,
+   "pairCreatedAt": 1785487751000,
+   "_src": "tokenpairs",
+   "_age_days": 14.88111913157282,
+   "_liq_usd": 161065.0
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x50b73b9ef66a9ef4da1b1c02221106dccadb66a4ffcda85e3433abf8270b5738",
+   "pairAddress": "0x50b73b9ef66a9ef4da1b1c02221106dccadb66a4ffcda85e3433abf8270b5738",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x98A878b1Cd98131B271883B390f68D2c90674665",
+    "name": "apxUSD",
+    "symbol": "apxUSD"
+   },
+   "quoteToken": {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.9468",
+   "priceUsd": "0.9468",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 12
+    },
+    "h24": {
+     "buys": 0,
+     "sells": 28
+    }
+   },
+   "volume": {
+    "h24": 246315.87,
+    "h6": 34496.08,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": -1.5
+   },
+   "liquidity": {
+    "usd": 159221.53,
+    "base": 1333.443,
+    "quote": 157959
+   },
+   "fdv": 295474396,
+   "marketCap": 295474396,
+   "pairCreatedAt": 1786429559000,
+   "_src": "tokenpairs",
+   "_age_days": 3.980563576017265,
+   "_liq_usd": 159221.53
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x1a6bca304c2bf46f2cbd15fcb380576e848c659f",
+   "pairAddress": "0x1A6BcA304C2bf46f2CBd15fCb380576E848c659f",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xA849505DC1ae087510fbF854B084C90772496984",
+    "name": "XRP",
+    "symbol": "XRP "
+   },
+   "quoteToken": {
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.0004753",
+   "priceUsd": "0.8958",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 5,
+     "sells": 5
+    },
+    "h24": {
+     "buys": 9,
+     "sells": 8
+    }
+   },
+   "volume": {
+    "h24": 27823.48,
+    "h6": 19679.9,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.36,
+    "h24": 0.61
+   },
+   "liquidity": {
+    "usd": 152224.46,
+    "base": 84964,
+    "quote": 40.3882
+   },
+   "fdv": 895807896,
+   "marketCap": 895807896,
+   "pairCreatedAt": 1786502651000,
+   "_src": "pairbatch",
+   "_age_days": 3.134591353795043,
+   "_liq_usd": 152224.46
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xee74bb87de06533905dc4a7266db239eccca3a3cbffe752bfe850785f8af78a2",
+   "pairAddress": "0xee74bb87de06533905dc4a7266db239eccca3a3cbffe752bfe850785f8af78a2",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+    "name": "Rocket Pool ETH",
+    "symbol": "rETH"
+   },
+   "quoteToken": {
+    "address": "0x0000000000000000000000000000000000000000",
+    "name": "Ether",
+    "symbol": "ETH"
+   },
+   "priceNative": "1.1660",
+   "priceUsd": "2196.57",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 3
+    },
+    "h24": {
+     "buys": 5,
+     "sells": 5
+    }
+   },
+   "volume": {
+    "h24": 38165.14,
+    "h6": 10397.33,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.16,
+    "h24": 0.54
+   },
+   "liquidity": {
+    "usd": 147514.82,
+    "base": 42.8259,
+    "quote": 28.3705
+   },
+   "fdv": 703534551,
+   "marketCap": 703534551,
+   "pairCreatedAt": 1782789779000,
+   "_src": "tokenpairs",
+   "_age_days": 46.1076469093506,
+   "_liq_usd": 147514.82
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xd9ca22573437a06a12d5c757b151aa1a76265c1dfdde4b76507233d7ad2b6df0",
+   "pairAddress": "0xd9ca22573437a06a12d5c757b151aa1a76265c1dfdde4b76507233d7ad2b6df0",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x7987f03462200b3D8A072E02C89A8A41dCB124EE",
+    "name": "Programmable",
+    "symbol": "V4"
+   },
+   "quoteToken": {
+    "address": "0x0000000000000000000000000000000000000000",
+    "name": "Ether",
+    "symbol": "ETH"
+   },
+   "priceNative": "0.0000006564",
+   "priceUsd": "0.001234",
+   "txns": {
+    "m5": {
+     "buys": 3,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 15,
+     "sells": 5
+    },
+    "h6": {
+     "buys": 41,
+     "sells": 54
+    },
+    "h24": {
+     "buys": 397,
+     "sells": 266
+    }
+   },
+   "volume": {
+    "h24": 212853.43,
+    "h6": 30900.39,
+    "h1": 4110.28,
+    "m5": 289.4
+   },
+   "priceChange": {
+    "m5": 0.92,
+    "h1": -0.86,
+    "h6": -5.69,
+    "h24": -7.26
+   },
+   "liquidity": {
+    "usd": 125053.62,
+    "base": 51845131,
+    "quote": 32.4641
+   },
+   "fdv": 1233333,
+   "marketCap": 1233333,
+   "pairCreatedAt": 1785190343000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/HiO3G7_7_nuaLG_6?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/KrayDzURU7c9hwEk?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x7987f03462200b3d8a072e02c89a8a41dcb124ee?timestamp=1786773600000",
+    "websites": [
+     {
+      "url": "https://programmable.market/",
+      "label": "Website"
+     },
+     {
+      "url": "https://programmable.market/docs",
+      "label": "Docs"
+     },
+     {
+      "url": "https://github.com/0xprogrammable",
+      "label": "Github"
+     },
+     {
+      "url": "https://dune.com/0xprogrammable6098/programmable-analytics",
+      "label": "Analytics"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/0xProgrammable",
+      "type": "twitter"
+     },
+     {
+      "url": "https://discord.com/invite/programmable",
+      "type": "discord"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 18.323341353795044,
+   "_liq_usd": 125053.62
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x8eaa445fecfe052c2749728c4367cdab21d8c974",
+   "pairAddress": "0x8eaA445FEcFe052c2749728C4367cDab21d8c974",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x28D4e499C4CdE621e1Cea7c9CBf9D43bf75a9525",
+    "name": "Helix Token",
+    "symbol": "HLX"
+   },
+   "quoteToken": {
+    "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "name": "Coinbase Wrapped BTC",
+    "symbol": "cbBTC"
+   },
+   "priceNative": "0.0000007490",
+   "priceUsd": "0.04727",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 3,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 9,
+     "sells": 2
+    },
+    "h24": {
+     "buys": 25,
+     "sells": 18
+    }
+   },
+   "volume": {
+    "h24": 3080.1,
+    "h6": 613.26,
+    "h1": 245.55,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.84,
+    "h6": 1.9,
+    "h24": 0.73
+   },
+   "liquidity": {
+    "usd": 113050.13,
+    "base": 1195681,
+    "quote": 0.8955
+   },
+   "fdv": 4727629371,
+   "marketCap": 4727629371,
+   "pairCreatedAt": 1784239079000,
+   "_src": "tokenpairs",
+   "_age_days": 29.333341353795042,
+   "_liq_usd": 113050.13
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x18adf6fa633dfadb0aaa108b5773f9a878b293ee180c6b7da8db9a3f88c3bfcf",
+   "pairAddress": "0x18adf6fa633dfadb0aaa108b5773f9a878b293ee180c6b7da8db9a3f88c3bfcf",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x2E43E18a19Ae896c6f8657Ca6285b9672f67F7D2",
+    "name": "usocks",
+    "symbol": "usocks"
+   },
+   "quoteToken": {
+    "address": "0x0000000000000000000000000000000000000000",
+    "name": "Ether",
+    "symbol": "ETH"
+   },
+   "priceNative": "0.0000000007032",
+   "priceUsd": "0.000001322",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 11,
+     "sells": 10
+    },
+    "h6": {
+     "buys": 41,
+     "sells": 76
+    },
+    "h24": {
+     "buys": 187,
+     "sells": 342
+    }
+   },
+   "volume": {
+    "h24": 67757.74,
+    "h6": 13426.49,
+    "h1": 2415.18,
+    "m5": 493.36
+   },
+   "priceChange": {
+    "m5": 1.91,
+    "h1": 5.9,
+    "h6": 7.04,
+    "h24": -29.57
+   },
+   "liquidity": {
+    "usd": 109161.23,
+    "base": 30670692531,
+    "quote": 36.4785
+   },
+   "fdv": 129183,
+   "marketCap": 128785,
+   "pairCreatedAt": 1786539815000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/BtnJJI78J-U4G4nf?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/5Z5nox7LaERsEqZR?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x2e43e18a19ae896c6f8657ca6285b9672f67f7d2?timestamp=1786773600000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/usocks_fun",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "tokenpairs",
+   "_age_days": 2.704452464906154,
+   "_liq_usd": 109161.23
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xc21b5527c3d99226eeb89753d161a2bd926e1c952578cd4b2507f8c958da416d",
+   "pairAddress": "0xc21b5527c3d99226eeb89753d161a2bd926e1c952578cd4b2507f8c958da416d",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x38EEb52F0771140d10c4E9A9a72349A329Fe8a6A",
+    "name": "apyUSD",
+    "symbol": "apyUSD"
+   },
+   "quoteToken": {
+    "address": "0x98A878b1Cd98131B271883B390f68D2c90674665",
+    "name": "apxUSD",
+    "symbol": "apxUSD"
+   },
+   "priceNative": "1.4044",
+   "priceUsd": "1.30",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 4
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 17
+    },
+    "h24": {
+     "buys": 30,
+     "sells": 71
+    }
+   },
+   "volume": {
+    "h24": 614604.83,
+    "h6": 5873.27,
+    "h1": 3833.42,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.04,
+    "h6": 0.02,
+    "h24": -2.29
+   },
+   "liquidity": {
+    "usd": 102766.58,
+    "base": 25350,
+    "quote": 74943
+   },
+   "fdv": 172393010,
+   "marketCap": 172393010,
+   "pairCreatedAt": 1785903767000,
+   "_src": "tokenpairs",
+   "_age_days": 10.06611913157282,
+   "_liq_usd": 102766.58
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "curve",
+   "url": "https://dexscreener.com/ethereum/0x04710a7b238386da58efad8b65e150e5e17aa522",
+   "pairAddress": "0x04710a7B238386Da58EfAd8b65E150e5E17AA522",
+   "labels": [
+    "two"
+   ],
+   "baseToken": {
+    "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7",
+    "name": "Staked USDat",
+    "symbol": "sUSDat"
+   },
+   "quoteToken": {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.9615",
+   "priceUsd": "0.9615",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 4,
+     "sells": 7
+    },
+    "h24": {
+     "buys": 47,
+     "sells": 40
+    }
+   },
+   "volume": {
+    "h24": 111423.76,
+    "h6": 11045.02,
+    "h1": 61.97,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.02,
+    "h6": 0.17,
+    "h24": -1.5
+   },
+   "liquidity": {
+    "usd": 102753.41,
+    "base": 52957,
+    "quote": 51834
+   },
+   "fdv": 79798943,
+   "marketCap": 79798943,
+   "pairCreatedAt": 1785550511000,
+   "_src": "pairbatch",
+   "_age_days": 14.154730242683932,
+   "_liq_usd": 102753.41
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x36d583b1bbf5cd0a1f28f7c5fca87d2c84bf0eba3fa299f0d22c54f4a081e457",
+   "pairAddress": "0x36d583b1bbf5cd0a1f28f7c5fca87d2c84bf0eba3fa299f0d22c54f4a081e457",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x28D4e499C4CdE621e1Cea7c9CBf9D43bf75a9525",
+    "name": "Helix Token",
+    "symbol": "HLX"
+   },
+   "quoteToken": {
+    "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "name": "Coinbase Wrapped BTC",
+    "symbol": "cbBTC"
+   },
+   "priceNative": "0.0000007485",
+   "priceUsd": "0.04707",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 4,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 10,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 25,
+     "sells": 16
+    }
+   },
+   "volume": {
+    "h24": 2498.23,
+    "h6": 461.03,
+    "h1": 230.35,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.91,
+    "h6": 1.48,
+    "h24": 0.28
+   },
+   "liquidity": {
+    "usd": 102566.35,
+    "base": 1087987,
+    "quote": 0.8166
+   },
+   "fdv": 4707191860,
+   "marketCap": 4707191860,
+   "pairCreatedAt": 1784145983000,
+   "_src": "tokenpairs",
+   "_age_days": 30.410841353795043,
+   "_liq_usd": 102566.35
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x81f86b2b9ebd32141948a320f3ff3db967d1f87c4ecc51b5c7f6eaf483290fbe",
+   "pairAddress": "0x81f86b2b9ebd32141948a320f3ff3db967d1f87c4ecc51b5c7f6eaf483290fbe",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7",
+    "name": "Staked USDat",
+    "symbol": "sUSDat"
+   },
+   "quoteToken": {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.9592",
+   "priceUsd": "0.9592",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 3,
+     "sells": 2
+    }
+   },
+   "volume": {
+    "h24": 3932.19,
+    "h6": 155.2,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": 0.01
+   },
+   "liquidity": {
+    "usd": 100206.22,
+    "base": 1132.1656,
+    "quote": 99120
+   },
+   "fdv": 77391690,
+   "marketCap": 77391690,
+   "pairCreatedAt": 1786454327000,
+   "_src": "tokenpairs",
+   "_age_days": 3.6938969093505984,
+   "_liq_usd": 100206.22
+  }
+ ],
+ "profiles": {
+  "0x4f376ed882973582e8d0a8806d6e1a195ef11620": {
+   "links": [
+    {
+     "label": "Website",
+     "url": "https://reflectearn.com/"
+    },
+    {
+     "type": "twitter",
+     "url": "https://x.com/reflectandearn"
+    }
+   ],
+   "description": "The 2020 RFI feeling, back on Ethereum. Hold $RFE, every trade reflects into your wallet. No staking, no claiming, no gas. The number just goes up."
+  }
+ },
+ "stats": {
+  "ds_calls": 157,
+  "ds_fail": 0
+ },
+ "errors": [],
+ "total_ds_pairs_seen": 1197
+}

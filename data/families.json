@@ -1,0 +1,384 @@
+{
+ "families": [
+  {
+   "family_id": "FAM01",
+   "size": 20,
+   "chains": [
+    "bsc"
+   ],
+   "basis": [
+    "shared_implementation"
+   ],
+   "implementations": [
+    "0x024f18294970b5c76c0691b87f138a0317156422"
+   ],
+   "total_liquidity_usd": 6798383.18,
+   "any_exploited": false,
+   "members": [
+    {
+     "chain": "bsc",
+     "symbol": "\u9006\u88ad\u4eba\u751f",
+     "address": "0xceFbf00b3732FE91e46989037E4b2564a4fc7777",
+     "liquidity_usd": 1857113.01
+    },
+    {
+     "chain": "bsc",
+     "symbol": "MarsCoin",
+     "address": "0xFe189E97832DA1573e4e4Ff034F4fFC3a15c7777",
+     "liquidity_usd": 1037209.02
+    },
+    {
+     "chain": "bsc",
+     "symbol": "\u91d1\u8776\u5723\u7532",
+     "address": "0x4f0c550bFe484F957D5C7Dd26f9a630a92A17777",
+     "liquidity_usd": 773775.94
+    },
+    {
+     "chain": "bsc",
+     "symbol": "QLM",
+     "address": "0x1Df197D03967eD707E5AABc2c6Cf0c0d62cb7777",
+     "liquidity_usd": 311094.0
+    },
+    {
+     "chain": "bsc",
+     "symbol": "\u5e01\u6709",
+     "address": "0xe9337Dde3dd9e97f1f45A56412767ce5098E7777",
+     "liquidity_usd": 309794.1
+    },
+    {
+     "chain": "bsc",
+     "symbol": "Asian games",
+     "address": "0x31d19B3633eBdb60Dc9d690b3e9eB1FFF61A7777",
+     "liquidity_usd": 280691.81
+    },
+    {
+     "chain": "bsc",
+     "symbol": "BoLe",
+     "address": "0x5e4538460E07A12ea756fe1B774bf5C006797777",
+     "liquidity_usd": 252843.54
+    },
+    {
+     "chain": "bsc",
+     "symbol": "CETS",
+     "address": "0xB0c2aB5af4028461acE3f6e1C33a4eE1404E7777",
+     "liquidity_usd": 252176.57
+    },
+    {
+     "chain": "bsc",
+     "symbol": "CBURN",
+     "address": "0x309409237C4dB70Cd66067741eDcF02Bf69E7777",
+     "liquidity_usd": 236141.26
+    },
+    {
+     "chain": "bsc",
+     "symbol": "\u66b4\u8e81\u725b",
+     "address": "0x3A51dAE2Dc3D901A2cEfeD3Ad128116bf31C7777",
+     "liquidity_usd": 209015.84
+    },
+    {
+     "chain": "bsc",
+     "symbol": "SUMMER",
+     "address": "0xeEb3d73d4dd44e6E4d957d89492f05d5CCeE7777",
+     "liquidity_usd": 183667.22
+    },
+    {
+     "chain": "bsc",
+     "symbol": "Max",
+     "address": "0xe9Bc5C6A86caA44fD7b469bf3cc7c563E4F77777",
+     "liquidity_usd": 140117.94
+    },
+    {
+     "chain": "bsc",
+     "symbol": "VenusCoin",
+     "address": "0x5460b5E88799D27bbdf8A210926C17Dec18d7777",
+     "liquidity_usd": 137656.71
+    },
+    {
+     "chain": "bsc",
+     "symbol": "Marvin",
+     "address": "0xC6Bff31BbFa84d3c05AD61D8Ec47bE8B31517777",
+     "liquidity_usd": 136454.58
+    },
+    {
+     "chain": "bsc",
+     "symbol": "Spark",
+     "address": "0xC1073C967E323F2E197fA3975EC3b279974d7777",
+     "liquidity_usd": 122559.29
+    },
+    {
+     "chain": "bsc",
+     "symbol": "gongsheng",
+     "address": "0x70F7B593148283e7d84CeAB31407Bae0b5317777",
+     "liquidity_usd": 119955.71
+    },
+    {
+     "chain": "bsc",
+     "symbol": "ASTEROID",
+     "address": "0x330990DaE53BCa4C5811C5362B44C33a47db7777",
+     "liquidity_usd": 119736.05
+    },
+    {
+     "chain": "bsc",
+     "symbol": "PIZZA",
+     "address": "0x8554D38b95E4F7Ca11D391008627Df30B2b07777",
+     "liquidity_usd": 111021.64
+    },
+    {
+     "chain": "bsc",
+     "symbol": "utility",
+     "address": "0xEde00776439f9C49C592e43EeE34777a51847777",
+     "liquidity_usd": 105635.63
+    },
+    {
+     "chain": "bsc",
+     "symbol": "bStocks",
+     "address": "0x244B112Cf746e62A5DF723cbDe9906a6dEfd7777",
+     "liquidity_usd": 101723.32
+    }
+   ]
+  },
+  {
+   "family_id": "FAM02",
+   "size": 10,
+   "chains": [
+    "bsc"
+   ],
+   "basis": [
+    "shared_implementation"
+   ],
+   "implementations": [
+    "0xcfed6c4679297ea4889f8183bc057b4a86c64e46"
+   ],
+   "total_liquidity_usd": 6836595.16,
+   "any_exploited": false,
+   "members": [
+    {
+     "chain": "bsc",
+     "symbol": "SPCXB",
+     "address": "0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1",
+     "liquidity_usd": 1815293.69
+    },
+    {
+     "chain": "bsc",
+     "symbol": "QQQB",
+     "address": "0x205812CdBed920aFf76C6580abD681a46D11efc7",
+     "liquidity_usd": 1084445.0
+    },
+    {
+     "chain": "bsc",
+     "symbol": "SKHYB",
+     "address": "0xCA750eF65f295BBECd685Abf54e82CAf297BDB61",
+     "liquidity_usd": 835043.16
+    },
+    {
+     "chain": "bsc",
+     "symbol": "NVDAB",
+     "address": "0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436",
+     "liquidity_usd": 805749.62
+    },
+    {
+     "chain": "bsc",
+     "symbol": "GMEB",
+     "address": "0x46cEeFDa28Dd7207059ed19B0acdc026955bb15C",
+     "liquidity_usd": 712350.67
+    },
+    {
+     "chain": "bsc",
+     "symbol": "GOOGLB",
+     "address": "0x3F53De71c126BdaBAe20f9cD64848d317f6C3238",
+     "liquidity_usd": 546050.48
+    },
+    {
+     "chain": "bsc",
+     "symbol": "AAPLB",
+     "address": "0x431a3BEE82E2ca41e49895CbECE5bB0F76A89b7A",
+     "liquidity_usd": 319065.19
+    },
+    {
+     "chain": "bsc",
+     "symbol": "SPYB",
+     "address": "0x7138b48df7D98D7e3cc221BfE7192D0a178182D8",
+     "liquidity_usd": 305848.88
+    },
+    {
+     "chain": "bsc",
+     "symbol": "TSLAB",
+     "address": "0x5b1910eAaD6450E50f816082Aa078C41F10C292f",
+     "liquidity_usd": 267185.63
+    },
+    {
+     "chain": "bsc",
+     "symbol": "MSFTB",
+     "address": "0x80106cb3EAD06659A5ad19DF39D9b4733863B9b0",
+     "liquidity_usd": 145562.84
+    }
+   ]
+  },
+  {
+   "family_id": "FAM04",
+   "size": 3,
+   "chains": [
+    "eth"
+   ],
+   "basis": [
+    "identical_bytecode",
+    "identical_source"
+   ],
+   "implementations": [],
+   "total_liquidity_usd": 6986391.46,
+   "any_exploited": false,
+   "members": [
+    {
+     "chain": "eth",
+     "symbol": "ELMT",
+     "address": "0x600D601D8b9EB5DE5Ac90fEfC68d0d08801bFd3f",
+     "liquidity_usd": 2960658.65
+    },
+    {
+     "chain": "eth",
+     "symbol": "GIVE",
+     "address": "0x95669A6589A81A6704bab1020722d0C405841885",
+     "liquidity_usd": 2187825.44
+    },
+    {
+     "chain": "eth",
+     "symbol": "SWITCH",
+     "address": "0xb10cc888cB2CcE7036F4c7ECAd8a57Da16161338",
+     "liquidity_usd": 1837907.37
+    }
+   ]
+  },
+  {
+   "family_id": "FAM03",
+   "size": 2,
+   "chains": [
+    "eth"
+   ],
+   "basis": [
+    "same_deployer"
+   ],
+   "implementations": [],
+   "total_liquidity_usd": 15218754.6,
+   "any_exploited": false,
+   "members": [
+    {
+     "chain": "eth",
+     "symbol": "strUSD",
+     "address": "0x280839980a7eD0D7717F64125fE241012E5F5815",
+     "liquidity_usd": 10068445.63
+    },
+    {
+     "chain": "eth",
+     "symbol": "trUSD",
+     "address": "0xd0580192E98eA6CEB9c7b6191Ed2E27560911697",
+     "liquidity_usd": 5150308.97
+    }
+   ]
+  },
+  {
+   "family_id": "FAM05",
+   "size": 2,
+   "chains": [
+    "eth"
+   ],
+   "basis": [
+    "identical_bytecode",
+    "identical_source"
+   ],
+   "implementations": [],
+   "total_liquidity_usd": 3945080.55,
+   "any_exploited": false,
+   "members": [
+    {
+     "chain": "eth",
+     "symbol": "GULD",
+     "address": "0x14D6C649292c5c9790c5196D1a9EA039307947a1",
+     "liquidity_usd": 1983225.47
+    },
+    {
+     "chain": "eth",
+     "symbol": "CDXR",
+     "address": "0x40AAf75454036Bed56F3266cCf18f6b7befd6Aca",
+     "liquidity_usd": 1961855.08
+    }
+   ]
+  }
+ ],
+ "n_records": 127,
+ "n_honeypots": 0,
+ "excluded_inflated": [
+  {
+   "chain": "eth",
+   "symbol": "TAO",
+   "address": "0x819Cef100B177529035D035434CbAc49Fa9660cE",
+   "headline_liquidity_usd": 2148113383.63,
+   "quote_side_usd": 0.43,
+   "contract_name": "MintBurnTeamToken",
+   "keep_categories": "fund_ops|admin_config_gated"
+  },
+  {
+   "chain": "eth",
+   "symbol": "HBAR",
+   "address": "0xEA7b2FC6Df1294732B8cf1F95c27b05e6e990E9b",
+   "headline_liquidity_usd": 1449620084.88,
+   "quote_side_usd": 0.08,
+   "contract_name": "MintBurnTeamToken",
+   "keep_categories": "fund_ops|admin_config_gated"
+  },
+  {
+   "chain": "eth",
+   "symbol": "TRUU",
+   "address": "0xeE41ED87afAb2682F5688714499EbF4fa5c6fF19",
+   "headline_liquidity_usd": 3096540.58,
+   "quote_side_usd": 0.17,
+   "contract_name": "Truth",
+   "keep_categories": "fund_ops"
+  },
+  {
+   "chain": "eth",
+   "symbol": "CHL",
+   "address": "0x0F3ae93C6813cc85C9797b683ff1Db93Ade20F7D",
+   "headline_liquidity_usd": 3096330.43,
+   "quote_side_usd": 0.17,
+   "contract_name": "ChonceIIoon",
+   "keep_categories": "fund_ops"
+  },
+  {
+   "chain": "eth",
+   "symbol": "WIN",
+   "address": "0xb10CB07CA2CDac77FbB5707f6690301f9d036F45",
+   "headline_liquidity_usd": 2161019.85,
+   "quote_side_usd": 18058.14,
+   "contract_name": "Token",
+   "keep_categories": "fund_ops"
+  },
+  {
+   "chain": "base",
+   "symbol": "vAPI",
+   "address": "0xe9f78bCAaA75673f270FdC3FfE4deF7E7Fc6c502",
+   "headline_liquidity_usd": 281928.49,
+   "quote_side_usd": 0.77,
+   "contract_name": "TokenERC20",
+   "keep_categories": "fund_ops|sig_gated|admin_treasury_pool_signer|lifecycle_ops|admin_config_gated"
+  },
+  {
+   "chain": "bsc",
+   "symbol": "BABAB",
+   "address": "0x4eF9d3062c7F6ebA4AAE4990c5036598C6eff4ec",
+   "headline_liquidity_usd": 139424.42,
+   "quote_side_usd": 35636.44,
+   "contract_name": "BeaconProxy",
+   "keep_categories": "fund_ops|admin_treasury_pool_signer|lifecycle_ops|admin_config_gated"
+  },
+  {
+   "chain": "base",
+   "symbol": "xtoken",
+   "address": "0xe0c48Bfa530e3993FFD1a9202E4022327643E15F",
+   "headline_liquidity_usd": 113723.8,
+   "quote_side_usd": 3577.03,
+   "contract_name": "XTokenProxy",
+   "keep_categories": "lifecycle_ops|proxy_upgrade|admin_config_gated"
+  }
+ ],
+ "honeypots": []
+}

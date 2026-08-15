@@ -1,0 +1,242 @@
+{
+ "chain": "arbitrum",
+ "qualifying": [
+  {
+   "chainId": "arbitrum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/arbitrum/0x48431ae417558ce4653ecb0dba5409713cf00c4c",
+   "pairAddress": "0x48431ae417558Ce4653ecB0dBa5409713cf00c4C",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xE004F86692780eC2717Ef402233fdE9D23d654D8",
+    "name": "Dylan Utility And Community Token",
+    "symbol": "DUCT"
+   },
+   "quoteToken": {
+    "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.4396",
+   "priceUsd": "0.4400",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 3,
+     "sells": 3
+    }
+   },
+   "volume": {
+    "h24": 3041.18,
+    "h6": 285.82,
+    "h1": 285.82,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.42,
+    "h6": -0.42,
+    "h24": -1.95
+   },
+   "liquidity": {
+    "usd": 263905.9,
+    "base": 299830,
+    "quote": 131813
+   },
+   "fdv": 4708975,
+   "marketCap": 4708975,
+   "pairCreatedAt": 1785614647000,
+   "_src": "pairbatch",
+   "_age_days": 13.417137795510115,
+   "_liq_usd": 263905.9
+  },
+  {
+   "chainId": "arbitrum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/arbitrum/0xcbc02d88ba569bd6620d05769703d57c143d345c",
+   "pairAddress": "0xcbc02d88BA569BD6620d05769703D57c143D345C",
+   "baseToken": {
+    "address": "0x95968e35b326519d60301Ec3651459e152A77099",
+    "name": "BXA",
+    "symbol": "BXA"
+   },
+   "quoteToken": {
+    "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.000001786",
+   "priceUsd": "0.003366",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 2,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 856.69,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": 0.09
+   },
+   "liquidity": {
+    "usd": 168429.79,
+    "base": 50009559,
+    "quote": 0.03011
+   },
+   "fdv": 3366817,
+   "marketCap": 3366817,
+   "pairCreatedAt": 1782318813000,
+   "_src": "pairbatch",
+   "_age_days": 51.563364647361965,
+   "_liq_usd": 168429.79
+  },
+  {
+   "chainId": "arbitrum",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/arbitrum/0xbe3a383ea33b8726b702bbc99ab1850bc605711f",
+   "pairAddress": "0xBE3a383ea33B8726B702BBC99AB1850Bc605711F",
+   "baseToken": {
+    "address": "0x439ACE7A725037b857637dc04Ebe29a55127D59f",
+    "name": "Europa Coin",
+    "symbol": "EURC"
+   },
+   "quoteToken": {
+    "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "1.1099",
+   "priceUsd": "1.11",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 2,
+     "sells": 2
+    },
+    "h6": {
+     "buys": 12,
+     "sells": 12
+    },
+    "h24": {
+     "buys": 23,
+     "sells": 22
+    }
+   },
+   "volume": {
+    "h24": 4503.98,
+    "h6": 2402.1,
+    "h1": 400.43,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.06,
+    "h6": 0.07
+   },
+   "liquidity": {
+    "usd": 166747.28,
+    "base": 149896,
+    "quote": 129.545
+   },
+   "fdv": 22230957760,
+   "marketCap": 6669287328,
+   "pairCreatedAt": 1785002488000,
+   "_src": "pairbatch",
+   "_age_days": 20.502311406621228,
+   "_liq_usd": 166747.28
+  },
+  {
+   "chainId": "arbitrum",
+   "dexId": "sushiswap",
+   "url": "https://dexscreener.com/arbitrum/0x41fafc089bafa72bd019a5edcbbc5e1535d22a2b",
+   "pairAddress": "0x41fAFC089baFa72bD019A5edcBBC5E1535D22a2B",
+   "baseToken": {
+    "address": "0x9272ba8Aa39a8C487F167a2E6515538B425f2964",
+    "name": "menays",
+    "symbol": "MENY"
+   },
+   "quoteToken": {
+    "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "name": "USD\u20ae0",
+    "symbol": "USD\u20ae0"
+   },
+   "priceNative": "0.003565",
+   "priceUsd": "0.003565",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 169,
+     "sells": 4
+    }
+   },
+   "volume": {
+    "h24": 50436.49,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": 610
+   },
+   "liquidity": {
+    "usd": 160459.06,
+    "base": 22500965,
+    "quote": 80229
+   },
+   "fdv": 356560,
+   "marketCap": 356560,
+   "pairCreatedAt": 1786701640000,
+   "_src": "pairbatch",
+   "_age_days": 0.8362002955101154,
+   "_liq_usd": 160459.06
+  }
+ ],
+ "profiles": {},
+ "stats": {
+  "ds_calls": 52,
+  "ds_fail": 0
+ },
+ "errors": [],
+ "total_ds_pairs_seen": 334
+}

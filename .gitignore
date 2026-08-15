@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 data/*_stdout.txt
 data/*_log.txt
+data/*.log
+data/.*_done

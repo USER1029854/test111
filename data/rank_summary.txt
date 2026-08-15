@@ -1,0 +1,44 @@
+
+==== RANKED CUSTOM-LOGIC EXPLOIT CANDIDATES (all chains) ====
+custom-logic KEEP records: 135 | excluded inflated/circular liq: 8 | honeypots set aside: 0 | ranked victim-candidates: 127
+  bsc      :  95 candidates  ($96,666,821 real quote-side liquidity)
+  eth      :  28 candidates  ($42,302,362 real quote-side liquidity)
+  arbitrum :   1 candidates  ($263,866 real quote-side liquidity)
+  base     :   3 candidates  ($1,402,968 real quote-side liquidity)
+
+shared-codebase families (>=2 members): 5
+  cross-chain families: 0
+
+--- top 25 by exploit-likelihood score ---
+ 1. score= 80.8 eth  strUSD       0x280839980a7eD0D7717F64125fE241012E5F5815 real≈$  9,759,221   30d fund_ops|admin_treasury_pool_signer|admi [FAM03x2] ~thin_quote_circular_risk
+ 2. score= 72.1 eth  sUSDat       0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7 real≈$    109,327   11d fund_ops|sig_gated|admin_treasury_pool_s ~thin_quote_circular_risk
+ 3. score= 67.2 eth  trUSD        0xd0580192E98eA6CEB9c7b6191Ed2E27560911697 real≈$  5,150,309   30d fund_ops|admin_treasury_pool_signer|admi [FAM03x2]
+ 4. score= 67.1 eth  STRCx        0x1Aad217B8F78dbA5E6693460e8470F8b1A3977f3 real≈$  2,739,718   17d fund_ops|sig_gated|admin_treasury_pool_s ~thin_quote_circular_risk
+ 5. score= 64.1 eth  FXRP         0xCE6170EA245dC8D1f275A710a062b70f125F0110 real≈$  2,926,375   18d fund_ops|admin_treasury_pool_signer|brid ~thin_quote_circular_risk
+ 6. score= 63.9 bsc  RT           0x82BbE7f1864279fc9604267509D6BAe946333919 real≈$    236,778    6d fund_ops|admin_treasury_pool_signer|admi
+ 7. score= 62.3 bsc  MC           0x5892B6EE1adEeb7d6169FCB052cfcF6bBc253139 real≈$    281,749    6d fund_ops|admin_treasury_pool_signer|admi ~thin_quote_circular_risk
+ 8. score= 62.3 bsc  ZT           0xDd1667eC26684D62B43958D7f161540318720839 real≈$    267,767   24d fund_ops|admin_treasury_pool_signer|admi ~thin_quote_circular_risk
+ 9. score= 61.2 bsc  AUV          0x59523E38727C2F4E6DABe89dB938779058F2aDAf real≈$ 10,083,509   28d fund_ops|admin_treasury_pool_signer|life
+10. score= 60.5 eth  ALBRH        0x7AdbFd873084dB714A57eD648ee69Aa4627Cb998 real≈$    276,702    3d fund_ops|admin_token_mover|lifecycle_ops
+11. score= 57.0 bsc  APEX         0xC2d2DfBf9A7F27138Ee32b9a4C17a2E5233aAAAA real≈$    284,707   60d fund_ops|admin_treasury_pool_signer|admi
+12. score= 56.6 bsc  TKN          0xc626AD09B1c30B556705741731879EE95d7C9939 real≈$    179,423   22d fund_ops|admin_treasury_pool_signer|admi
+13. score= 56.0 bsc  RICH         0x7a128ff06283307C8492D92fa7961Ad6253E765d real≈$  3,699,974   32d fund_ops|admin_treasury_pool_signer|life
+14. score= 55.8 bsc  XAUt         0x21cAef8A43163Eea865baeE23b9C2E327696A3bf real≈$    236,173   19d fund_ops|sig_gated|bridge_ops|lifecycle_
+15. score= 55.4 bsc  AFW          0x398033B5c6c362ed1fDC9d0A66aAb359769A0C4b real≈$    748,684   53d fund_ops|admin_treasury_pool_signer|prox
+16. score= 54.0 bsc  SPCXB        0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1 real≈$  1,815,294   12d fund_ops|admin_treasury_pool_signer|life [FAM02x10]
+17. score= 53.7 eth  apyUSD       0x38EEb52F0771140d10c4E9A9a72349A329Fe8a6A real≈$    161,065   15d fund_ops|admin_treasury_pool_signer|life ~thin_quote_circular_risk
+18. score= 53.4 bsc  GMEB         0x46cEeFDa28Dd7207059ed19B0acdc026955bb15C real≈$    701,015    2d fund_ops|admin_treasury_pool_signer|life [FAM02x10]
+19. score= 53.2 bsc  MarsCoin     0xFe189E97832DA1573e4e4Ff034F4fFC3a15c7777 real≈$  1,035,422   17d lifecycle_ops [FAM01x20] ~thin_quote_circular_risk
+20. score= 53.1 bsc  逆袭人生         0xceFbf00b3732FE91e46989037E4b2564a4fc7777 real≈$  1,856,221   28d lifecycle_ops [FAM01x20]
+21. score= 52.3 bsc  NVDAB        0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436 real≈$    805,750   16d fund_ops|admin_treasury_pool_signer|life [FAM02x10]
+22. score= 52.2 eth  CADD         0x16F93eBC5320C89EfC8701577efe49d14A276a06 real≈$    294,742   39d fund_ops|admin_token_mover|lifecycle_ops ~thin_quote_circular_risk
+23. score= 52.1 bsc  Asian games  0x31d19B3633eBdb60Dc9d690b3e9eB1FFF61A7777 real≈$    280,692    5d lifecycle_ops [FAM01x20]
+24. score= 52.1 bsc  CBURN        0x309409237C4dB70Cd66067741eDcF02Bf69E7777 real≈$    236,141    2d lifecycle_ops [FAM01x20]
+25. score= 51.8 bsc  金蝶圣甲         0x4f0c550bFe484F957D5C7Dd26f9a630a92A17777 real≈$    773,776   26d lifecycle_ops [FAM01x20]
+
+--- largest shared-codebase families ---
+  FAM01 size=20 chains=bsc basis=shared_implementation liq=$6,798,383
+  FAM02 size=10 chains=bsc basis=shared_implementation liq=$6,836,595
+  FAM04 size= 3 chains=eth basis=identical_bytecode,identical_source liq=$6,986,391
+  FAM03 size= 2 chains=eth basis=same_deployer liq=$15,218,755
+  FAM05 size= 2 chains=eth basis=identical_bytecode,identical_source liq=$3,945,081

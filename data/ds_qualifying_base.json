@@ -1,0 +1,799 @@
+{
+ "chain": "base",
+ "qualifying": [
+  {
+   "chainId": "base",
+   "dexId": "aerodrome",
+   "url": "https://dexscreener.com/base/0x85900924bd09898c73ef8b931691d069a943e54a",
+   "pairAddress": "0x85900924bD09898C73EF8B931691D069a943e54A",
+   "baseToken": {
+    "address": "0xbbd27C575fB0e113219D610cc787B02Eeff71d42",
+    "name": "HALO",
+    "symbol": "HALO"
+   },
+   "quoteToken": {
+    "address": "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
+    "name": "Virtual Protocol",
+    "symbol": "VIRTUAL"
+   },
+   "priceNative": "0.08388",
+   "priceUsd": "0.04686",
+   "txns": {
+    "m5": {
+     "buys": 5,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 43,
+     "sells": 44
+    },
+    "h6": {
+     "buys": 366,
+     "sells": 297
+    },
+    "h24": {
+     "buys": 1944,
+     "sells": 1823
+    }
+   },
+   "volume": {
+    "h24": 125178.42,
+    "h6": 27628.89,
+    "h1": 3882.96,
+    "m5": 215.92
+   },
+   "priceChange": {
+    "m5": 0.07,
+    "h1": -0.32,
+    "h6": -0.14,
+    "h24": -3.6
+   },
+   "liquidity": {
+    "usd": 929465.23,
+    "base": 9917061,
+    "quote": 831899
+   },
+   "fdv": 46861929,
+   "marketCap": 14058579,
+   "pairCreatedAt": 1785842507000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/yHs8UPLr25IlZbhc?width=800&height=800&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0xbbd27c575fb0e113219d610cc787b02eeff71d42?timestamp=1786774200000",
+    "websites": [
+     {
+      "url": "https://runhalo.xyz",
+      "label": "Website"
+     },
+     {
+      "url": "https://runhalo.xyz/guides",
+      "label": "Docs"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/wardenprotocol",
+      "type": "twitter"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 10.78399120858146,
+   "_liq_usd": 929465.23
+  },
+  {
+   "chainId": "base",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/base/0x07c4bc0f5fb6cb069124df3e1ae0b8fd8148ccc4",
+   "pairAddress": "0x07C4bc0F5fb6Cb069124DF3e1aE0B8fD8148ccC4",
+   "baseToken": {
+    "address": "0x1a44233FAe8D50F1AeB3a5d58dd426ff4814Cb53",
+    "name": "Squid",
+    "symbol": "QUID"
+   },
+   "quoteToken": {
+    "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.07170",
+   "priceUsd": "0.07170",
+   "txns": {
+    "m5": {
+     "buys": 128,
+     "sells": 117
+    },
+    "h1": {
+     "buys": 2194,
+     "sells": 2137
+    },
+    "h6": {
+     "buys": 9048,
+     "sells": 8989
+    },
+    "h24": {
+     "buys": 43063,
+     "sells": 43505
+    }
+   },
+   "volume": {
+    "h24": 13394392.41,
+    "h6": 2666959.8,
+    "h1": 582407.66,
+    "m5": 37159.89
+   },
+   "priceChange": {
+    "m5": 0.05,
+    "h1": 0.54,
+    "h6": -4.05,
+    "h24": 1.45
+   },
+   "liquidity": {
+    "usd": 884376.43,
+    "base": 5540301,
+    "quote": 487096
+   },
+   "fdv": 71707327,
+   "marketCap": 10265420,
+   "pairCreatedAt": 1785771541000,
+   "_src": "pairbatch",
+   "_age_days": 11.605356949322202,
+   "_liq_usd": 884376.43
+  },
+  {
+   "chainId": "base",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/base/0x40aa94aa9d404dcb823c43eff15ace51767fb6b2",
+   "pairAddress": "0x40aA94aA9D404dcb823c43EFf15ace51767fb6b2",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x7dBb044907A185cc37Dfd38659d5C1e21f76624C",
+    "name": "Netflix Tokenized bStocks",
+    "symbol": "NFLXB"
+   },
+   "quoteToken": {
+    "address": "0x4200000000000000000000000000000000000006",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.000000003065",
+   "priceUsd": "0.000005768",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 7,
+     "sells": 2
+    },
+    "h6": {
+     "buys": 33,
+     "sells": 21
+    },
+    "h24": {
+     "buys": 118,
+     "sells": 87
+    }
+   },
+   "volume": {
+    "h24": 147897.75,
+    "h6": 33687.72,
+    "h1": 5863.39,
+    "m5": 0.01
+   },
+   "priceChange": {
+    "m5": 0.02,
+    "h1": 1.65,
+    "h6": 3.11,
+    "h24": 17.47
+   },
+   "liquidity": {
+    "usd": 477881.31,
+    "base": 41424738077,
+    "quote": 127.003544
+   },
+   "fdv": 5768067,
+   "marketCap": 5768067,
+   "pairCreatedAt": 1785895773000,
+   "_src": "pairbatch",
+   "_age_days": 10.16748657895183,
+   "_liq_usd": 477881.31
+  },
+  {
+   "chainId": "base",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/base/0x4238d2bd5350691e6b2339d347ec81e3ed3ea730",
+   "pairAddress": "0x4238D2BD5350691e6b2339D347eC81E3ed3eA730",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xe9f78bCAaA75673f270FdC3FfE4deF7E7Fc6c502",
+    "name": "vAPI Network",
+    "symbol": "vAPI"
+   },
+   "quoteToken": {
+    "address": "0x4200000000000000000000000000000000000006",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.0000001999",
+   "priceUsd": "0.0003759",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 2,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 2,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0.76,
+    "h6": 0.76,
+    "h1": 0.01,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.24,
+    "h6": -0.24,
+    "h24": -0.24
+   },
+   "liquidity": {
+    "usd": 281928.49,
+    "base": 749997969,
+    "quote": 0.0004071
+   },
+   "fdv": 375905,
+   "marketCap": 375905,
+   "pairCreatedAt": 1786757707000,
+   "_src": "pairbatch",
+   "_age_days": 0.19139861598886826,
+   "_liq_usd": 281928.49
+  },
+  {
+   "chainId": "base",
+   "dexId": "aerodrome",
+   "url": "https://dexscreener.com/base/0xe5ff8a4dc6f0dc2fe166392139fd1836e8591a8c",
+   "pairAddress": "0xE5ff8a4Dc6F0DC2fE166392139FD1836E8591a8C",
+   "baseToken": {
+    "address": "0x07848a7b542a9cd856122C6c4Ab9ec87c44F8b63",
+    "name": "VANRY",
+    "symbol": "VANRY"
+   },
+   "quoteToken": {
+    "address": "0x4200000000000000000000000000000000000006",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.0000008465",
+   "priceUsd": "0.001592",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 8,
+     "sells": 2
+    },
+    "h6": {
+     "buys": 12,
+     "sells": 2
+    },
+    "h24": {
+     "buys": 166,
+     "sells": 217
+    }
+   },
+   "volume": {
+    "h24": 354280.56,
+    "h6": 1627.5,
+    "h1": 1577.3,
+    "m5": 309.05
+   },
+   "priceChange": {
+    "m5": -0.46,
+    "h1": 1.02,
+    "h6": 1.21,
+    "h24": 64.61
+   },
+   "liquidity": {
+    "usd": 261781.31,
+    "base": 82194541,
+    "quote": 69.5834
+   },
+   "fdv": 15924495,
+   "marketCap": 6051308,
+   "pairCreatedAt": 1786453253000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/FX42wED_M4kIDjyK?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/rJBHMdoQ82EzWTR7?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x07848a7b542a9cd856122c6c4ab9ec87c44f8b63?timestamp=1786774200000",
+    "websites": [
+     {
+      "url": "https://onvanar.com/",
+      "label": "Website"
+     },
+     {
+      "url": "http://docs.onvanar.com/",
+      "label": "Docs"
+     },
+     {
+      "url": "https://coinmarketcap.com/community/profile/Vanar/",
+      "label": "CMC Community"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/Vanarchain",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/vanarofficial",
+      "type": "telegram"
+     },
+     {
+      "url": "https://discord.com/invite/vanar",
+      "type": "discord"
+     },
+     {
+      "url": "https://www.reddit.com/r/VanarChain",
+      "type": "reddit"
+     }
+    ]
+   },
+   "_src": "pairbatch",
+   "_age_days": 3.7151717641370166,
+   "_liq_usd": 261781.31
+  },
+  {
+   "chainId": "base",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/base/0xff57395e5d8e58c463f07e3bc8d5d1567710a3bb",
+   "pairAddress": "0xFf57395e5d8e58C463F07E3BC8d5D1567710A3bb",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xa3234d43Ce6F8e3f3D8efa5BaEd30511f19d7cD3",
+    "name": "The Toad Pepe",
+    "symbol": "TOAD"
+   },
+   "quoteToken": {
+    "address": "0x4200000000000000000000000000000000000006",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.0000000003713",
+   "priceUsd": "0.0000006986",
+   "txns": {
+    "m5": {
+     "buys": 2,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 10,
+     "sells": 12
+    },
+    "h6": {
+     "buys": 68,
+     "sells": 56
+    },
+    "h24": {
+     "buys": 260,
+     "sells": 231
+    }
+   },
+   "volume": {
+    "h24": 383383.65,
+    "h6": 97912.67,
+    "h1": 17179.49,
+    "m5": 810.6
+   },
+   "priceChange": {
+    "m5": 1.44,
+    "h1": -6.98,
+    "h6": 7.69,
+    "h24": -17.27
+   },
+   "liquidity": {
+    "usd": 226934.97,
+    "base": 162416167757,
+    "quote": 60.3139
+   },
+   "fdv": 698622,
+   "marketCap": 698622,
+   "pairCreatedAt": 1786249993000,
+   "_src": "pairbatch",
+   "_age_days": 6.067718060433313,
+   "_liq_usd": 226934.97
+  },
+  {
+   "chainId": "base",
+   "dexId": "aerodrome",
+   "url": "https://dexscreener.com/base/0xc4fbb564d11a36b71d0152a1a8cddec709e20908",
+   "pairAddress": "0xc4FbB564D11A36b71d0152A1A8CDdec709e20908",
+   "baseToken": {
+    "address": "0x7f2f00e54Dcaa8b248BDfD75Da2ae859d4d8FF3E",
+    "name": "TAOT",
+    "symbol": "TAOT"
+   },
+   "quoteToken": {
+    "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.2491",
+   "priceUsd": "0.2491",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 10,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 28,
+     "sells": 5
+    },
+    "h24": {
+     "buys": 171,
+     "sells": 22
+    }
+   },
+   "volume": {
+    "h24": 17598.97,
+    "h6": 4597.93,
+    "h1": 30.23,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.06,
+    "h6": -0.89,
+    "h24": 15.05
+   },
+   "liquidity": {
+    "usd": 211775.86,
+    "base": 424977,
+    "quote": 105887
+   },
+   "fdv": 62290301,
+   "marketCap": 62290301,
+   "pairCreatedAt": 1783277363000,
+   "_src": "pairbatch",
+   "_age_days": 40.47315787524813,
+   "_liq_usd": 211775.86
+  },
+  {
+   "chainId": "base",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/base/0x2229af318ccfebc457e8832b455004f915708f0c",
+   "pairAddress": "0x2229af318ccFEbC457e8832B455004f915708f0c",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xDEb18E7b78fFD555d5e94EBE110E1FF2d778bD8b",
+    "name": "DAPPOS",
+    "symbol": "DOS"
+   },
+   "quoteToken": {
+    "address": "0x4200000000000000000000000000000000000006",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.0000000007227",
+   "priceUsd": "0.000001359",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 15,
+     "sells": 7
+    },
+    "h6": {
+     "buys": 73,
+     "sells": 52
+    },
+    "h24": {
+     "buys": 273,
+     "sells": 225
+    }
+   },
+   "volume": {
+    "h24": 383225.3,
+    "h6": 92168.47,
+    "h1": 13242.89,
+    "m5": 1624.82
+   },
+   "priceChange": {
+    "m5": -0.63,
+    "h1": 8.65,
+    "h6": 25.9,
+    "h24": 29.27
+   },
+   "liquidity": {
+    "usd": 210055.64,
+    "base": 77238487401,
+    "quote": 55.8278
+   },
+   "fdv": 1359786,
+   "marketCap": 1359786,
+   "pairCreatedAt": 1786469625000,
+   "_src": "tokenpairs",
+   "_age_days": 3.5256810233962756,
+   "_liq_usd": 210055.64
+  },
+  {
+   "chainId": "base",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/base/0x40e5fe0e2983d33fb1cf72ad9014931d4e3dc68d",
+   "pairAddress": "0x40e5fe0e2983D33fb1CF72ad9014931d4E3dC68d",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x27740c050e3764a2CEe00317B7AC68a52d11AB5F",
+    "name": "Pepeto",
+    "symbol": "PEPETO"
+   },
+   "quoteToken": {
+    "address": "0x4200000000000000000000000000000000000006",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.0000000005785",
+   "priceUsd": "0.000001088",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 6,
+     "sells": 2
+    },
+    "h6": {
+     "buys": 29,
+     "sells": 21
+    },
+    "h24": {
+     "buys": 116,
+     "sells": 83
+    }
+   },
+   "volume": {
+    "h24": 146809.8,
+    "h6": 32367.01,
+    "h1": 5594.77,
+    "m5": 654.52
+   },
+   "priceChange": {
+    "m5": 1.31,
+    "h1": 4.79,
+    "h6": 7.43,
+    "h24": 53.73
+   },
+   "liquidity": {
+    "usd": 206727.66,
+    "base": 94956429705,
+    "quote": 54.9407
+   },
+   "fdv": 1088540,
+   "marketCap": 1088540,
+   "pairCreatedAt": 1786376345000,
+   "_src": "pairbatch",
+   "_age_days": 4.605310653025906,
+   "_liq_usd": 206727.66
+  },
+  {
+   "chainId": "base",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/base/0xba74575447938bf6c3677a3f7064461ff46179a0",
+   "pairAddress": "0xba74575447938bf6c3677A3f7064461Ff46179A0",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xc2581F3A3c5c1317e181722D82A17eECCb7d2a52",
+    "name": "KiiChain",
+    "symbol": "KII"
+   },
+   "quoteToken": {
+    "address": "0x4200000000000000000000000000000000000006",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.0000000002038",
+   "priceUsd": "0.0000003834",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 9,
+     "sells": 13
+    },
+    "h6": {
+     "buys": 66,
+     "sells": 62
+    },
+    "h24": {
+     "buys": 276,
+     "sells": 238
+    }
+   },
+   "volume": {
+    "h24": 403801.35,
+    "h6": 106859.21,
+    "h1": 21779.24,
+    "m5": 955.53
+   },
+   "priceChange": {
+    "m5": -2.77,
+    "h1": -18.7,
+    "h6": -7.34,
+    "h24": 158
+   },
+   "liquidity": {
+    "usd": 134549.03,
+    "base": 175449703852,
+    "quote": 35.7582
+   },
+   "fdv": 383440,
+   "marketCap": 383440,
+   "pairCreatedAt": 1786638981000,
+   "_src": "pairbatch",
+   "_age_days": 1.5655421345073868,
+   "_liq_usd": 134549.03
+  },
+  {
+   "chainId": "base",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/base/0x2227e2cd686dea3393b5e63cff30fde7711bad83",
+   "pairAddress": "0x2227e2Cd686Dea3393b5e63CfF30fdE7711bAD83",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xe0c48Bfa530e3993FFD1a9202E4022327643E15F",
+    "name": "xtoken",
+    "symbol": "xtoken"
+   },
+   "quoteToken": {
+    "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "1.07575",
+   "priceUsd": "1.075",
+   "txns": {
+    "m5": {
+     "buys": 10,
+     "sells": 7
+    },
+    "h1": {
+     "buys": 123,
+     "sells": 95
+    },
+    "h6": {
+     "buys": 710,
+     "sells": 567
+    },
+    "h24": {
+     "buys": 2793,
+     "sells": 2294
+    }
+   },
+   "volume": {
+    "h24": 4980.09,
+    "h6": 1215.14,
+    "h1": 209.11,
+    "m5": 16.48
+   },
+   "priceChange": {
+    "m5": 0.02,
+    "h1": 0.08,
+    "h6": -0.13,
+    "h24": -0.54
+   },
+   "liquidity": {
+    "usd": 113723.8,
+    "base": 102387,
+    "quote": 3579.5211
+   },
+   "fdv": 2259091816,
+   "marketCap": 2259091816,
+   "pairCreatedAt": 1782177047000,
+   "_src": "pairbatch",
+   "_age_days": 53.20829676413702,
+   "_liq_usd": 113723.8
+  },
+  {
+   "chainId": "base",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/base/0xf646f54867099892faebb8c54b86a4379d8b4f81",
+   "pairAddress": "0xF646F54867099892FaEbb8c54b86a4379D8B4F81",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x10f05B37BB4b4E997c3d390c9037718c979E191e",
+    "name": "SPX10K",
+    "symbol": "SPX10K"
+   },
+   "quoteToken": {
+    "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+    "name": "USD Base Coin",
+    "symbol": "USDbC"
+   },
+   "priceNative": "0.0001471",
+   "priceUsd": "0.0001471",
+   "txns": {
+    "m5": {
+     "buys": 3,
+     "sells": 3
+    },
+    "h1": {
+     "buys": 42,
+     "sells": 47
+    },
+    "h6": {
+     "buys": 197,
+     "sells": 202
+    },
+    "h24": {
+     "buys": 634,
+     "sells": 640
+    }
+   },
+   "volume": {
+    "h24": 131140.12,
+    "h6": 88367.59,
+    "h1": 20714.01,
+    "m5": 1215.61
+   },
+   "priceChange": {
+    "m5": -0.92,
+    "h1": -0.35,
+    "h6": 0.79,
+    "h24": 1.53
+   },
+   "liquidity": {
+    "usd": 103021.1,
+    "base": 350842589,
+    "quote": 51386
+   },
+   "fdv": 5886620,
+   "marketCap": 5886620,
+   "pairCreatedAt": 1785234685000,
+   "_src": "tokenpairs",
+   "_age_days": 17.818968060433313,
+   "_liq_usd": 103021.1
+  }
+ ],
+ "profiles": {},
+ "stats": {
+  "ds_calls": 176,
+  "ds_fail": 0
+ },
+ "errors": [],
+ "total_ds_pairs_seen": 1024
+}

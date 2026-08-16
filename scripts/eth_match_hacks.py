@@ -1,0 +1,73 @@
+"""Cross-check the Ethereum token set against the scraped SlowMist Hacked database.
+
+Reuses data/slowmist_events.json directly -- it is a global, chain-agnostic dump
+of the whole SlowMist Hacked database (not BSC-specific), scraped once by the BSC
+pipeline. Not re-scraped here.
+
+Matching is deliberately layered so that a weak textual coincidence is never
+reported as an exploit: an address hit is conclusive, an exact normalised
+name/symbol hit is strong, and loose substring hits are surfaced for review
+rather than auto-flagged.
+"""
+import json, re, csv
+
+DATA = "/home/user/test111/data"
+ev = json.load(open(f"{DATA}/slowmist_events.json"))["events"]
+res = json.load(open(f"{DATA}/eth_abi_analysis.json"))
+rows = res["results"] + res["unverified"]
+print(f"events: {len(ev)} | tokens: {len(rows)}")
+
+def norm(s):
+    return re.sub(r"[^a-z0-9一-鿿]", "", (s or "").lower())
+
+STOP = {"token","coin","protocol","finance","network","project","the","inu","dao"}
+def core(s):
+    t = re.sub(r"[^a-z0-9 一-鿿]", " ", (s or "").lower())
+    parts = [p for p in t.split() if p and p not in STOP]
+    return "".join(parts)
+
+for e in ev:
+    e["_t"] = norm(e["target"]); e["_tc"] = core(e["target"]); e["_d"] = (e["desc"] or "").lower()
+
+out = []
+for r in rows:
+    addr = r["token_address"].lower()
+    nm, sym = r.get("name") or "", r.get("symbol") or ""
+    n_n, n_s = norm(nm), norm(sym)
+    c_n, c_s = core(nm), core(sym)
+    hits = []
+    for e in ev:
+        why = None
+        if addr in e["_d"]:
+            why = "address in description"
+        elif n_n and len(n_n) >= 3 and n_n == e["_t"]:
+            why = "exact name match"
+        elif c_n and len(c_n) >= 4 and c_n == e["_tc"]:
+            why = "exact name match (normalised)"
+        elif n_s and len(n_s) >= 4 and n_s == e["_t"]:
+            why = "exact symbol match"
+        elif c_n and len(c_n) >= 5 and (c_n in e["_tc"] or e["_tc"] in c_n):
+            why = "substring name match (REVIEW)"
+        if why:
+            hits.append({"date": e["date"], "target": e["target"], "why": why,
+                         "desc": e["desc"][:400]})
+    if hits:
+        hits.sort(key=lambda h: h["date"], reverse=True)
+        out.append({"symbol": sym, "name": nm, "token_address": r["token_address"],
+                    "liquidity_usd": r["liquidity_usd"], "hits": hits})
+
+conclusive = [o for o in out if any("REVIEW" not in h["why"] for h in o["hits"])]
+review = [o for o in out if o not in conclusive]
+json.dump({"matched": out}, open(f"{DATA}/eth_hack_matches.json", "w"), indent=1)
+
+print(f"\n=== STRONG MATCHES ({len(conclusive)}) ===")
+for o in conclusive:
+    print(f"\n  {o['symbol']} / {o['name']}  ${float(o['liquidity_usd']):,.0f}")
+    print(f"    {o['token_address']}")
+    for h in o["hits"][:3]:
+        print(f"    [{h['date']}] {h['target']}  <- {h['why']}")
+        print(f"       {h['desc'][:260]}")
+print(f"\n=== NEEDS REVIEW ({len(review)}) ===")
+for o in review:
+    for h in o["hits"][:2]:
+        print(f"  {o['symbol']:<12} vs '{h['target']}' [{h['date']}] {h['why']}")
